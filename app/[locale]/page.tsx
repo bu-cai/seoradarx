@@ -1,5 +1,6 @@
 import { getTranslations, getLocale } from 'next-intl/server'
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import LanguageSwitcher from '@/components/LanguageSwitcher'
 import AuditForm from '@/components/AuditForm'
 import { prisma } from '@/lib/db'
@@ -66,7 +67,15 @@ export default async function HomePage() {
             <div className="text-xs text-[#94a3b8] mt-0.5">{t('nav.tagline')}</div>
           </div>
         </div>
-        <LanguageSwitcher />
+        <div className="flex items-center gap-4">
+          <Link
+            href={`/${locale}/blog`}
+            className="hidden sm:inline-flex text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors font-medium"
+          >
+            {zh ? '博客' : 'Blog'}
+          </Link>
+          <LanguageSwitcher />
+        </div>
       </nav>
 
       {/* ── Hero ── */}

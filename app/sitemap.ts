@@ -1,10 +1,12 @@
 import { MetadataRoute } from 'next'
+import { getSortedPosts } from '@/lib/blog-posts'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.seoradarx.com'
   const now = new Date()
+  const posts = getSortedPosts()
 
-  return [
+  const staticPages: MetadataRoute.Sitemap = [
     {
       url: `${base}/zh`,
       lastModified: now,
@@ -18,6 +20,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 1,
       alternates: { languages: { en: `${base}/en`, zh: `${base}/zh` } },
+    },
+    // Blog index pages
+    {
+      url: `${base}/zh/blog`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+      alternates: { languages: { en: `${base}/en/blog`, zh: `${base}/zh/blog` } },
+    },
+    {
+      url: `${base}/en/blog`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+      alternates: { languages: { en: `${base}/en/blog`, zh: `${base}/zh/blog` } },
     },
     {
       url: `${base}/zh/privacy`,
@@ -44,4 +61,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
     },
   ]
+
+  // Blog post pages (en + zh per post)
+  const blogPages: MetadataRoute.Sitemap = posts.flatMap((post) => [
+    {
+      url: `${base}/en/blog/${post.slug}`,
+      lastModified: new Date(post.date),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+      alternates: {
+        languages: {
+          en: `${base}/en/blog/${post.slug}`,
+          zh: `${base}/zh/blog/${post.slug}`,
+        },
+      },
+    },
+    {
+      url: `${base}/zh/blog/${post.slug}`,
+      lastModified: new Date(post.date),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+      alternates: {
+        languages: {
+          en: `${base}/en/blog/${post.slug}`,
+          zh: `${base}/zh/blog/${post.slug}`,
+        },
+      },
+    },
+  ])
+
+  return [...staticPages, ...blogPages]
 }
