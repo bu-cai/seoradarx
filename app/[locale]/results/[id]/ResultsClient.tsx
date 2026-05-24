@@ -91,13 +91,21 @@ const GEO_TIPS = {
 }
 
 function ConsultingCTA({ zh }: { zh: boolean }) {
-  const [copied, setCopied] = useState(false)
+  const [copiedEmail, setCopiedEmail] = useState(false)
+  const [copiedWechat, setCopiedWechat] = useState(false)
   const email = 'xiaocaiwang14@gmail.com'
+  const wechat = 'hacai5'
 
   function copyEmail() {
     navigator.clipboard.writeText(email)
-    setCopied(true)
-    setTimeout(() => setCopied(false), 2000)
+    setCopiedEmail(true)
+    setTimeout(() => setCopiedEmail(false), 2000)
+  }
+
+  function copyWechat() {
+    navigator.clipboard.writeText(wechat)
+    setCopiedWechat(true)
+    setTimeout(() => setCopiedWechat(false), 2000)
   }
 
   return (
@@ -113,18 +121,39 @@ function ConsultingCTA({ zh }: { zh: boolean }) {
               ? '如果您没有开发者，或者不知道从哪里入手，可以直接联系我。我可以帮您逐项修复，费用面议。'
               : 'No developer on hand, or not sure where to start? Feel free to reach out — I can help fix these issues for you.'}
           </p>
-          {/* Email display + copy */}
-          <div className="flex items-center gap-2 bg-[#0a1a0a] border border-emerald-900/60 rounded-xl px-4 py-3">
-            <span className="text-sm text-emerald-300 flex-1 font-mono">{email}</span>
-            <button
-              onClick={copyEmail}
-              className="text-xs bg-emerald-700 hover:bg-emerald-600 text-white rounded-lg px-3 py-1.5 font-semibold transition-all whitespace-nowrap"
-            >
-              {copied ? (zh ? '✓ 已复制' : '✓ Copied') : (zh ? '复制邮箱' : 'Copy Email')}
-            </button>
+
+          <div className="space-y-2">
+            {/* WeChat — shown to zh users prominently */}
+            {zh && (
+              <div className="flex items-center gap-2 bg-[#0a1a0a] border border-emerald-900/60 rounded-xl px-4 py-3">
+                <span className="text-lg">💬</span>
+                <span className="text-sm text-[#94a3b8] flex-shrink-0">{zh ? '微信号：' : 'WeChat:'}</span>
+                <span className="text-sm text-emerald-300 flex-1 font-mono font-semibold">{wechat}</span>
+                <button
+                  onClick={copyWechat}
+                  className="text-xs bg-emerald-700 hover:bg-emerald-600 text-white rounded-lg px-3 py-1.5 font-semibold transition-all whitespace-nowrap"
+                >
+                  {copiedWechat ? '✓ 已复制' : '复制微信号'}
+                </button>
+              </div>
+            )}
+
+            {/* Email */}
+            <div className="flex items-center gap-2 bg-[#0a1a0a] border border-emerald-900/60 rounded-xl px-4 py-3">
+              <span className="text-lg">✉️</span>
+              <span className="text-sm text-[#94a3b8] flex-shrink-0">{zh ? '邮箱：' : 'Email:'}</span>
+              <span className="text-sm text-emerald-300 flex-1 font-mono">{email}</span>
+              <button
+                onClick={copyEmail}
+                className="text-xs bg-emerald-700 hover:bg-emerald-600 text-white rounded-lg px-3 py-1.5 font-semibold transition-all whitespace-nowrap"
+              >
+                {copiedEmail ? (zh ? '✓ 已复制' : '✓ Copied') : (zh ? '复制邮箱' : 'Copy Email')}
+              </button>
+            </div>
           </div>
+
           <p className="mt-2 text-xs text-[#4a5568]">
-            {zh ? '复制邮箱后，用您常用的邮件App发送即可 · 通常24小时内回复' : 'Copy the email and send from your mail app · Usually replies within 24h'}
+            {zh ? '复制后搜索添加即可 · 通常24小时内回复' : 'Copy and paste to reach out · Usually replies within 24h'}
           </p>
         </div>
       </div>
