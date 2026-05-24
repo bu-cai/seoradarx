@@ -4,6 +4,9 @@ import LanguageSwitcher from '@/components/LanguageSwitcher'
 import AuditForm from '@/components/AuditForm'
 import { prisma } from '@/lib/db'
 
+// Revalidate homepage every hour — avoids DB query on every request
+export const revalidate = 3600
+
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.seoradarx.com'
 
 export async function generateMetadata(
@@ -20,7 +23,11 @@ export async function generateMetadata(
       : 'Free 30-second SEO audit for Shopify & WordPress stores. Checks hreflang, geo.region tags, Core Web Vitals, Schema markup and 27 more signals. No sign-up. Built for cross-border sellers.',
     alternates: {
       canonical: `${BASE_URL}/${locale}`,
-      languages: { 'zh-CN': `${BASE_URL}/zh`, 'en-US': `${BASE_URL}/en` },
+      languages: {
+        'zh-CN': `${BASE_URL}/zh`,
+        'en-US': `${BASE_URL}/en`,
+        'x-default': `${BASE_URL}/zh`,
+      },
     },
     openGraph: {
       title: zh
