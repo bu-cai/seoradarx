@@ -62,6 +62,20 @@ export default function AuditForm() {
       cleanup()
       setStep(6)
       await new Promise(r => setTimeout(r, 400))
+
+      // If user entered email during progress, fire-and-forget the send
+      try {
+        const pendingEmail = localStorage.getItem('pendingReportEmail')
+        if (pendingEmail) {
+          localStorage.removeItem('pendingReportEmail')
+          fetch('/api/send-report', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ auditId: data.auditId, email: pendingEmail, locale }),
+          }).catch(() => {}) // fire-and-forget
+        }
+      } catch {}
+
       router.push(`/${locale}/results/${data.auditId}`)
     } catch {
       cleanup()

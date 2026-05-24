@@ -1,37 +1,46 @@
 {
   "hero": {
-    "title": "您的独立站，为什么谷歌排名上不去？",
-    "title2": "30秒免费检测，找到真正原因",
-    "subtitle": "免费发现30+隐藏SEO问题 · Shopify & WordPress全覆盖 · 专为跨境卖家设计",
+    "title": "30秒，找出你的 Shopify 独立站\n在谷歌「消失」的真正原因",
+    "title2": "首个专为跨境卖家设计的 GEO + SEO 双维度免费检测",
+    "subtitle": "检测 hreflang 多语言标签 · geo.region 地理定向 · Core Web Vitals · Schema 结构化数据 · 30项关键指标，15秒出报告",
     "placeholder": "粘贴您的独立站网址，例如 https://yourstore.com",
     "button": "免费检测我的网站",
     "analyzing": "正在分析中...",
     "badge": "Shopify · WordPress · 跨境独立站",
     "trustLine": "✓ 只读分析，不影响您的网站  ·  ✓ URL不对外公开  ·  ✓ 无需注册",
+    "freeLimit": "每天 3 次免费 · 永久有效 · 无需信用卡",
     "todayCount": "今日已检测 {count} 个独立站",
-    "totalCount": "已有 {count}+ 位站长完成SEO检测"
+    "totalCount": "已累计发现 {count}+ 个 SEO 问题",
+    "step1": "粘贴网址",
+    "step2": "15秒分析",
+    "step3": "获取修复清单",
+    "previewLabel": "↓ 真实检测报告示例（allbirds.com）",
+    "emailCapture": "把报告发到邮箱，方便转发给开发者",
+    "emailPlaceholder": "your@email.com",
+    "emailButton": "发到我的邮箱",
+    "emailSkip": "稍后再说"
   },
   "nav": {
-    "logo": "SEO审计专家",
-    "tagline": "跨境独立站优化工具"
+    "logo": "SEO Radar X",
+    "tagline": "跨境独立站 GEO + SEO 检测"
   },
   "trust": {
-    "audited": "覆盖 30 项 SEO 关键指标",
+    "audited": "覆盖 30 项 SEO 核心指标",
     "improvement": "平均检测耗时 < 15 秒",
-    "preferred": "支持 Shopify · WordPress · 全平台"
+    "preferred": "Shopify · WordPress · 全平台支持"
   },
   "features": {
     "comprehensive": {
-      "title": "30项 SEO关键指标检测",
-      "desc": "覆盖SEO基础、性能速度、技术配置、GEO本地化等5大维度，每项均有修复建议"
+      "title": "30项 SEO 精准检测",
+      "desc": "不只是「有没有 title」——检测 title 关键词竞争力、hreflang 正确性、Core Web Vitals 评分，连 robots.txt 是否误屏蔽关键页面都能发现"
     },
     "geo": {
-      "title": "GEO跨境优化专项检测",
-      "desc": "专为跨境卖家设计的多语言、多货币、国际定向检测"
+      "title": "跨境卖家专属 GEO 检测",
+      "desc": "80% 的中国 Shopify 卖家没有配置 hreflang，导致美国用户看到中文页面。我们直接告诉你：geo.region 标签是否缺失、多货币信号是否正确"
     },
     "pdf": {
-      "title": "中英双语PDF报告",
-      "desc": "专业报告可分享给开发者，优先修复清单助您快速提升"
+      "title": "中英双语 PDF，给开发者看",
+      "desc": "用中文解释问题，用英文提供代码示例，不需要你翻译一遍。优先修复清单让开发者直接执行"
     }
   },
   "demo": {

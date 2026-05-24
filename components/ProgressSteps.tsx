@@ -1,32 +1,18 @@
 'use client'
+import { useState } from 'react'
 
 interface Props {
   step: number
   locale: string
+  auditId?: string // available after audit completes, for email send
 }
 
 const steps = {
-  zh: [
-    '正在获取页面数据...',
-    '检测SEO基础指标...',
-    '分析性能数据...',
-    '扫描技术配置...',
-    '检测GEO本地化...',
-    '评估内容质量...',
-    '生成评分报告...',
-  ],
-  en: [
-    'Fetching page data...',
-    'Checking SEO basics...',
-    'Analyzing performance...',
-    'Scanning technical setup...',
-    'Checking GEO signals...',
-    'Evaluating content quality...',
-    'Generating report...',
-  ],
+  zh: ['正在获取页面数据...', '检测SEO基础指标...', '分析性能数据...', '扫描技术配置...', '检测GEO本地化...', '评估内容质量...', '生成评分报告...'],
+  en: ['Fetching page data...', 'Checking SEO basics...', 'Analyzing performance...', 'Scanning technical setup...', 'Checking GEO signals...', 'Evaluating content quality...', 'Generating report...'],
 }
 
-// Educational tips shown during each step — "等你等的值" 设计
+// Data-driven tips — builds credibility while waiting
 const tips = {
   zh: [
     '💡 68% 的 Shopify 独立站缺少正确的 meta description，这直接影响谷歌搜索的点击率',
@@ -49,11 +35,26 @@ const tips = {
 }
 
 export default function ProgressSteps({ step, locale }: Props) {
-  const msgs = steps[locale as 'zh' | 'en'] || steps.zh
-  const tipList = tips[locale as 'zh' | 'en'] || tips.zh
+  const zh = locale === 'zh'
+  const msgs = steps[zh ? 'zh' : 'en']
+  const tipList = tips[zh ? 'zh' : 'en']
   const pct = Math.round((step / msgs.length) * 100)
   const currentTip = tipList[Math.min(step, tipList.length - 1)]
   const currentMsg = msgs[Math.min(step, msgs.length - 1)]
+
+  // Email capture during wait — shown after step 2 (user committed, highest intent moment)
+  const [email, setEmail] = useState('')
+  const [emailSent, setEmailSent] = useState(false)
+  const [emailDismissed, setEmailDismissed] = useState(false)
+  const showEmailCapture = step >= 2 && !emailSent && !emailDismissed
+
+  async function handleEmailCapture(e: React.FormEvent) {
+    e.preventDefault()
+    if (!email.trim()) return
+    // Store email in localStorage for post-audit send
+    localStorage.setItem('pendingReportEmail', email.trim())
+    setEmailSent(true)
+  }
 
   return (
     <div className="w-full max-w-lg mx-auto">
@@ -72,14 +73,48 @@ export default function ProgressSteps({ step, locale }: Props) {
       {/* Step dots */}
       <div className="flex gap-1.5 mt-3 mb-5 justify-center">
         {msgs.map((_, i) => (
-          <div
-            key={i}
-            className={`h-1.5 flex-1 min-w-5 rounded-full transition-all duration-300 ${
-              i < step ? 'bg-blue-500' : i === step ? 'bg-blue-400 animate-pulse' : 'bg-[#1e3a5f]'
-            }`}
-          />
+          <div key={i} className={`h-1.5 flex-1 rounded-full transition-all duration-300 ${
+            i < step ? 'bg-blue-500' : i === step ? 'bg-blue-400 animate-pulse' : 'bg-[#1e3a5f]'
+          }`} />
         ))}
       </div>
+
+      {/* Email capture — highest intent moment */}
+      {showEmailCapture ? (
+        <div className="bg-[#0f1729] border border-blue-800/40 rounded-xl px-5 py-4 mb-3 animate-fade-up">
+          <p className="text-sm text-[#f0f4ff] font-medium mb-1">
+            📧 {zh ? '把报告发到您的邮箱？' : 'Send the report to your inbox?'}
+          </p>
+          <p className="text-xs text-[#64748b] mb-3">
+            {zh ? '方便随时查看，或直接转发给您的开发者' : 'Easy to review later or forward to your developer'}
+          </p>
+          <form onSubmit={handleEmailCapture} className="flex gap-2">
+            <input
+              type="email"
+              value={email}
+              onChange={e => setEmail(e.target.value)}
+              placeholder={zh ? 'your@email.com' : 'your@email.com'}
+              className="flex-1 bg-[#162035] border border-[#1e3a5f] rounded-lg px-3 py-2 text-xs text-[#f0f4ff] placeholder-[#4a5568] focus:outline-none focus:border-blue-500 min-w-0"
+            />
+            <button
+              type="submit"
+              className="bg-blue-600 hover:bg-blue-500 text-white rounded-lg px-3 py-2 text-xs font-semibold whitespace-nowrap transition-colors"
+            >
+              {zh ? '发送' : 'Send'}
+            </button>
+          </form>
+          <button
+            onClick={() => setEmailDismissed(true)}
+            className="mt-2 text-[10px] text-[#4a5568] hover:text-[#64748b] w-full text-center"
+          >
+            {zh ? '稍后再说' : 'Skip for now'}
+          </button>
+        </div>
+      ) : emailSent ? (
+        <div className="bg-emerald-950/30 border border-emerald-800/30 rounded-xl px-5 py-3 mb-3 text-center">
+          <p className="text-sm text-emerald-400">✓ {zh ? '好的！报告生成后会发到您的邮箱' : 'Got it! Report will be sent when ready'}</p>
+        </div>
+      ) : null}
 
       {/* Educational tip card */}
       <div className="bg-blue-950/30 border border-blue-800/30 rounded-xl px-5 py-4 transition-all duration-500">

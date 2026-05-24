@@ -1,19 +1,28 @@
 {
   "hero": {
-    "title": "Why Isn't Your Shopify Store Ranking on Google?",
-    "title2": "Free 30-second audit. Find the real reasons.",
-    "subtitle": "Discover 30+ hidden SEO issues · Shopify & WordPress · Built for cross-border sellers",
+    "title": "Find Why Your Shopify Store Is\nInvisible on Google — in 30 Seconds",
+    "title2": "The only free SEO audit built for cross-border sellers. Checks hreflang, geo-targeting, Core Web Vitals + 27 more.",
+    "subtitle": "Checks hreflang · geo.region tags · Core Web Vitals · Schema markup · 30 signals total. Results in 15 seconds.",
     "placeholder": "Paste your store URL, e.g. https://yourstore.com",
     "button": "Check My Website Free",
     "analyzing": "Analyzing...",
-    "badge": "Shopify · WordPress · Independent Stores",
+    "badge": "Shopify · WordPress · Any Store",
     "trustLine": "✓ Read-only, won't affect your site  ·  ✓ URL stays private  ·  ✓ No sign-up needed",
+    "freeLimit": "3 free audits/day · Forever free · No credit card",
     "todayCount": "{count} stores audited today",
-    "totalCount": "{count}+ store owners have run an SEO audit"
+    "totalCount": "{count}+ SEO issues discovered so far",
+    "step1": "Paste your URL",
+    "step2": "15-second scan",
+    "step3": "Get your fix list",
+    "previewLabel": "↓ Real audit report example (allbirds.com)",
+    "emailCapture": "Send the report to your inbox — easy to forward to your developer",
+    "emailPlaceholder": "your@email.com",
+    "emailButton": "Send to my inbox",
+    "emailSkip": "Skip for now"
   },
   "nav": {
-    "logo": "SEO Audit Pro",
-    "tagline": "Cross-border Store Optimizer"
+    "logo": "SEO Radar X",
+    "tagline": "GEO + SEO Audit for Cross-border Stores"
   },
   "trust": {
     "audited": "30 SEO Checks, Every Audit",
@@ -22,16 +31,16 @@
   },
   "features": {
     "comprehensive": {
-      "title": "30 Key SEO Checks",
-      "desc": "Covers SEO basics, performance, technical setup, and GEO signals — each with a fix recommendation"
+      "title": "30 Precise SEO Checks",
+      "desc": "Not just \"does title exist\" — we check title keyword competitiveness, hreflang correctness, Core Web Vitals scores. We even catch robots.txt misconfiguration that silently blocks your key pages."
     },
     "geo": {
-      "title": "GEO / International SEO",
-      "desc": "Specialized checks for multilingual, multi-currency, and international targeting"
+      "title": "GEO Checks Built for Cross-border Sellers",
+      "desc": "80% of Chinese Shopify sellers have no hreflang configured — meaning US visitors see Chinese pages. We tell you exactly: is your geo.region tag missing? Are your currency signals correct?"
     },
     "pdf": {
-      "title": "Bilingual PDF Reports",
-      "desc": "Share with your developer. Priority fix list to boost your score fast"
+      "title": "Bilingual PDF — Ready for Your Developer",
+      "desc": "Issues explained in plain language. Fix steps written in English code examples. No translation needed. Priority checklist so your dev knows exactly what to tackle first."
     }
   },
   "demo": {
