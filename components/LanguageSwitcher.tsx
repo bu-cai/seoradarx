@@ -10,7 +10,7 @@ export default function LanguageSwitcher() {
   function switchLocale(next: string) {
     const segments = pathname.split('/')
     segments[1] = next
-    router.push(segments.join('/'))
+    router.push(segments.join('/'), { scroll: false })
   }
 
   return (
