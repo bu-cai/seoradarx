@@ -1,7 +1,41 @@
 import { getTranslations, getLocale } from 'next-intl/server'
+import type { Metadata } from 'next'
 import LanguageSwitcher from '@/components/LanguageSwitcher'
 import AuditForm from '@/components/AuditForm'
 import { prisma } from '@/lib/db'
+
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.seoradarx.com'
+
+export async function generateMetadata(
+  { params }: { params: { locale: string } }
+): Promise<Metadata> {
+  const locale = params.locale
+  const zh = locale === 'zh'
+  return {
+    title: zh
+      ? '免费SEO检测工具 · Shopify & WordPress独立站专用 | SEO审计专家'
+      : 'Free SEO Audit Tool for Shopify & WordPress Stores | SEO Audit Pro',
+    description: zh
+      ? '30秒免费检测您的独立站SEO健康度，覆盖30项关键指标：标题、速度、hreflang、Schema等。专为跨境卖家设计，无需注册，即时出报告。'
+      : 'Free 30-second SEO audit for your Shopify or WordPress store. 30 checks covering title, speed, hreflang, Schema, and more. No sign-up. Instant results for cross-border sellers.',
+    alternates: {
+      canonical: `${BASE_URL}/${locale}`,
+      languages: {
+        'zh-CN': `${BASE_URL}/zh`,
+        'en-US': `${BASE_URL}/en`,
+      },
+    },
+    openGraph: {
+      title: zh
+        ? '免费SEO检测 · 30项指标 · 专为跨境独立站'
+        : 'Free SEO Audit — 30 Checks in 30s | SEO Audit Pro',
+      description: zh
+        ? '发现阻碍谷歌排名的真正原因，Shopify & WordPress全平台覆盖'
+        : 'Find what\'s hurting your Google ranking. Free, instant, no sign-up.',
+      url: `${BASE_URL}/${locale}`,
+    },
+  }
+}
 
 export default async function HomePage() {
   const t = await getTranslations()

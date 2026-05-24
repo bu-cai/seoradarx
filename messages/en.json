@@ -84,7 +84,7 @@
     "preview": "Report Preview (Blurred)",
     "unlock": "Unlock Full PDF Report",
     "includes": "Report Includes",
-    "item1": "Complete score breakdown (100+ checks)",
+    "item1": "Complete score breakdown (all 30 checks explained)",
     "item2": "Priority fix checklist",
     "item3": "Shopify/WordPress-specific tips",
     "item4": "Bilingual content (Chinese + English)",
@@ -147,6 +147,6 @@
     "q5": "How long does an audit take? Will it affect my website?",
     "a5": "Most audits complete within 30 seconds; complex sites may take up to 60 seconds. Our analysis is completely read-only — we only fetch publicly accessible pages. It will not affect your website, database, or server in any way, and requires no plugin installation or admin access.",
     "q6": "How often should I re-audit? How long are results valid?",
-    "a6": "Each audit result is cached for 24 hours — re-auditing the same URL within 24 hours returns the cached result without consuming a free credit. We recommend re-auditing after any major site update (theme changes, plugin updates, new content), or doing a monthly check-in to track your SEO health trends and ensure your optimizations remain effective."
+    "a6": "Audit results are cached for 24 hours. If you've fixed issues and want to verify immediately, click the \"Re-audit\" button on your results page — it bypasses the cache, fetches the latest data, and does not count against your daily free limit. We recommend re-auditing after any major site update, or doing a monthly check-in to track your SEO health trends."
   }
 }

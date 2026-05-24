@@ -1,8 +1,9 @@
 import { createClient } from '@libsql/client'
 
+// Run: TURSO_DATABASE_URL=... TURSO_AUTH_TOKEN=... node scripts/setup-turso.mjs
 const client = createClient({
-  url: 'libsql://seoradarx-prod-bu-cai.aws-ap-northeast-1.turso.io',
-  authToken: 'eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3Nzk2MTE4ODQsImlkIjoiMDE5ZTU5MjEtNTUwMS03NGNiLWE0OWMtZTk3YmJjMGUzZGRhIiwicmlkIjoiMjVmMmQwMWYtYTgzOC00NTQ4LWEzYjQtYTIwMWY2NDk0ZDVhIn0.oQPVxdTLm1BTR81PCSdKbRNLT_Nd5ajKoTdLTCEBHGMshSHxLG2495xqNTuqI-jvJF6AroFWVsHnC_eIWg8dBQ',
+  url: process.env.TURSO_DATABASE_URL,
+  authToken: process.env.TURSO_AUTH_TOKEN,
 })
 
 const statements = [

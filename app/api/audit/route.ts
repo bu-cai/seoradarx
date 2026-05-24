@@ -28,9 +28,13 @@ export async function POST(req: NextRequest) {
     }
 
     const ip = getIP(req)
-    const { allowed } = await checkRateLimit(ip)
-    if (!allowed) {
-      return NextResponse.json({ error: 'rate_limit' }, { status: 429 })
+
+    // force=true (re-audit from results page) skips rate limit — user already paid a credit for this URL
+    if (!force) {
+      const { allowed } = await checkRateLimit(ip)
+      if (!allowed) {
+        return NextResponse.json({ error: 'rate_limit' }, { status: 429 })
+      }
     }
 
     // Check cache: same URL audited in last 24h (skip if force=true)

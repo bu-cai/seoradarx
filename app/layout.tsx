@@ -1,8 +1,32 @@
 import type { Metadata } from 'next'
 import { getLocale } from 'next-intl/server'
+import { Noto_Sans_SC, Plus_Jakarta_Sans, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://seoauditpro.com'
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.seoradarx.com'
+
+// next/font — eliminates render-blocking CSS @import, auto-subsets, preloads
+const notoSansSC = Noto_Sans_SC({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'],
+  variable: '--font-noto',
+  display: 'swap',
+  preload: false, // Chinese font — large, don't block initial load
+})
+
+const plusJakarta = Plus_Jakarta_Sans({
+  subsets: ['latin'],
+  weight: ['600', '700', '800'],
+  variable: '--font-display',
+  display: 'swap',
+})
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  weight: ['400', '600'],
+  variable: '--font-mono',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -54,7 +78,10 @@ export const metadata: Metadata = {
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const locale = await getLocale()
   return (
-    <html lang={locale}>
+    <html
+      lang={locale}
+      className={`${notoSansSC.variable} ${plusJakarta.variable} ${jetbrainsMono.variable}`}
+    >
       <head>
         <link rel="alternate" hrefLang="zh" href={`${BASE_URL}/zh`} />
         <link rel="alternate" hrefLang="en" href={`${BASE_URL}/en`} />
@@ -77,7 +104,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                 priceValidUntil: '2027-12-31',
               },
               featureList: [
-                '30+ SEO检测项',
+                '30项 SEO检测',
                 'Shopify & WordPress专项检测',
                 'GEO跨境优化检测',
                 '中英双语PDF报告',

@@ -90,8 +90,8 @@ export default function PdfPreview({ auditId, paid }: Props) {
         </p>
         <ul className="space-y-1.5 mb-4">
           {(zh
-            ? ['完整评分细项 (100+检测项)', '优先修复清单', 'Shopify/WordPress专项建议', '中英双语内容', '可分享给开发者']
-            : ['Complete score breakdown (100+ checks)', 'Priority fix checklist', 'Platform-specific tips', 'Bilingual (Chinese + English)', 'Shareable with your developer']
+            ? ['完整评分细项（30项逐一解析）', '优先修复清单', 'Shopify/WordPress专项建议', '中英双语内容', '可分享给开发者']
+            : ['Complete score breakdown (all 30 checks explained)', 'Priority fix checklist', 'Platform-specific tips', 'Bilingual (Chinese + English)', 'Shareable with your developer']
           ).map((item, i) => (
             <li key={i} className="flex items-center gap-2 text-xs text-[#94a3b8]">
               <span className="text-emerald-400">✓</span>{item}

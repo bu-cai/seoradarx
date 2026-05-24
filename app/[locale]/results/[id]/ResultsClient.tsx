@@ -194,11 +194,11 @@ export default function ResultsClient({ audit, locale }: Props) {
           <div className="w-7 h-7 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-xs">S</div>
           <span className="text-sm font-semibold text-[#f0f4ff]">{zh ? 'SEO审计专家' : 'SEO Audit Pro'}</span>
         </Link>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2">
           <button
             onClick={reaudit}
             disabled={reauditing}
-            className="text-xs text-[#94a3b8] hover:text-[#f0f4ff] border border-[#1e3a5f] hover:border-[#2a4a7f] rounded-full px-3 py-1.5 transition-all disabled:opacity-50 flex items-center gap-1.5"
+            className="hidden sm:flex text-xs text-[#94a3b8] hover:text-[#f0f4ff] border border-[#1e3a5f] hover:border-[#2a4a7f] rounded-full px-3 py-1.5 transition-all disabled:opacity-50 items-center gap-1.5"
           >
             {reauditing ? (
               <>
@@ -206,7 +206,7 @@ export default function ResultsClient({ audit, locale }: Props) {
                   <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/>
                   <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4l3-3-3-3v4a8 8 0 00-8 8h4z"/>
                 </svg>
-                {zh ? '检测中...' : 'Re-auditing...'}
+                {zh ? '检测中...' : 'Auditing...'}
               </>
             ) : (
               <>↻ {zh ? '重新检测' : 'Re-audit'}</>
@@ -454,6 +454,31 @@ export default function ResultsClient({ audit, locale }: Props) {
           </div>
         </div>
       </div>
+
+      {/* Mobile sticky bottom CTA — only show if not paid */}
+      {!audit.paid && (
+        <div className="fixed bottom-0 left-0 right-0 z-20 lg:hidden border-t border-[#1e3a5f] bg-[#080b14]/95 backdrop-blur px-4 py-3">
+          <button
+            onClick={() => {
+              fetch('/api/checkout', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ auditId: audit.id, locale }),
+              })
+                .then(r => r.json())
+                .then(d => { if (d.url) window.location.href = d.url })
+            }}
+            className="w-full bg-gradient-to-r from-blue-600 to-blue-500 text-white rounded-xl py-3.5 font-bold text-sm shadow-lg shadow-blue-900/40"
+          >
+            {zh ? '获取完整PDF报告 · ¥68' : 'Get Full PDF Report · $9.99'}
+          </button>
+          <p className="text-center text-[10px] text-[#64748b] mt-1.5">
+            🔒 {zh ? 'Stripe安全支付 · 即时下载' : 'Stripe secure · Instant download'}
+          </p>
+        </div>
+      )}
+      {/* Bottom padding so mobile content isn't hidden behind sticky bar */}
+      {!audit.paid && <div className="h-24 lg:hidden" />}
     </div>
   )
 }
