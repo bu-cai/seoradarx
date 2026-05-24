@@ -101,6 +101,7 @@ export default function ResultsClient({ audit, locale }: Props) {
   const [confettiShown, setConfettiShown] = useState(false)
   const [emailInput, setEmailInput] = useState('')
   const [emailStatus, setEmailStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle')
+  const [reauditing, setReauditing] = useState(false)
 
   const catNames = CAT_NAMES[zh ? 'zh' : 'en']
   const categories = ['seo', 'performance', 'technical', 'geo', 'content'] as const
@@ -128,6 +129,28 @@ export default function ResultsClient({ audit, locale }: Props) {
     navigator.clipboard.writeText(window.location.href)
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
+  }
+
+  async function reaudit() {
+    if (reauditing) return
+    setReauditing(true)
+    try {
+      const res = await fetch('/api/audit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ url: audit.url, locale, force: true }),
+      })
+      const data = await res.json()
+      if (res.ok && data.auditId) {
+        window.location.href = `/${locale}/results/${data.auditId}`
+      } else {
+        setReauditing(false)
+        alert(zh ? '重新检测失败，请稍后再试' : 'Re-audit failed, please try again')
+      }
+    } catch {
+      setReauditing(false)
+      alert(zh ? '网络错误，请稍后再试' : 'Network error, please try again')
+    }
   }
 
   async function handleSendEmail(e: React.FormEvent) {
@@ -172,6 +195,23 @@ export default function ResultsClient({ audit, locale }: Props) {
           <span className="text-sm font-semibold text-[#f0f4ff]">{zh ? 'SEO审计专家' : 'SEO Audit Pro'}</span>
         </Link>
         <div className="flex items-center gap-3">
+          <button
+            onClick={reaudit}
+            disabled={reauditing}
+            className="text-xs text-[#94a3b8] hover:text-[#f0f4ff] border border-[#1e3a5f] hover:border-[#2a4a7f] rounded-full px-3 py-1.5 transition-all disabled:opacity-50 flex items-center gap-1.5"
+          >
+            {reauditing ? (
+              <>
+                <svg className="w-3 h-3 animate-spin" viewBox="0 0 24 24" fill="none">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/>
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4l3-3-3-3v4a8 8 0 00-8 8h4z"/>
+                </svg>
+                {zh ? '检测中...' : 'Re-auditing...'}
+              </>
+            ) : (
+              <>↻ {zh ? '重新检测' : 'Re-audit'}</>
+            )}
+          </button>
           <button
             onClick={copyLink}
             className="text-xs text-[#94a3b8] hover:text-[#f0f4ff] border border-[#1e3a5f] hover:border-[#2a4a7f] rounded-full px-3 py-1.5 transition-all"

@@ -14,7 +14,7 @@ function getIP(req: NextRequest): string {
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json()
-    const { url, locale = 'zh' } = body
+    const { url, locale = 'zh', force = false } = body
 
     if (!url || typeof url !== 'string') {
       return NextResponse.json({ error: 'invalid_url' }, { status: 400 })
@@ -33,8 +33,8 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'rate_limit' }, { status: 429 })
     }
 
-    // Check cache: same URL audited in last 24h
-    const cached = await prisma.audit.findFirst({
+    // Check cache: same URL audited in last 24h (skip if force=true)
+    const cached = force ? null : await prisma.audit.findFirst({
       where: {
         url: parsedUrl.href,
         expiresAt: { gt: new Date() },
