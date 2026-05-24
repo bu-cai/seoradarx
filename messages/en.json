@@ -8,7 +8,7 @@
     "analyzing": "Analyzing...",
     "badge": "Shopify · WordPress · Any Store",
     "trustLine": "✓ Read-only, won't affect your site  ·  ✓ URL stays private  ·  ✓ No sign-up needed",
-    "freeLimit": "3 free audits/day · Forever free · No credit card",
+    "freeLimit": "10 free audits/day · Forever free · No credit card",
     "todayCount": "{count} stores audited today",
     "totalCount": "{count}+ SEO issues discovered so far",
     "step1": "Paste your URL",
@@ -119,7 +119,7 @@
   "error": {
     "invalid_url": "Please enter a valid URL",
     "fetch_failed": "Could not access this website. Please check the URL",
-    "rate_limit": "You've used all 3 free daily audits. Please come back tomorrow",
+    "rate_limit": "You've used all 10 free daily audits. Please come back tomorrow",
     "generic": "Analysis failed. Please try again later"
   },
   "email": {

@@ -8,7 +8,7 @@
     "analyzing": "正在分析中...",
     "badge": "Shopify · WordPress · 跨境独立站",
     "trustLine": "✓ 只读分析，不影响您的网站  ·  ✓ URL不对外公开  ·  ✓ 无需注册",
-    "freeLimit": "每天 3 次免费 · 永久有效 · 无需信用卡",
+    "freeLimit": "每天 10 次免费 · 永久有效 · 无需信用卡",
     "todayCount": "今日已检测 {count} 个独立站",
     "totalCount": "已累计发现 {count}+ 个 SEO 问题",
     "step1": "粘贴网址",
@@ -119,7 +119,7 @@
   "error": {
     "invalid_url": "请输入有效的网址",
     "fetch_failed": "无法访问该网站，请检查URL是否正确",
-    "rate_limit": "您今日的免费检测次数已用完（每日3次），请明天再试",
+    "rate_limit": "您今日的免费检测次数已用完（每日10次），请明天再试",
     "generic": "检测失败，请稍后重试"
   },
   "email": {

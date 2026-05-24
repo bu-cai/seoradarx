@@ -1,6 +1,6 @@
 import { prisma } from './db'
 
-const MAX_REQUESTS = 3
+const MAX_REQUESTS = 10 // 每天10次（之前3次太少，用户测试完不够用）
 const WINDOW_MS = 24 * 60 * 60 * 1000 // 24 hours
 
 export async function checkRateLimit(ip: string): Promise<{ allowed: boolean; remaining: number }> {
