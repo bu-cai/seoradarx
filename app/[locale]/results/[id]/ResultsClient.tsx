@@ -399,6 +399,32 @@ export default function ResultsClient({ audit, locale }: Props) {
               </ul>
             </div>
 
+            {/* Consulting CTA */}
+            <div className="bg-gradient-to-br from-[#0f1a0f] to-[#080b14] border border-emerald-800/40 rounded-2xl p-6 mb-6">
+              <div className="flex items-start gap-4">
+                <div className="text-3xl flex-shrink-0">🙋</div>
+                <div className="flex-1">
+                  <h2 className="text-base font-bold text-[#f0f4ff] mb-1">
+                    {zh ? '需要帮助修复这些问题？' : 'Need Help Fixing These Issues?'}
+                  </h2>
+                  <p className="text-sm text-[#94a3b8] mb-4 leading-relaxed">
+                    {zh
+                      ? '如果您没有开发者，或者不知道从哪里入手，可以直接联系我。我可以帮您逐项修复，费用面议。'
+                      : 'No developer on hand, or not sure where to start? Feel free to reach out — I can help you fix these issues directly.'}
+                  </p>
+                  <a
+                    href="mailto:xiaocaiwang14@gmail.com?subject=SEO优化咨询&body=我的网站是：[你的网址]，希望了解SEO优化服务。"
+                    className="inline-flex items-center gap-2 bg-emerald-700 hover:bg-emerald-600 text-white rounded-xl px-5 py-2.5 font-semibold text-sm transition-all"
+                  >
+                    ✉️ {zh ? '发邮件咨询' : 'Contact for Consultation'}
+                  </a>
+                  <p className="mt-2 text-xs text-[#4a5568]">
+                    xiaocaiwang14@gmail.com · {zh ? '通常24小时内回复' : 'Usually replies within 24h'}
+                  </p>
+                </div>
+              </div>
+            </div>
+
             {/* Email Collection */}
             <div className="bg-gradient-to-br from-[#0a1628] to-[#080b14] border border-blue-700/50 rounded-2xl p-6">
               <div className="flex items-start gap-4">
