@@ -192,7 +192,7 @@ export default function ResultsClient({ audit, locale }: Props) {
       <nav className="flex items-center justify-between px-6 py-4 border-b border-[#1e3a5f] sticky top-0 z-10 bg-[#080b14]/95 backdrop-blur">
         <Link href={`/${locale}`} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
           <div className="w-7 h-7 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-xs">S</div>
-          <span className="text-sm font-semibold text-[#f0f4ff]">{zh ? 'SEO审计专家' : 'SEO Audit Pro'}</span>
+          <span className="text-sm font-semibold text-[#f0f4ff]">SEO Radar X</span>
         </Link>
         <div className="flex items-center gap-2">
           <button
