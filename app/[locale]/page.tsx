@@ -264,7 +264,7 @@ export default async function HomePage() {
                   <span key={s} className="text-amber-400 text-sm">★</span>
                 ))}
               </div>
-              <p className="text-sm text-[#cbd5e1] leading-relaxed mb-4">"{item.quote}"</p>
+              <p className="text-sm text-[#cbd5e1] leading-relaxed mb-4">&ldquo;{item.quote}&rdquo;</p>
               <div>
                 <div className="text-xs font-semibold text-[#f0f4ff]">{item.name}</div>
                 <div className="text-[10px] text-[#64748b]">{item.role}</div>
