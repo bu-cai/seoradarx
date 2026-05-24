@@ -28,6 +28,16 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# database files — never commit
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+dev.db
+
+# claude memory
+.claude/
+
 # vercel
 .vercel
 

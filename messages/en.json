@@ -1,0 +1,152 @@
+{
+  "hero": {
+    "title": "Why Isn't Your Shopify Store Ranking on Google?",
+    "title2": "Free 30-second audit. Find the real reasons.",
+    "subtitle": "Discover 30+ hidden SEO issues · Shopify & WordPress · Built for cross-border sellers",
+    "placeholder": "Paste your store URL, e.g. https://yourstore.com",
+    "button": "Check My Website Free",
+    "analyzing": "Analyzing...",
+    "badge": "Shopify · WordPress · Independent Stores",
+    "trustLine": "✓ Read-only, won't affect your site  ·  ✓ URL stays private  ·  ✓ No sign-up needed",
+    "todayCount": "{count} stores audited today",
+    "totalCount": "{count}+ store owners have run an SEO audit"
+  },
+  "nav": {
+    "logo": "SEO Audit Pro",
+    "tagline": "Cross-border Store Optimizer"
+  },
+  "trust": {
+    "audited": "30 SEO Checks, Every Audit",
+    "improvement": "Average audit time < 15 seconds",
+    "preferred": "Shopify · WordPress · Any Platform"
+  },
+  "features": {
+    "comprehensive": {
+      "title": "30 Key SEO Checks",
+      "desc": "Covers SEO basics, performance, technical setup, and GEO signals — each with a fix recommendation"
+    },
+    "geo": {
+      "title": "GEO / International SEO",
+      "desc": "Specialized checks for multilingual, multi-currency, and international targeting"
+    },
+    "pdf": {
+      "title": "Bilingual PDF Reports",
+      "desc": "Share with your developer. Priority fix list to boost your score fast"
+    }
+  },
+  "demo": {
+    "try": "Try a sample site",
+    "shopify": "Shopify Sample",
+    "wordpress": "WordPress Sample"
+  },
+  "categories": {
+    "seo": "SEO Basics",
+    "performance": "Performance",
+    "technical": "Technical",
+    "geo": "GEO / Local SEO",
+    "content": "Content Quality"
+  },
+  "score": {
+    "poor": "Poor",
+    "fair": "Needs Work",
+    "good": "Good",
+    "excellent": "Excellent",
+    "overall": "Overall Score"
+  },
+  "results": {
+    "title": "SEO Audit Report",
+    "tabs": {
+      "all": "All Issues",
+      "critical": "Critical",
+      "warning": "Warning",
+      "passed": "Passed"
+    },
+    "priority": {
+      "critical": "Critical",
+      "warning": "Warning",
+      "passed": "Passed"
+    },
+    "fix": "Fix Recommendations",
+    "learnMore": "Learn More",
+    "shareReport": "Share Report",
+    "copyLink": "Copy Link",
+    "copied": "Copied!",
+    "shopifyTips": "Shopify-Specific Tips",
+    "wordpressTips": "WordPress-Specific Tips",
+    "geoTips": "Cross-border Seller Tips",
+    "categoryScores": "Category Scores",
+    "criticalCount": "Critical Issues",
+    "warningCount": "Warnings",
+    "passedCount": "Passed Checks"
+  },
+  "pdf": {
+    "download": "Download Full Report · $9.99",
+    "preview": "Report Preview (Blurred)",
+    "unlock": "Unlock Full PDF Report",
+    "includes": "Report Includes",
+    "item1": "Complete score breakdown (100+ checks)",
+    "item2": "Priority fix checklist",
+    "item3": "Shopify/WordPress-specific tips",
+    "item4": "Bilingual content (Chinese + English)",
+    "item5": "Shareable with your developer",
+    "generating": "Generating PDF...",
+    "download_zh": "Download Chinese Version",
+    "download_en": "Download English Version"
+  },
+  "platform": {
+    "shopify": "Shopify Store",
+    "wordpress": "WordPress Store",
+    "unknown": "Independent Store"
+  },
+  "progress": {
+    "fetching": "Fetching page data...",
+    "seo": "Checking SEO basics...",
+    "performance": "Analyzing performance...",
+    "technical": "Scanning technical setup...",
+    "geo": "Checking GEO signals...",
+    "content": "Evaluating content quality...",
+    "generating": "Generating report..."
+  },
+  "error": {
+    "invalid_url": "Please enter a valid URL",
+    "fetch_failed": "Could not access this website. Please check the URL",
+    "rate_limit": "You've used all 3 free daily audits. Please come back tomorrow",
+    "generic": "Analysis failed. Please try again later"
+  },
+  "email": {
+    "title": "📧 Send This Report to Your Inbox",
+    "subtitle": "Easy to review later, or forward to your developer",
+    "placeholder": "your@email.com",
+    "button": "Send Report",
+    "sending": "Sending...",
+    "success": "✓ Sent! Check your inbox",
+    "duplicate": "✓ Already sent — check your inbox",
+    "error": "Failed to send. Please try again"
+  },
+  "top3": {
+    "title": "⚡ Fix These First",
+    "subtitle": "Resolving these will give you the biggest score boost",
+    "noCritical": "Great — no critical issues found!",
+    "viewAll": "View all {count} issues ↓"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "What is an SEO audit and how can it help my store?",
+    "a1": "An SEO audit is a comprehensive health check for your website, analyzing 30+ key signals including page titles, meta descriptions, H1 tags, page load speed, mobile-friendliness, image optimization, and hreflang international tags. The report identifies issues blocking search engine crawling and rankings, with actionable recommendations to help your Shopify or WordPress store rank higher on Google and Bing — driving more organic traffic and sales.",
+    "q2": "What's the difference between the free and paid tiers?",
+    "a2": "The free tier gives you 3 audits per day with a full online score report covering all 30+ checks and recommendations, instantly. The paid report ($9.99) additionally includes a professional bilingual PDF (English + Chinese) with a complete score breakdown, priority fix checklist, and platform-specific recommendations — perfect for sharing with your developer or SEO consultant to streamline communication and execution.",
+    "q3": "Which platforms do you support? Are Shopify and WordPress audits different?",
+    "a3": "We support any HTTP/HTTPS website, including Shopify, WordPress, Wix, Squarespace, and custom builds. The system auto-detects your platform and provides platform-specific tips: Shopify owners get recommendations on theme SEO settings and product page optimization; WordPress users receive guidance on Yoast SEO plugin setup, Elementor optimization, and WooCommerce product page best practices.",
+    "q4": "What is GEO optimization and why does it matter for cross-border sellers?",
+    "a4": "GEO (Geographic SEO) optimization covers hreflang multilingual tags, geo.region meta tags, multi-currency signals, and LocalBusiness structured data — all designed for cross-border e-commerce. Correct GEO signals tell search engines your target markets, helping your products appear in the right country-specific search results, which is especially important for Chinese sellers targeting US, UK, and Australian markets.",
+    "q5": "How long does an audit take? Will it affect my website?",
+    "a5": "Most audits complete within 30 seconds; complex sites may take up to 60 seconds. Our analysis is completely read-only — we only fetch publicly accessible pages. It will not affect your website, database, or server in any way, and requires no plugin installation or admin access.",
+    "q6": "How often should I re-audit? How long are results valid?",
+    "a6": "Each audit result is cached for 24 hours — re-auditing the same URL within 24 hours returns the cached result without consuming a free credit. We recommend re-auditing after any major site update (theme changes, plugin updates, new content), or doing a monthly check-in to track your SEO health trends and ensure your optimizations remain effective."
+  }
+}

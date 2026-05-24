@@ -1,0 +1,152 @@
+{
+  "hero": {
+    "title": "您的独立站，为什么谷歌排名上不去？",
+    "title2": "30秒免费检测，找到真正原因",
+    "subtitle": "免费发现30+隐藏SEO问题 · Shopify & WordPress全覆盖 · 专为跨境卖家设计",
+    "placeholder": "粘贴您的独立站网址，例如 https://yourstore.com",
+    "button": "免费检测我的网站",
+    "analyzing": "正在分析中...",
+    "badge": "Shopify · WordPress · 跨境独立站",
+    "trustLine": "✓ 只读分析，不影响您的网站  ·  ✓ URL不对外公开  ·  ✓ 无需注册",
+    "todayCount": "今日已检测 {count} 个独立站",
+    "totalCount": "已有 {count}+ 位站长完成SEO检测"
+  },
+  "nav": {
+    "logo": "SEO审计专家",
+    "tagline": "跨境独立站优化工具"
+  },
+  "trust": {
+    "audited": "覆盖 30 项 SEO 关键指标",
+    "improvement": "平均检测耗时 < 15 秒",
+    "preferred": "支持 Shopify · WordPress · 全平台"
+  },
+  "features": {
+    "comprehensive": {
+      "title": "30项 SEO关键指标检测",
+      "desc": "覆盖SEO基础、性能速度、技术配置、GEO本地化等5大维度，每项均有修复建议"
+    },
+    "geo": {
+      "title": "GEO跨境优化专项检测",
+      "desc": "专为跨境卖家设计的多语言、多货币、国际定向检测"
+    },
+    "pdf": {
+      "title": "中英双语PDF报告",
+      "desc": "专业报告可分享给开发者，优先修复清单助您快速提升"
+    }
+  },
+  "demo": {
+    "try": "试试示例网站",
+    "shopify": "Shopify示例",
+    "wordpress": "WordPress示例"
+  },
+  "categories": {
+    "seo": "SEO基础",
+    "performance": "性能速度",
+    "technical": "技术指标",
+    "geo": "GEO本地化",
+    "content": "内容质量"
+  },
+  "score": {
+    "poor": "急需优化",
+    "fair": "有待提升",
+    "good": "表现良好",
+    "excellent": "优秀",
+    "overall": "综合评分"
+  },
+  "results": {
+    "title": "SEO审计报告",
+    "tabs": {
+      "all": "全部问题",
+      "critical": "严重",
+      "warning": "警告",
+      "passed": "通过"
+    },
+    "priority": {
+      "critical": "严重",
+      "warning": "警告",
+      "passed": "通过"
+    },
+    "fix": "修复建议",
+    "learnMore": "了解更多",
+    "shareReport": "分享报告",
+    "copyLink": "复制链接",
+    "copied": "已复制!",
+    "shopifyTips": "Shopify专项优化建议",
+    "wordpressTips": "WordPress专项优化建议",
+    "geoTips": "跨境卖家特别提示",
+    "categoryScores": "各维度评分",
+    "criticalCount": "严重问题",
+    "warningCount": "警告问题",
+    "passedCount": "通过项目"
+  },
+  "pdf": {
+    "download": "下载完整报告 · ¥68",
+    "preview": "报告预览（已模糊处理）",
+    "unlock": "解锁完整PDF报告",
+    "includes": "报告包含内容",
+    "item1": "完整评分细项 (100+检测项)",
+    "item2": "优先修复清单",
+    "item3": "Shopify/WordPress专项建议",
+    "item4": "中英双语内容",
+    "item5": "可分享给开发者",
+    "generating": "正在生成PDF...",
+    "download_zh": "下载中文版",
+    "download_en": "下载英文版"
+  },
+  "platform": {
+    "shopify": "Shopify 独立站",
+    "wordpress": "WordPress 独立站",
+    "unknown": "独立站"
+  },
+  "progress": {
+    "fetching": "正在获取页面数据...",
+    "seo": "检测SEO基础指标...",
+    "performance": "分析性能数据...",
+    "technical": "扫描技术配置...",
+    "geo": "检测GEO本地化...",
+    "content": "评估内容质量...",
+    "generating": "生成评分报告..."
+  },
+  "error": {
+    "invalid_url": "请输入有效的网址",
+    "fetch_failed": "无法访问该网站，请检查URL是否正确",
+    "rate_limit": "您今日的免费检测次数已用完（每日3次），请明天再试",
+    "generic": "检测失败，请稍后重试"
+  },
+  "email": {
+    "title": "📧 把这份报告发到您的邮箱",
+    "subtitle": "方便随时查看，或直接转发给您的开发者",
+    "placeholder": "your@email.com",
+    "button": "发送报告",
+    "sending": "发送中...",
+    "success": "✓ 已发送！请查收邮件",
+    "duplicate": "✓ 报告已发送过，请查收邮件",
+    "error": "发送失败，请稍后重试"
+  },
+  "top3": {
+    "title": "⚡ 最优先修复的问题",
+    "subtitle": "修复这些问题，可以最快提升您的SEO评分",
+    "noCritical": "很好！暂无严重问题",
+    "viewAll": "查看全部 {count} 个问题 ↓"
+  },
+  "footer": {
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "contact": "联系我们"
+  },
+  "faq": {
+    "title": "常见问题解答",
+    "q1": "SEO审计是什么？它能帮我做什么？",
+    "a1": "SEO审计是对您网站的全面健康检查，分析超过30项关键指标，包括页面标题、元描述、H1标签、页面加载速度、移动端适配、图片优化及hreflang国际化标签等。通过审计报告，您可以快速发现阻碍搜索引擎收录和排名的问题，并获得具体的优化建议，帮助您的Shopify或WordPress独立站在Google等搜索引擎中获得更高排名，带来更多自然流量和销售机会。",
+    "q2": "免费版和付费版有什么区别？",
+    "a2": "免费版每天可检测3次，立即获得完整的在线评分报告，包含所有30+项检测结果和优化建议。付费版（¥68/次）额外提供专业的中英双语PDF报告，包含完整评分细项、优先修复清单、Shopify/WordPress专项建议，可直接分享给开发者或SEO顾问，帮助团队高效协作推进优化工作。",
+    "q3": "支持哪些建站平台？Shopify和WordPress有何不同？",
+    "a3": "我们支持所有基于HTTP/HTTPS的网站，包括Shopify、WordPress、Wix、Squarespace等主流平台。系统自动检测平台类型并提供专属建议：Shopify站主可获得主题SEO设置和产品页优化建议；WordPress站主可获得Yoast SEO插件配置、WooCommerce优化等专项指导。",
+    "q4": "什么是GEO优化？跨境卖家为什么需要关注？",
+    "a4": "GEO（地理SEO）优化专为跨境电商设计，涵盖hreflang多语言标签、geo.region地理定向元标签、多货币信号及LocalBusiness结构化数据检测。正确配置GEO信号可告知搜索引擎您的目标市场，让您的产品在不同国家的搜索结果中获得更好展示，对于主打欧美市场的中国跨境卖家尤为关键。",
+    "q5": "检测需要多长时间？会影响我的网站吗？",
+    "a5": "通常30秒内完成，复杂网站最长60秒。我们的检测为纯只读操作，仅分析您网站的公开页面，不会对您的网站、数据库或服务器造成任何影响，也无需安装插件或提供管理员权限。",
+    "q6": "多久应该重新检测一次？结果有效期多长？",
+    "a6": "同一URL的检测结果缓存24小时，24小时内重复检测直接返回缓存结果（不消耗免费次数）。建议每次对网站进行重大更新（如修改主题、更换插件、发布新内容）后重新检测，或每月定期检测一次，持续追踪SEO健康状况的变化趋势，确保优化工作持续有效。"
+  }
+}
