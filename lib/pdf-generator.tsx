@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer'
 import type { AuditCheck } from './auditor'
@@ -163,7 +162,7 @@ export function createPDFDocument({ audit, checks, categoryScores, lang }: PDFPr
       React.createElement(Page, { size: 'A4', style: styles.coverPage },
         React.createElement(View, { style: { flex: 1, justifyContent: 'center' } },
           React.createElement(Text, { style: { fontSize: 12, color: '#94a3b8', marginBottom: 32 } },
-            lang === 'zh' ? 'SEO审计专家 · SEO Audit Pro' : 'SEO Audit Pro · SEO审计专家'
+            'SEO Radar X'
           ),
           React.createElement(Text, { style: styles.title },
             lang === 'zh' ? 'SEO审计报告' : 'SEO Audit Report'
@@ -194,7 +193,7 @@ export function createPDFDocument({ audit, checks, categoryScores, lang }: PDFPr
           ),
         ),
         React.createElement(View, { style: styles.footer },
-          React.createElement(Text, { style: styles.footerText }, 'SEO Audit Pro'),
+          React.createElement(Text, { style: styles.footerText }, 'SEO Radar X'),
           React.createElement(Text, { style: styles.footerText }, '© ' + new Date().getFullYear()),
         ),
       ),
@@ -342,7 +341,7 @@ export function createPDFDocument({ audit, checks, categoryScores, lang }: PDFPr
           )
         ),
         React.createElement(View, { style: styles.footer },
-          React.createElement(Text, { style: styles.footerText }, 'Powered by SEO Audit Pro'),
+          React.createElement(Text, { style: styles.footerText }, 'Powered by SEO Radar X'),
           React.createElement(Text, { style: styles.footerText }, '10 / 10'),
         ),
       ),
