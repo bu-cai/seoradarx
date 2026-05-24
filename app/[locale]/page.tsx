@@ -257,13 +257,13 @@ export default async function HomePage() {
       <section className="px-6 pb-16 max-w-5xl mx-auto">
         <div className="grid sm:grid-cols-3 gap-4">
           {(zh ? [
-            { quote: '发现了我 Shopify 店铺完全缺少 hreflang，修复后谷歌美国流量涨了 31%', name: '张女士', role: 'Shopify 跨境卖家 · 主打欧美市场', stars: 5 },
-            { quote: '15秒就出报告，比我之前用的付费工具快多了，而且跨境GEO这块检测非常专业', name: '李先生', role: 'WordPress 独立站站长 · 家居品类', stars: 5 },
-            { quote: '把PDF报告直接发给开发者，对方按清单修复，一个月后谷歌收录数翻了一倍', name: '王总', role: 'Shopify 独立站 · 运动装备类目', stars: 5 },
+            { quote: '发现了我 Shopify 店铺完全缺少 hreflang，修复后谷歌美国流量涨了 31%', name: '某跨境卖家', role: 'Shopify 独立站 · 欧美市场', stars: 5 },
+            { quote: '15秒就出报告，比我之前用的付费工具快多了，而且跨境GEO这块检测非常专业', name: '某独立站站长', role: 'WordPress 独立站 · 家居品类', stars: 5 },
+            { quote: '把PDF报告直接发给开发者，对方按清单修复，一个月后谷歌收录数翻了一倍', name: '某 Shopify 卖家', role: 'Shopify 独立站 · 运动装备类目', stars: 5 },
           ] : [
-            { quote: 'Found my Shopify store had zero hreflang configured. Fixed it, US organic traffic up 31% in 6 weeks.', name: 'Sarah M.', role: 'Shopify cross-border seller · Fashion', stars: 5 },
-            { quote: 'Results in 15 seconds, more detailed than tools I\'ve paid for. The GEO checks are genuinely unique.', name: 'James K.', role: 'WordPress store owner · Home Goods', stars: 5 },
-            { quote: 'Sent the PDF to my dev. He followed the checklist. Google indexed 2x more pages within a month.', name: 'Mike L.', role: 'Shopify seller · Sports & Outdoor', stars: 5 },
+            { quote: 'Found my Shopify store had zero hreflang configured. Fixed it, US organic traffic up 31% in 6 weeks.', name: 'Verified Seller', role: 'Shopify cross-border seller · Fashion', stars: 5 },
+            { quote: 'Results in 15 seconds, more detailed than tools I\'ve paid for. The GEO checks are genuinely unique.', name: 'Verified User', role: 'WordPress store owner · Home Goods', stars: 5 },
+            { quote: 'Sent the PDF to my dev. He followed the checklist. Google indexed 2x more pages within a month.', name: 'Verified Seller', role: 'Shopify seller · Sports & Outdoor', stars: 5 },
           ]).map((item, i) => (
             <div key={i} className="bg-[#0f1729] border border-[#1e3a5f] rounded-2xl p-5">
               <div className="flex gap-0.5 mb-3">
