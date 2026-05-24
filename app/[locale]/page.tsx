@@ -311,7 +311,7 @@ export default async function HomePage() {
           <div className="grid sm:grid-cols-2 gap-6 text-left mt-6">
             <div>
               <div className="text-sm font-bold text-[#f0f4ff] mb-3">
-                {zh ? '✓ 免费版（每天3次）' : '✓ Free (3/day)'}
+                {zh ? '✓ 免费版（每天10次）' : '✓ Free (10/day)'}
               </div>
               {(zh
                 ? ['完整在线评分报告', '30项检测结果', '优化建议摘要', '无需注册']
@@ -412,7 +412,7 @@ export default async function HomePage() {
             </div>
           </div>
           {/* About snippet — EEAT signal */}
-          <p className="text-[10px] text-[#374151] text-center leading-relaxed">
+          <p className="text-xs text-[#64748b] text-center leading-relaxed">
             {zh
               ? 'SEO Radar X 由一支专注跨境电商增长的团队构建，致力于帮助 Shopify 和 WordPress 独立站卖家发现并修复阻碍谷歌排名的 GEO 与 SEO 问题。'
               : 'SEO Radar X is built by a team focused on cross-border e-commerce growth, helping Shopify and WordPress store owners discover and fix the GEO and SEO issues blocking their Google rankings.'}

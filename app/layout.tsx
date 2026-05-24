@@ -31,35 +31,26 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: 'Free SEO Audit Tool for Shopify & WordPress | SEO Audit Pro',
-    template: '%s | SEO Audit Pro',
+    default: 'Free SEO Audit Tool for Shopify & WordPress | SEO Radar X',
+    template: '%s | SEO Radar X',
   },
   description: 'Instantly audit your Shopify or WordPress store with 30 SEO checks — performance, technical, GEO & content. Free, no sign-up. Bilingual reports for cross-border sellers.',
   keywords: ['shopify seo checker', 'wordpress seo audit', 'free seo audit tool', 'seo score', '独立站SEO', 'Shopify SEO检测', '跨境卖家SEO', 'GEO optimization', 'hreflang checker'],
-  authors: [{ name: 'SEO审计专家团队' }],
-  creator: 'SEO Audit Pro',
+  authors: [{ name: 'SEO Radar X Team' }],
+  creator: 'SEO Radar X',
   openGraph: {
     type: 'website',
     locale: 'zh_CN',
     alternateLocale: 'en_US',
     url: BASE_URL,
-    siteName: 'SEO Audit Pro',
-    title: 'Free SEO Audit for Shopify & WordPress Stores',
+    siteName: 'SEO Radar X',
+    title: 'Free SEO Audit for Shopify & WordPress Stores | SEO Radar X',
     description: '30 SEO checks in 30 seconds — find what\'s hurting your Google ranking. Free, no sign-up. Bilingual PDF reports for cross-border sellers.',
-    images: [
-      {
-        url: '/og-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'SEO Audit Pro — Free SEO Checker for Shopify & WordPress',
-      },
-    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Free SEO Audit for Shopify & WordPress — 30 Checks in 30s',
+    title: 'Free SEO Audit for Shopify & WordPress — 30 Checks in 30s | SEO Radar X',
     description: 'Find what\'s hurting your Google ranking. Free, no sign-up required.',
-    images: ['/og-image.png'],
   },
   robots: {
     index: true,
@@ -92,7 +83,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'SoftwareApplication',
-              name: 'SEO审计专家 / SEO Audit Pro',
+              name: 'SEO Radar X',
               applicationCategory: 'BusinessApplication',
               operatingSystem: 'Web',
               url: BASE_URL,

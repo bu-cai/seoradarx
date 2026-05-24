@@ -198,7 +198,7 @@ export default function ResultsClient({ audit, locale }: Props) {
           <button
             onClick={reaudit}
             disabled={reauditing}
-            className="hidden sm:flex text-xs text-[#94a3b8] hover:text-[#f0f4ff] border border-[#1e3a5f] hover:border-[#2a4a7f] rounded-full px-3 py-1.5 transition-all disabled:opacity-50 items-center gap-1.5"
+            className="flex text-xs text-[#94a3b8] hover:text-[#f0f4ff] border border-[#1e3a5f] hover:border-[#2a4a7f] rounded-full px-3 py-1.5 transition-all disabled:opacity-50 items-center gap-1.5"
           >
             {reauditing ? (
               <>
