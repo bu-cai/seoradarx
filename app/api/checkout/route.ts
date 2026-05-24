@@ -24,8 +24,8 @@ export async function POST(req: NextRequest) {
                 ? 'SEO审计完整报告 / Full SEO Audit Report'
                 : 'Full SEO Audit Report',
               description: locale === 'zh'
-                ? '包含100+检测项详细分析、优先修复清单、中英双语PDF'
-                : 'Includes 100+ checks, priority fix list, bilingual PDF (Chinese + English)',
+                ? '30项SEO检测逐一解析、优先修复清单、中英双语PDF报告'
+                : '30 SEO checks explained, priority fix list, bilingual PDF (Chinese + English)',
             },
           },
           quantity: 1,

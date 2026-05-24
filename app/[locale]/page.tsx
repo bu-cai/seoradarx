@@ -273,7 +273,7 @@ export default async function HomePage() {
             <a href={`/${locale}/terms`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
               {t('footer.terms')}
             </a>
-            <a href="mailto:support@seoauditpro.com" className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+            <a href="mailto:support@seoradarx.com" className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
               {t('footer.contact')}
             </a>
           </div>

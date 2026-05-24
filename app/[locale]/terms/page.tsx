@@ -52,8 +52,8 @@ export default function TermsPage({ params }: { params: { locale: string } }) {
             </h2>
             <p>
               {zh
-                ? 'SEO审计专家（seoauditpro.com）提供基于网络的SEO检测与分析服务，适用于Shopify、WordPress等独立站平台。免费版每日可检测3次，付费版提供完整PDF报告下载服务。'
-                : 'SEO Audit Pro (seoauditpro.com) provides web-based SEO analysis services for Shopify, WordPress, and other e-commerce platforms. The free tier allows 3 audits per day; the paid tier includes downloadable PDF reports.'}
+                ? 'SEO审计专家（seoradarx.com）提供基于网络的SEO检测与分析服务，适用于Shopify、WordPress等独立站平台。免费版每日可检测3次，付费版提供完整PDF报告下载服务。'
+                : 'SEO Audit Pro (seoradarx.com) provides web-based SEO analysis services for Shopify, WordPress, and other e-commerce platforms. The free tier allows 3 audits per day; the paid tier includes downloadable PDF reports.'}
             </p>
           </section>
 
@@ -102,8 +102,8 @@ export default function TermsPage({ params }: { params: { locale: string } }) {
             </h2>
             <p>
               {zh
-                ? 'PDF报告购买（¥68/次或$9.99/次）为一次性付款，支付成功后立即提供下载。如PDF生成失败，我们将全额退款。由于数字内容的特殊性，非技术原因导致的退款请求将不予受理。如有争议，请联系 support@seoauditpro.com。'
-                : 'PDF report purchases (¥68 or $9.99 per report) are one-time payments with immediate download access after payment. If PDF generation fails, a full refund will be issued. Due to the nature of digital content, refund requests for non-technical reasons will not be accepted. For disputes, contact support@seoauditpro.com.'}
+                ? 'PDF报告购买（¥68/次或$9.99/次）为一次性付款，支付成功后立即提供下载。如PDF生成失败，我们将全额退款。由于数字内容的特殊性，非技术原因导致的退款请求将不予受理。如有争议，请联系 support@seoradarx.com。'
+                : 'PDF report purchases (¥68 or $9.99 per report) are one-time payments with immediate download access after payment. If PDF generation fails, a full refund will be issued. Due to the nature of digital content, refund requests for non-technical reasons will not be accepted. For disputes, contact support@seoradarx.com.'}
             </p>
           </section>
 
@@ -139,10 +139,10 @@ export default function TermsPage({ params }: { params: { locale: string } }) {
                 : 'For any service-related questions, please contact:'}
             </p>
             <a
-              href="mailto:support@seoauditpro.com"
+              href="mailto:support@seoradarx.com"
               className="text-blue-400 hover:text-blue-300 transition-colors"
             >
-              support@seoauditpro.com
+              support@seoradarx.com
             </a>
           </section>
         </div>
@@ -170,7 +170,7 @@ export default function TermsPage({ params }: { params: { locale: string } }) {
             <Link href={`/${locale}/terms`} className="text-xs text-blue-400">
               {zh ? '服务条款' : 'Terms of Service'}
             </Link>
-            <a href="mailto:support@seoauditpro.com" className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+            <a href="mailto:support@seoradarx.com" className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
               {zh ? '联系我们' : 'Contact Us'}
             </a>
           </div>

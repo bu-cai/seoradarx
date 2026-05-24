@@ -1,6 +1,6 @@
 import nodemailer from 'nodemailer'
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://seoauditpro.com'
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.seoradarx.com'
 
 function getTransporter() {
   return nodemailer.createTransport({
@@ -175,8 +175,8 @@ export async function sendReportEmail(opts: SendReportOptions) {
   <div style="background:#f8fafc;padding:16px 28px;text-align:center;">
     <p style="margin:0;font-size:11px;color:#94a3b8;">
       ${zh
-        ? `© ${new Date().getFullYear()} SEO审计专家 · <a href="${BASE_URL}/zh" style="color:#94a3b8;">seoauditpro.com</a>`
-        : `© ${new Date().getFullYear()} SEO Audit Pro · <a href="${BASE_URL}/en" style="color:#94a3b8;">seoauditpro.com</a>`}
+        ? `© ${new Date().getFullYear()} SEO审计专家 · <a href="${BASE_URL}/zh" style="color:#94a3b8;">seoradarx.com</a>`
+        : `© ${new Date().getFullYear()} SEO Audit Pro · <a href="${BASE_URL}/en" style="color:#94a3b8;">seoradarx.com</a>`}
     </p>
   </div>
 

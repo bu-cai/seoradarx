@@ -107,8 +107,8 @@ export default function PrivacyPage({ params }: { params: { locale: string } }) 
             </h2>
             <p>
               {zh
-                ? '由于我们不收集个人身份信息，数据删除请求通常不适用。如果您希望删除与您IP地址相关的检测记录，请发送邮件至 support@seoauditpro.com，我们将在7个工作日内处理。'
-                : 'Since we do not collect personally identifiable information, most data deletion requests are not applicable. If you wish to delete audit records associated with your IP address, email support@seoauditpro.com and we will process it within 7 business days.'}
+                ? '由于我们不收集个人身份信息，数据删除请求通常不适用。如果您希望删除与您IP地址相关的检测记录，请发送邮件至 support@seoradarx.com，我们将在7个工作日内处理。'
+                : 'Since we do not collect personally identifiable information, most data deletion requests are not applicable. If you wish to delete audit records associated with your IP address, email support@seoradarx.com and we will process it within 7 business days.'}
             </p>
           </section>
 
@@ -122,10 +122,10 @@ export default function PrivacyPage({ params }: { params: { locale: string } }) 
                 : 'For any privacy-related questions, please contact us at:'}
             </p>
             <a
-              href="mailto:support@seoauditpro.com"
+              href="mailto:support@seoradarx.com"
               className="text-blue-400 hover:text-blue-300 transition-colors mt-2 inline-block"
             >
-              support@seoauditpro.com
+              support@seoradarx.com
             </a>
           </section>
         </div>
@@ -153,7 +153,7 @@ export default function PrivacyPage({ params }: { params: { locale: string } }) 
             <Link href={`/${locale}/terms`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
               {zh ? '服务条款' : 'Terms of Service'}
             </Link>
-            <a href="mailto:support@seoauditpro.com" className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+            <a href="mailto:support@seoradarx.com" className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
               {zh ? '联系我们' : 'Contact Us'}
             </a>
           </div>
