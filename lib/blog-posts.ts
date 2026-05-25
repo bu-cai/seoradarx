@@ -1056,6 +1056,872 @@ export const blogPosts: BlogPost[] = [
       `,
     },
   },
+  // ─────────────────────────────────────────────────────────────────────────
+  // POST 4: Mobile SEO Audit
+  // Target EN: mobile seo audit (880,KD21), seo for mobile (880,KD39),
+  //            how to audit a website (880,KD36)
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'mobile-seo-audit-free-checker',
+    category: 'seo-guide',
+    date: '2025-05-25',
+    readTime: 8,
+    en: {
+      title: 'Mobile SEO Audit: Free Checker for Shopify & WordPress Stores (2025)',
+      description:
+        'Over 70% of e-commerce traffic comes from mobile. This guide walks you through a complete mobile SEO audit — what to check, how to fix it, and a free tool to do it in 30 seconds.',
+      keywords: [
+        'mobile seo audit',
+        'seo for mobile',
+        'how to audit a website',
+        'mobile seo checker',
+        'mobile seo optimization',
+        'shopify mobile seo',
+        'mobile site audit',
+        'mobile seo issues',
+      ],
+      content: `
+<h2>Why Mobile SEO Audits Matter More Than Ever</h2>
+<p>
+  Google has been using <strong>mobile-first indexing</strong> since 2019 — meaning it crawls
+  and ranks the <em>mobile version</em> of your site first. If your Shopify or WordPress store
+  has mobile SEO issues, your Google rankings suffer for <strong>all</strong> users, not just mobile visitors.
+</p>
+<p>
+  The numbers make this clear:
+</p>
+<ul>
+  <li>Over <strong>73% of e-commerce traffic</strong> now comes from mobile devices</li>
+  <li>Mobile conversion rates are 3× lower than desktop when the mobile UX is poor</li>
+  <li>Google's Core Web Vitals thresholds are measured on mobile (4G connection)</li>
+  <li>A 1-second delay in mobile page load reduces conversions by up to <strong>20%</strong></li>
+</ul>
+<p>
+  For cross-border sellers, the stakes are even higher. Markets like Southeast Asia, Latin America,
+  and the Middle East are almost entirely mobile-first. If your store doesn't pass a mobile SEO audit,
+  you're leaving a significant portion of your international revenue on the table.
+</p>
+
+<h2>What Is a Mobile SEO Audit?</h2>
+<p>
+  A mobile SEO audit checks your website for technical and content issues that affect how your
+  site performs on mobile devices — and how Google evaluates it. A thorough audit covers:
+</p>
+<ul>
+  <li><strong>Core Web Vitals on mobile</strong> — LCP, CLS, FID/INP measured on mobile hardware</li>
+  <li><strong>Viewport configuration</strong> — the <code>&lt;meta name="viewport"&gt;</code> tag</li>
+  <li><strong>Responsive design</strong> — content fits all screen sizes without horizontal scrolling</li>
+  <li><strong>Touch target sizing</strong> — buttons and links are large enough to tap accurately</li>
+  <li><strong>Font sizes</strong> — readable without zooming (minimum 16px for body text)</li>
+  <li><strong>Image optimization</strong> — compressed, properly sized, with lazy loading</li>
+  <li><strong>Mobile crawlability</strong> — Googlebot-Mobile can access all critical pages</li>
+  <li><strong>hreflang tags</strong> — served correctly to mobile users in each language</li>
+</ul>
+
+<h2>How to Run a Mobile SEO Audit (Step by Step)</h2>
+
+<h3>Step 1: Run an Automated Audit</h3>
+<p>
+  Start with <strong>SEO Radar X</strong> — enter your store URL and get a free 30-point audit
+  covering Core Web Vitals, technical SEO, and GEO signals in 30 seconds. The report flags
+  mobile-specific issues including LCP failures, missing viewport tags, and image size problems.
+</p>
+<p>
+  <a href="/en" style="color:#3b82f6;font-weight:600;">→ Run your free mobile SEO audit now</a>
+</p>
+<p>
+  Also run Google's <strong>PageSpeed Insights</strong> (free) — enter your URL and switch
+  to the Mobile tab. The Core Web Vitals scores here are the exact scores Google uses for ranking.
+</p>
+
+<h3>Step 2: Check Your Viewport Tag</h3>
+<p>
+  Every page on your site needs this tag in the <code>&lt;head&gt;</code>:
+</p>
+<p><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</code></p>
+<p>
+  Without this, mobile browsers render your site at desktop width and shrink it down —
+  making it tiny and unusable. Most modern Shopify themes include this by default,
+  but it's worth verifying, especially after theme customizations.
+</p>
+
+<h3>Step 3: Fix Your Core Web Vitals</h3>
+<p>
+  Google's Core Web Vitals are the three most important mobile performance signals:
+</p>
+<ul>
+  <li>
+    <strong>LCP (Largest Contentful Paint) — target: under 2.5 seconds</strong><br/>
+    The time it takes for the main content (hero image, product photo) to load.
+    Fix: compress hero images, use WebP format, add width/height attributes to images,
+    preload your LCP image with <code>&lt;link rel="preload"&gt;</code>.
+  </li>
+  <li>
+    <strong>CLS (Cumulative Layout Shift) — target: under 0.1</strong><br/>
+    Measures how much the page jumps around while loading (annoying on mobile).
+    Fix: set explicit dimensions on images and embeds, avoid inserting content above existing content.
+  </li>
+  <li>
+    <strong>INP (Interaction to Next Paint) — target: under 200ms</strong><br/>
+    How quickly the page responds when a user taps a button or link.
+    Fix: reduce JavaScript execution time, defer non-critical scripts.
+  </li>
+</ul>
+
+<h3>Step 4: Optimize Images for Mobile</h3>
+<p>
+  Images are the #1 cause of slow mobile load times in Shopify and WordPress stores.
+  Best practices:
+</p>
+<ul>
+  <li>Convert all product images to <strong>WebP</strong> (30–50% smaller than JPEG with same quality)</li>
+  <li>Add <code>loading="lazy"</code> to all images below the fold</li>
+  <li>Use Shopify's built-in image CDN or a WordPress plugin like ShortPixel</li>
+  <li>Avoid images wider than 1200px for product photos</li>
+  <li>Always include <code>alt</code> text — required for accessibility and image SEO</li>
+</ul>
+
+<h3>Step 5: Audit Mobile Crawlability</h3>
+<p>
+  Google's mobile crawler needs to access every important page. Common blockers:
+</p>
+<ul>
+  <li>CSS or JavaScript files blocked in <code>robots.txt</code> — Google can't render mobile layout</li>
+  <li>Interstitials (pop-ups) that cover the full screen on mobile — Google penalizes these</li>
+  <li>Separate mobile URLs (<code>m.yourstore.com</code>) without canonical tags pointing to the desktop version</li>
+</ul>
+<p>
+  Use Google Search Console → Mobile Usability report to see which pages Google has flagged.
+</p>
+
+<h3>Step 6: Check hreflang on Mobile</h3>
+<p>
+  For cross-border stores, hreflang tags must be present in your mobile pages.
+  If you use a separate mobile subdomain (<code>m.yourstore.com</code>), each mobile URL
+  needs its own hreflang tags, not just the desktop versions.
+  Most responsive design implementations handle this correctly — but verify with an audit.
+</p>
+
+<h2>Mobile SEO Checklist for Shopify Stores</h2>
+<table style="width:100%;border-collapse:collapse;margin:1.5rem 0;">
+  <thead>
+    <tr style="background:#1e3a5f;color:#e2e8f0;">
+      <th style="padding:10px 14px;text-align:left;border:1px solid #2d4a7a;">Check</th>
+      <th style="padding:10px 14px;text-align:left;border:1px solid #2d4a7a;">Priority</th>
+      <th style="padding:10px 14px;text-align:left;border:1px solid #2d4a7a;">How to Fix</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#0f1729;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Viewport meta tag present</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">🔴 Critical</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Add to theme <code>&lt;head&gt;</code></td>
+    </tr>
+    <tr style="background:#0c1322;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">LCP under 2.5s on mobile</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">🔴 Critical</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Compress hero images, use WebP</td>
+    </tr>
+    <tr style="background:#0f1729;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">CLS under 0.1</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">🔴 Critical</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Set image/embed dimensions</td>
+    </tr>
+    <tr style="background:#0c1322;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Images have width &amp; height attributes</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">🟠 High</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Update image tags in theme</td>
+    </tr>
+    <tr style="background:#0f1729;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">All images have alt text</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">🟠 High</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Add descriptive alt in product editor</td>
+    </tr>
+    <tr style="background:#0c1322;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">No full-screen interstitials</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">🟠 High</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Use banner pop-ups instead of full-screen</td>
+    </tr>
+    <tr style="background:#0f1729;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Font size ≥ 16px</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">🟡 Medium</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Update base font in theme CSS</td>
+    </tr>
+    <tr style="background:#0c1322;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Touch targets ≥ 48×48px</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">🟡 Medium</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Increase button padding in CSS</td>
+    </tr>
+    <tr style="background:#0f1729;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">hreflang tags on all mobile pages</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">🟡 Medium</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Verify in SEO Radar X audit</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Common Mobile SEO Issues in Shopify Stores</h2>
+
+<h3>Issue 1: Hero Image Too Large</h3>
+<p>
+  The most common cause of poor LCP on Shopify. Many themes use 2000px+ hero images
+  that load slowly on mobile connections. Fix: upload a 1200px version for mobile,
+  or use Shopify's image CDN with a size parameter:
+  <code>{{ image | image_url: width: 1200 }}</code>
+</p>
+
+<h3>Issue 2: Third-Party App Scripts Blocking Render</h3>
+<p>
+  Review apps, chat widgets, and loyalty program scripts often load synchronously and
+  block the mobile page from rendering. Move them to load asynchronously or defer them:
+  <code>&lt;script async src="..."&gt;</code>
+</p>
+
+<h3>Issue 3: Non-Mobile-Friendly Pop-ups</h3>
+<p>
+  Google explicitly penalizes intrusive interstitials that cover the main content on mobile.
+  Replace full-screen pop-ups with slide-in banners or footer bars that show after 5 seconds.
+</p>
+
+<h3>Issue 4: Missing or Misconfigured hreflang on Mobile</h3>
+<p>
+  Cross-border stores using hreflang sometimes implement it correctly on desktop
+  but miss it on AMP pages or mobile-specific templates. Run an hreflang audit
+  to verify all mobile page variants have the correct tags.
+</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How do I audit my website for mobile SEO?</h3>
+<p>
+  The fastest way is to use a combination of SEO Radar X (free, 30-second automated audit),
+  Google PageSpeed Insights (free, Core Web Vitals data), and Google Search Console's
+  Mobile Usability report (shows crawl errors on mobile). Together these three tools
+  cover all the critical mobile SEO signals.
+</p>
+
+<h3>Does mobile SEO affect desktop rankings?</h3>
+<p>
+  Yes. Because Google uses mobile-first indexing, your mobile SEO score affects your rankings
+  for all users — desktop and mobile. Fixing mobile SEO issues improves rankings across the board.
+</p>
+
+<h3>What is the most important mobile SEO fix for Shopify stores?</h3>
+<p>
+  Compressing and properly sizing your hero and product images. Image size is the #1 driver
+  of poor LCP scores, which is the most weighted Core Web Vitals metric for ranking.
+  Convert to WebP and cap images at 1200px width for a typical Shopify store.
+</p>
+
+<h3>How long does a mobile SEO audit take?</h3>
+<p>
+  An automated audit with SEO Radar X takes 30 seconds. A full manual audit including
+  PageSpeed Insights, Search Console review, and manual mobile testing takes 1–2 hours.
+  Fixing the issues takes 1–5 days depending on the severity of problems found.
+</p>
+
+<h2>Run Your Free Mobile SEO Audit Now</h2>
+<p>
+  Enter your store URL below and get a complete mobile SEO audit in 30 seconds —
+  covering Core Web Vitals, hreflang, Schema markup, image optimization signals, and 25 more checks.
+  No account required.
+</p>
+<p>
+  <a href="/en" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ Run your free mobile SEO audit</a>
+</p>
+      `,
+    },
+    zh: {
+      title: '移动端SEO审计：Shopify独立站免费检测指南（2025年）',
+      description:
+        '超过70%的电商流量来自移动端。本指南带你完成完整的移动端SEO审计——检测什么、如何修复，以及30秒完成检测的免费工具。',
+      keywords: [
+        '移动端SEO审计',
+        '手机SEO优化',
+        'Shopify移动端SEO',
+        '移动端网站检测',
+        'Core Web Vitals优化',
+        '移动端SEO问题',
+        '网站SEO审计',
+        '独立站移动端优化',
+      ],
+      content: `
+<h2>为什么移动端SEO审计比以往更重要</h2>
+<p>
+  自2019年起，Google已全面采用<strong>移动端优先索引</strong>——即优先抓取和排名你网站的<em>移动版本</em>。
+  如果你的Shopify或WordPress独立站存在移动端SEO问题，
+  Google排名将对<strong>所有用户</strong>下降，而不仅仅是移动端用户。
+</p>
+<p>数据说明了一切：</p>
+<ul>
+  <li>超过<strong>73%的电商流量</strong>现在来自移动设备</li>
+  <li>移动端用户体验差时，转化率比桌面端低3倍</li>
+  <li>Google的Core Web Vitals阈值按移动端（4G网络）衡量</li>
+  <li>移动端页面加载慢1秒，转化率最高下降<strong>20%</strong></li>
+</ul>
+<p>
+  对跨境卖家来说风险更高。东南亚、拉丁美洲、中东市场几乎完全是移动端优先。
+  如果你的独立站通不过移动端SEO审计，你正在损失大量国际营收。
+</p>
+
+<h2>什么是移动端SEO审计？</h2>
+<p>
+  移动端SEO审计检查你网站在移动设备上的表现问题，以及Google如何评估这些表现。
+  全面的审计涵盖：
+</p>
+<ul>
+  <li><strong>移动端Core Web Vitals</strong> — 在移动设备上测量的LCP、CLS、INP</li>
+  <li><strong>视口配置</strong> — <code>&lt;meta name="viewport"&gt;</code>标签</li>
+  <li><strong>响应式设计</strong> — 内容适配所有屏幕尺寸，无需横向滚动</li>
+  <li><strong>点击目标大小</strong> — 按钮和链接够大，能准确点击</li>
+  <li><strong>字体大小</strong> — 无需缩放即可阅读（正文最小16px）</li>
+  <li><strong>图片优化</strong> — 压缩、合理尺寸、懒加载</li>
+  <li><strong>移动端可爬取性</strong> — Googlebot-Mobile能访问所有关键页面</li>
+  <li><strong>hreflang标签</strong> — 为每种语言的移动端用户正确提供</li>
+</ul>
+
+<h2>如何进行移动端SEO审计（分步骤）</h2>
+
+<h3>第1步：运行自动化审计</h3>
+<p>
+  从<strong>SEO Radar X</strong>开始——输入你的独立站URL，30秒内获得免费的30项审计报告，
+  覆盖Core Web Vitals、技术SEO和GEO信号。报告会标记移动端专项问题，
+  包括LCP失败、缺少视口标签和图片尺寸问题。
+</p>
+<p>
+  <a href="/zh" style="color:#3b82f6;font-weight:600;">→ 立即免费检测你的移动端SEO</a>
+</p>
+<p>
+  同时运行Google的<strong>PageSpeed Insights</strong>（免费）——输入你的URL并切换到移动端选项卡。
+  这里的Core Web Vitals分数就是Google用于排名的实际分数。
+</p>
+
+<h3>第2步：检查视口标签</h3>
+<p>
+  你网站的每个页面都需要在<code>&lt;head&gt;</code>中包含这个标签：
+</p>
+<p><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</code></p>
+<p>
+  没有这个标签，移动浏览器会以桌面宽度渲染你的网站然后缩小——导致内容微小、无法使用。
+  大多数现代Shopify主题默认包含此标签，但在主题自定义后值得验证。
+</p>
+
+<h3>第3步：修复Core Web Vitals</h3>
+<ul>
+  <li>
+    <strong>LCP（最大内容绘制）— 目标：2.5秒以内</strong><br/>
+    主要内容（英雄图、产品图）加载完成的时间。修复：压缩英雄图片、使用WebP格式、
+    给图片添加width/height属性、用<code>&lt;link rel="preload"&gt;</code>预加载LCP图片。
+  </li>
+  <li>
+    <strong>CLS（累积布局偏移）— 目标：0.1以下</strong><br/>
+    页面加载时内容跳动的程度（在移动端体验很差）。
+    修复：为图片和嵌入内容设置明确的尺寸。
+  </li>
+  <li>
+    <strong>INP（下次绘制交互）— 目标：200毫秒以内</strong><br/>
+    用户点击按钮或链接后页面响应的速度。修复：减少JavaScript执行时间，延迟非关键脚本。
+  </li>
+</ul>
+
+<h3>第4步：为移动端优化图片</h3>
+<p>图片是Shopify和WordPress独立站移动端加载慢的第一大原因：</p>
+<ul>
+  <li>将所有产品图片转换为<strong>WebP</strong>格式（质量相同但比JPEG小30–50%）</li>
+  <li>为首屏以下的所有图片添加<code>loading="lazy"</code></li>
+  <li>使用Shopify内置图片CDN或WordPress插件（如ShortPixel）</li>
+  <li>产品图片宽度不超过1200px</li>
+  <li>始终包含<code>alt</code>文本——可访问性和图片SEO的必需项</li>
+</ul>
+
+<h3>第5步：检查hreflang在移动端的表现</h3>
+<p>
+  对跨境独立站，hreflang标签必须存在于你的移动端页面中。
+  如果你使用独立的移动子域名（<code>m.yourstore.com</code>），
+  每个移动端URL都需要自己的hreflang标签，而不只是桌面版本。
+  使用SEO Radar X审计来验证。
+</p>
+
+<h2>Shopify独立站常见移动端SEO问题</h2>
+
+<h3>问题1：英雄图片过大</h3>
+<p>
+  这是Shopify中LCP差的最常见原因。许多主题使用2000px以上的英雄图片，
+  在移动网络上加载很慢。修复：为移动端上传1200px版本，或使用Shopify图片CDN：
+  <code>{{ image | image_url: width: 1200 }}</code>
+</p>
+
+<h3>问题2：第三方应用脚本阻塞渲染</h3>
+<p>
+  评价应用、聊天小部件和积分程序脚本通常同步加载，阻塞移动端页面渲染。
+  将它们改为异步加载：<code>&lt;script async src="..."&gt;</code>
+</p>
+
+<h3>问题3：不适合移动端的弹窗</h3>
+<p>
+  Google明确惩罚在移动端覆盖主要内容的侵入性插屏广告。
+  将全屏弹窗替换为滑入式横幅或在5秒后显示的底部栏。
+</p>
+
+<h2>常见问题</h2>
+
+<h3>如何审计网站的移动端SEO？</h3>
+<p>
+  最快的方法是结合使用SEO Radar X（免费，30秒自动审计）、
+  Google PageSpeed Insights（免费，Core Web Vitals数据）和
+  Google Search Console的移动端可用性报告（显示移动端抓取错误）。
+  这三个工具合起来覆盖了所有关键的移动端SEO信号。
+</p>
+
+<h3>移动端SEO问题会影响桌面端排名吗？</h3>
+<p>
+  会。因为Google使用移动端优先索引，你的移动端SEO分数会影响所有用户的排名——
+  包括桌面端和移动端用户。修复移动端SEO问题可以全面提升排名。
+</p>
+
+<h3>Shopify独立站最重要的移动端SEO修复是什么？</h3>
+<p>
+  压缩和合理调整英雄图片及产品图片的尺寸。图片大小是LCP分数差的第一大驱动因素，
+  而LCP是Core Web Vitals中权重最高的排名指标。
+  将图片转换为WebP并将Shopify独立站的图片宽度上限设为1200px。
+</p>
+
+<h2>立即免费检测你的移动端SEO</h2>
+<p>
+  输入你的独立站URL，30秒内获得完整的移动端SEO审计报告——
+  覆盖Core Web Vitals、hreflang、Schema标记、图片优化信号以及另外25项检测。
+  无需注册。
+</p>
+<p>
+  <a href="/zh" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ 免费检测你的移动端SEO</a>
+</p>
+      `,
+    },
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // POST 5: Content Audit SEO
+  // Target EN: content audit seo (880,KD19), on site audit (260,KD6),
+  //            what is seo auditing (210,KD31), content auditing by an seo company (320,KD13)
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'content-audit-seo-guide',
+    category: 'seo-guide',
+    date: '2025-05-26',
+    readTime: 9,
+    en: {
+      title: 'Content Audit SEO: Step-by-Step Guide for Shopify & WordPress (2025)',
+      description:
+        'A content audit is one of the highest-ROI SEO activities you can do. This guide shows you exactly how to audit your store\'s content for SEO — what to keep, update, consolidate, or remove.',
+      keywords: [
+        'content audit seo',
+        'what is seo auditing',
+        'on site audit',
+        'seo content audit',
+        'content auditing seo company',
+        'seo audit factors',
+        'website content audit',
+        'seo audit checklist',
+        'shopify content audit',
+      ],
+      content: `
+<h2>What Is a Content Audit in SEO?</h2>
+<p>
+  A content audit is a systematic review of all the pages on your website to evaluate their
+  SEO performance and decide what to do with each one. It's one of the most impactful SEO
+  activities you can do — often producing ranking improvements within weeks without creating
+  a single new page.
+</p>
+<p>
+  For every page on your site, a content audit answers four questions:
+</p>
+<ul>
+  <li><strong>Keep:</strong> High-performing pages — protect rankings, update regularly</li>
+  <li><strong>Improve:</strong> Pages with potential but underperforming — update content, fix SEO issues</li>
+  <li><strong>Consolidate:</strong> Multiple thin pages covering the same topic — merge into one strong page</li>
+  <li><strong>Remove:</strong> Dead pages with no traffic, no links, and no strategic value — delete and redirect</li>
+</ul>
+<p>
+  Cross-border Shopify and WordPress stores benefit especially from content audits because
+  they tend to accumulate duplicate product descriptions, thin category pages, and redundant
+  blog posts across multiple language versions — all of which hurt rankings.
+</p>
+
+<h2>Why Content Audits Are Critical for SEO</h2>
+<p>
+  Google evaluates your site <em>holistically</em>. If 40% of your pages are thin, duplicate,
+  or outdated, that signals low quality across your entire domain — dragging down even your
+  best pages. Removing or improving low-quality content often produces rapid, site-wide
+  ranking improvements.
+</p>
+<p>Key benefits of a regular SEO content audit:</p>
+<ul>
+  <li><strong>Eliminate content cannibalization</strong> — multiple pages competing for the same keyword</li>
+  <li><strong>Consolidate link equity</strong> — merge weaker pages into one authoritative page</li>
+  <li><strong>Fix outdated information</strong> — stale content signals to Google that your site isn't maintained</li>
+  <li><strong>Identify quick-win pages</strong> — pages ranking #8–#15 that need minor updates to reach #1–#3</li>
+  <li><strong>Improve crawl budget</strong> — remove junk pages so Googlebot spends time on pages that matter</li>
+</ul>
+
+<h2>How to Run a Content Audit for SEO (Step by Step)</h2>
+
+<h3>Step 1: Crawl Your Site and Get a Full Page List</h3>
+<p>
+  Start with an automated technical audit to discover all pages and their current SEO status.
+  <strong>SEO Radar X</strong> gives you a 30-point technical and on-page audit of any URL in 30 seconds —
+  revealing missing title tags, duplicate meta descriptions, thin content signals, and more.
+</p>
+<p>
+  For a full site crawl, also use <strong>Screaming Frog</strong> (free up to 500 URLs) or
+  <strong>Sitebulb</strong> to get a complete URL inventory with HTTP status codes,
+  word counts, and meta data.
+</p>
+<p>
+  <a href="/en" style="color:#3b82f6;font-weight:600;">→ Start with a free technical + content SEO audit</a>
+</p>
+
+<h3>Step 2: Pull Performance Data from Google Search Console</h3>
+<p>
+  Export your Search Console Performance report (last 12 months) with these columns:
+  URL, Impressions, Clicks, Average Position. This tells you which pages Google is seeing
+  and which are actually driving traffic.
+</p>
+<p>
+  Combine this with Google Analytics sessions per page. Together you have:
+</p>
+<ul>
+  <li><strong>Impressions but no clicks</strong> → bad title/meta, needs rewriting</li>
+  <li><strong>Good position but no impressions</strong> → wrong keywords, needs re-targeting</li>
+  <li><strong>Zero impressions</strong> → not indexed, or indexability issue</li>
+  <li><strong>High traffic but poor engagement</strong> → content doesn't match search intent</li>
+</ul>
+
+<h3>Step 3: Categorize Every Page</h3>
+<p>
+  Create a spreadsheet with one row per URL. Add columns for:
+  Impressions, Clicks, Position, Word Count, Last Updated, Backlinks, Action.
+  Then assign each page one of four actions:
+</p>
+<ul>
+  <li><strong>Keep &amp; Protect</strong> — Top 20% of pages by traffic and rankings</li>
+  <li><strong>Update &amp; Improve</strong> — Position 8–20 with real impressions; thin content with backlinks</li>
+  <li><strong>Consolidate</strong> — Topically similar pages that split traffic and links</li>
+  <li><strong>Remove &amp; Redirect</strong> — Zero impressions, zero backlinks, outdated info</li>
+</ul>
+
+<h3>Step 4: Fix On-Page SEO Issues on "Improve" Pages</h3>
+<p>
+  For pages you've flagged to improve, check these on-page SEO factors:
+</p>
+<ul>
+  <li><strong>Title tag</strong> — includes primary keyword, under 60 characters, compelling</li>
+  <li><strong>Meta description</strong> — 120–160 characters, includes keyword, clear value proposition</li>
+  <li><strong>H1 tag</strong> — one H1 per page, matches search intent</li>
+  <li><strong>Content depth</strong> — covers the topic more completely than ranking competitors</li>
+  <li><strong>Internal links</strong> — links to and from related pages on your site</li>
+  <li><strong>Schema markup</strong> — FAQPage, Product, or Article Schema where relevant</li>
+  <li><strong>Image alt text</strong> — all images have descriptive alt text</li>
+</ul>
+<p>
+  Run each improved page through SEO Radar X to verify all technical issues are resolved.
+</p>
+
+<h3>Step 5: Consolidate Thin or Duplicate Pages</h3>
+<p>
+  Content consolidation is often the highest-ROI step in a content audit.
+  When you have 3 pages all targeting "Shopify SEO tips" with 300 words each,
+  merging them into one 1,200-word definitive guide concentrates all their link equity
+  and sends a stronger topical signal to Google.
+</p>
+<p>Process:</p>
+<ol>
+  <li>Choose the URL with the most backlinks or best current ranking as the canonical target</li>
+  <li>Write a new, comprehensive version that incorporates the best content from all merged pages</li>
+  <li>Set up 301 redirects from the old URLs to the new target URL</li>
+  <li>Update all internal links to point to the new URL</li>
+</ol>
+
+<h3>Step 6: Remove and Redirect Junk Pages</h3>
+<p>
+  Pages with zero value should be deleted and 301-redirected to the most relevant page.
+  Common candidates in Shopify stores:
+</p>
+<ul>
+  <li>Discontinued product pages (redirect to the category or a replacement product)</li>
+  <li>Old sale or seasonal pages ("Black Friday 2021") with no evergreen value</li>
+  <li>Tag pages in WordPress that duplicate category content</li>
+  <li>Thin "About" or "Shipping" pages under 200 words with no backlinks</li>
+  <li>Duplicate pages from multi-language setup errors</li>
+</ul>
+
+<h2>Content Audit SEO Checklist</h2>
+<table style="width:100%;border-collapse:collapse;margin:1.5rem 0;">
+  <thead>
+    <tr style="background:#1e3a5f;color:#e2e8f0;">
+      <th style="padding:10px 14px;text-align:left;border:1px solid #2d4a7a;">Task</th>
+      <th style="padding:10px 14px;text-align:left;border:1px solid #2d4a7a;">Tool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#0f1729;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Crawl site and get full URL inventory</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Screaming Frog / SEO Radar X</td>
+    </tr>
+    <tr style="background:#0c1322;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Export Search Console impressions + clicks</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Google Search Console</td>
+    </tr>
+    <tr style="background:#0f1729;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Identify pages with missing/duplicate titles</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">SEO Radar X</td>
+    </tr>
+    <tr style="background:#0c1322;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Flag thin pages (under 300 words)</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Screaming Frog word count</td>
+    </tr>
+    <tr style="background:#0f1729;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Identify content cannibalization</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Semrush / manual GSC review</td>
+    </tr>
+    <tr style="background:#0c1322;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Check hreflang consistency across language versions</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">SEO Radar X</td>
+    </tr>
+    <tr style="background:#0f1729;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Verify Schema markup on key pages</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">SEO Radar X / Google Rich Results Test</td>
+    </tr>
+    <tr style="background:#0c1322;">
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Set up 301 redirects for removed pages</td>
+      <td style="padding:10px 14px;border:1px solid #1e3a5f;">Shopify Redirects / WordPress Redirection</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>How Often Should You Do an SEO Content Audit?</h2>
+<p>
+  For most Shopify and WordPress stores:
+</p>
+<ul>
+  <li><strong>Full content audit:</strong> Once per year</li>
+  <li><strong>Quarterly quick review:</strong> Check Search Console for pages that have dropped in rankings</li>
+  <li><strong>Ongoing:</strong> Run a new page audit whenever you publish a new collection, blog post, or landing page</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is SEO auditing?</h3>
+<p>
+  SEO auditing is the process of systematically analyzing a website to identify technical,
+  on-page, and off-page issues that are limiting its search engine rankings.
+  A content audit is one component of a full SEO audit, focusing specifically on the
+  quality and optimization of your pages' content.
+</p>
+
+<h3>How long does a content audit take?</h3>
+<p>
+  For a 50–200 page Shopify store: 2–4 hours for the audit itself, plus 1–3 days to
+  implement fixes. For a larger WordPress blog with 500+ pages: 1–2 days for the audit.
+  Automated tools like SEO Radar X reduce the per-page audit time to seconds.
+</p>
+
+<h3>Should I remove thin content pages or improve them?</h3>
+<p>
+  It depends on whether the page has backlinks or impressions in Google Search Console.
+  If a page has zero backlinks and zero impressions, delete and redirect it.
+  If it has backlinks or some impressions, improve it rather than deleting it —
+  you'd lose the link equity by deleting.
+</p>
+
+<h3>What's the difference between a technical SEO audit and a content audit?</h3>
+<p>
+  A <strong>technical SEO audit</strong> focuses on how search engines crawl and index your site:
+  site speed, crawlability, hreflang, Schema markup, canonical tags, and so on.
+  A <strong>content audit</strong> evaluates the quality and relevance of your actual page content.
+  Both are needed for a complete SEO strategy — technical issues prevent indexing,
+  content issues prevent ranking.
+</p>
+
+<h2>Start Your Content Audit Today</h2>
+<p>
+  The best first step for any content audit is a technical baseline — finding pages with
+  missing titles, duplicate content signals, hreflang errors, or Schema issues that are
+  undermining your rankings regardless of content quality.
+</p>
+<p>
+  Run a free audit on any page with SEO Radar X to get an instant technical + on-page
+  snapshot. Then use that data as the starting point for your full content audit.
+</p>
+<p>
+  <a href="/en" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ Run your free on-site SEO audit now</a>
+</p>
+      `,
+    },
+    zh: {
+      title: 'SEO内容审计完整指南：Shopify独立站分步操作（2025年）',
+      description:
+        'SEO内容审计是ROI最高的SEO活动之一。本指南教你如何审计独立站内容——哪些页面保留、更新、合并或删除。',
+      keywords: [
+        'SEO内容审计',
+        '网站内容审计',
+        '独立站SEO审计',
+        'SEO审计是什么',
+        '内容优化SEO',
+        'Shopify内容审计',
+        '页面SEO检查',
+        '内容质量SEO',
+        '站内SEO审计',
+      ],
+      content: `
+<h2>什么是SEO内容审计？</h2>
+<p>
+  内容审计是对网站上所有页面进行系统性评估，分析其SEO表现并决定如何处理每个页面。
+  这是你能做的ROI最高的SEO活动之一——通常无需创建任何新页面就能在数周内带来排名提升。
+</p>
+<p>对于网站上的每个页面，内容审计回答四个问题：</p>
+<ul>
+  <li><strong>保留：</strong>高表现页面——保护排名，定期更新</li>
+  <li><strong>改进：</strong>有潜力但表现不佳的页面——更新内容，修复SEO问题</li>
+  <li><strong>合并：</strong>覆盖同一主题的多个薄弱页面——整合为一个强势页面</li>
+  <li><strong>删除：</strong>没有流量、没有外链、没有战略价值的死页面——删除并重定向</li>
+</ul>
+<p>
+  跨境Shopify和WordPress独立站尤其受益于内容审计，因为它们往往积累了大量重复的产品描述、
+  内容稀薄的分类页面以及多语言版本中的冗余博客文章——这些都会损害排名。
+</p>
+
+<h2>为什么内容审计对SEO至关重要</h2>
+<p>
+  Google对你的网站进行<em>整体评估</em>。如果40%的页面内容稀薄、重复或过时，
+  这会向Google发出整个域名质量低的信号——拖累即使是你最好的页面。
+  删除或改进低质量内容通常能带来快速的全站排名提升。
+</p>
+<p>定期SEO内容审计的主要好处：</p>
+<ul>
+  <li><strong>消除关键词互相蚕食</strong> — 多个页面竞争同一关键词</li>
+  <li><strong>整合链接权重</strong> — 将较弱的页面合并为一个权威页面</li>
+  <li><strong>修复过时信息</strong> — 陈旧内容向Google表明你的网站缺乏维护</li>
+  <li><strong>发现快速提升机会</strong> — 排名第8–15位、只需少量更新就能冲进前3的页面</li>
+  <li><strong>改善爬取预算</strong> — 删除无用页面，让Googlebot将时间花在重要页面上</li>
+</ul>
+
+<h2>如何进行SEO内容审计（分步骤）</h2>
+
+<h3>第1步：爬取网站获取完整页面列表</h3>
+<p>
+  从自动化技术审计开始，发现所有页面及其当前SEO状态。
+  <strong>SEO Radar X</strong>能在30秒内给出任何URL的30项技术和页面内容审计——
+  揭示缺失的标题标签、重复的meta描述、内容稀薄信号等问题。
+</p>
+<p>
+  <a href="/zh" style="color:#3b82f6;font-weight:600;">→ 开始免费技术+内容SEO审计</a>
+</p>
+
+<h3>第2步：从Google Search Console提取表现数据</h3>
+<p>
+  导出最近12个月的Search Console表现报告，包含URL、展示次数、点击次数、平均排名。
+  结合Google Analytics的每页会话数，你就能判断：
+</p>
+<ul>
+  <li><strong>有展示但没点击</strong> → 标题/meta不吸引人，需要重写</li>
+  <li><strong>排名好但没展示</strong> → 关键词错误，需要重新定位</li>
+  <li><strong>零展示</strong> → 未被收录，或有可索引性问题</li>
+  <li><strong>高流量但参与度差</strong> → 内容与搜索意图不符</li>
+</ul>
+
+<h3>第3步：对每个页面进行分类</h3>
+<p>
+  创建一个电子表格，每个URL一行，包含展示次数、点击次数、排名、字数、最后更新时间、外链数量、处理动作。
+  然后为每个页面分配以下四个动作之一：
+</p>
+<ul>
+  <li><strong>保留并保护</strong> — 按流量和排名排名前20%的页面</li>
+  <li><strong>更新并改进</strong> — 排名第8–20位且有真实展示量的页面；有外链的薄弱内容页面</li>
+  <li><strong>合并</strong> — 主题相似、分散流量和链接的页面</li>
+  <li><strong>删除并重定向</strong> — 零展示、零外链、信息过时的页面</li>
+</ul>
+
+<h3>第4步：修复"改进"页面的页面SEO问题</h3>
+<p>对你标记为需要改进的页面，检查这些页面SEO因素：</p>
+<ul>
+  <li><strong>标题标签</strong> — 包含主要关键词，60字符以内，有吸引力</li>
+  <li><strong>Meta描述</strong> — 120–160字符，包含关键词，明确的价值主张</li>
+  <li><strong>H1标签</strong> — 每页一个H1，符合搜索意图</li>
+  <li><strong>内容深度</strong> — 比排名靠前的竞争对手更全面地覆盖主题</li>
+  <li><strong>内部链接</strong> — 与网站其他相关页面互相链接</li>
+  <li><strong>Schema标记</strong> — 在适当的地方添加FAQPage、Product或Article Schema</li>
+  <li><strong>图片alt文本</strong> — 所有图片都有描述性alt文本</li>
+</ul>
+
+<h3>第5步：合并薄弱或重复页面</h3>
+<p>
+  内容合并通常是内容审计中ROI最高的步骤。
+  当你有3个页面都在针对"Shopify SEO技巧"，每个只有300字时，
+  将它们合并为一篇1200字的权威指南，能集中所有页面的链接权重，
+  并向Google发送更强的主题信号。
+</p>
+<ol>
+  <li>选择外链最多或当前排名最好的URL作为规范目标</li>
+  <li>写一个新的综合版本，整合所有合并页面的最佳内容</li>
+  <li>设置从旧URL到新目标URL的301重定向</li>
+  <li>更新所有内部链接指向新URL</li>
+</ol>
+
+<h3>第6步：删除无价值页面并重定向</h3>
+<p>没有价值的页面应该删除并通过301重定向到最相关的页面。Shopify独立站的常见候选：</p>
+<ul>
+  <li>已停产产品页面（重定向到该类别或替代产品）</li>
+  <li>旧的促销或季节性页面（如"2021年黑五活动"）</li>
+  <li>WordPress中复制分类内容的标签页面</li>
+  <li>200字以下、没有外链的薄弱"关于我们"或"配送"页面</li>
+  <li>多语言设置错误产生的重复页面</li>
+</ul>
+
+<h2>常见问题</h2>
+
+<h3>SEO审计是什么？</h3>
+<p>
+  SEO审计是系统性分析网站、识别限制其搜索引擎排名的技术、页面和外部问题的过程。
+  内容审计是完整SEO审计的一个组成部分，专注于评估页面内容的质量和优化程度。
+</p>
+
+<h3>内容审计需要多长时间？</h3>
+<p>
+  对于50–200页的Shopify独立站：审计本身需要2–4小时，实施修复需要1–3天。
+  对于有500+页面的大型WordPress博客：审计需要1–2天。
+  SEO Radar X等自动化工具将每页审计时间缩短到几秒钟。
+</p>
+
+<h3>内容稀薄的页面应该删除还是改进？</h3>
+<p>
+  取决于该页面是否有外链或在Google Search Console中有展示次数。
+  如果一个页面零外链、零展示，删除并重定向。
+  如果有外链或一些展示次数，改进而不是删除——删除会损失链接权重。
+</p>
+
+<h3>技术SEO审计和内容审计有什么区别？</h3>
+<p>
+  <strong>技术SEO审计</strong>关注搜索引擎如何爬取和索引你的网站：
+  网站速度、可爬取性、hreflang、Schema标记、canonical标签等。
+  <strong>内容审计</strong>评估实际页面内容的质量和相关性。
+  两者都需要：技术问题阻止索引，内容问题阻止排名。
+</p>
+
+<h2>立即开始你的内容审计</h2>
+<p>
+  任何内容审计的最佳第一步是技术基线——找到缺失标题、重复内容信号、hreflang错误
+  或Schema问题，这些技术问题会在内容质量无关的情况下损害你的排名。
+</p>
+<p>
+  使用SEO Radar X对任何页面进行免费审计，30秒内获得即时的技术+页面内容快照。
+  然后将这些数据作为完整内容审计的起点。
+</p>
+<p>
+  <a href="/zh" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ 立即免费检测你的站内SEO</a>
+</p>
+      `,
+    },
+  },
 ]
 
 /** Return a post by slug (locale-independent) */
