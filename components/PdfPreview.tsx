@@ -33,6 +33,9 @@ export default function PdfPreview({ auditId, paid }: Props) {
   }
 
   if (paid) {
+    // Primary language = current UI locale; secondary = the other language
+    const primaryLang  = zh ? 'zh' : 'en'
+    const secondaryLang = zh ? 'en' : 'zh'
     return (
       <div className="rounded-2xl border border-emerald-700/50 bg-emerald-950/20 p-5">
         <div className="flex items-center gap-2 mb-4">
@@ -41,20 +44,20 @@ export default function PdfPreview({ auditId, paid }: Props) {
             {zh ? '报告已解锁' : 'Report Unlocked'}
           </span>
         </div>
-        <div className="flex gap-2">
-          <button
-            onClick={() => handleDownload('zh')}
-            className="flex-1 bg-emerald-700 hover:bg-emerald-600 text-white rounded-xl py-2.5 text-sm font-semibold transition-colors"
-          >
-            🇨🇳 {zh ? '下载中文版' : 'Download CN'}
-          </button>
-          <button
-            onClick={() => handleDownload('en')}
-            className="flex-1 bg-blue-700 hover:bg-blue-600 text-white rounded-xl py-2.5 text-sm font-semibold transition-colors"
-          >
-            🇺🇸 {zh ? '下载英文版' : 'Download EN'}
-          </button>
-        </div>
+        {/* Primary download — matches current UI language */}
+        <button
+          onClick={() => handleDownload(primaryLang)}
+          className="w-full bg-emerald-700 hover:bg-emerald-600 text-white rounded-xl py-3 text-sm font-bold transition-colors mb-2"
+        >
+          📄 {zh ? '下载中文PDF报告' : 'Download English PDF Report'}
+        </button>
+        {/* Secondary download — other language, smaller */}
+        <button
+          onClick={() => handleDownload(secondaryLang)}
+          className="w-full border border-[#1e3a5f] hover:border-[#2a5a8f] text-[#64748b] hover:text-[#94a3b8] rounded-xl py-2 text-xs font-medium transition-colors"
+        >
+          {zh ? '🇺🇸 Also download English version' : '🇨🇳 同时下载中文版'}
+        </button>
       </div>
     )
   }
