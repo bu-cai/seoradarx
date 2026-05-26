@@ -36,6 +36,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       alternates: { languages: { en: `${base}/en/blog`, zh: `${base}/zh/blog` } },
     },
+    // Pricing pages
+    {
+      url: `${base}/zh/pricing`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+      alternates: { languages: { en: `${base}/en/pricing`, zh: `${base}/zh/pricing` } },
+    },
+    {
+      url: `${base}/en/pricing`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+      alternates: { languages: { en: `${base}/en/pricing`, zh: `${base}/zh/pricing` } },
+    },
     {
       url: `${base}/zh/privacy`,
       lastModified: now,

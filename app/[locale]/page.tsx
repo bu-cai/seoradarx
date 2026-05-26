@@ -69,6 +69,12 @@ export default async function HomePage() {
         </div>
         <div className="flex items-center gap-4">
           <Link
+            href={`/${locale}/pricing`}
+            className="hidden sm:inline-flex text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors font-medium"
+          >
+            {zh ? '价格' : 'Pricing'}
+          </Link>
+          <Link
             href={`/${locale}/blog`}
             className="hidden sm:inline-flex text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors font-medium"
           >

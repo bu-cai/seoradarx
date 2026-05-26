@@ -1,6 +1,12 @@
+import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { prisma } from '@/lib/db'
 import ResultsClient from './ResultsClient'
+
+// Audit result pages are private/dynamic — exclude from Google index
+export const metadata: Metadata = {
+  robots: { index: false, follow: false },
+}
 
 export default async function ResultsPage({
   params,
