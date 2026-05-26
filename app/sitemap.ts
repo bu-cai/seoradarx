@@ -51,6 +51,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       alternates: { languages: { en: `${base}/en/pricing`, zh: `${base}/zh/pricing` } },
     },
+    // Hreflang checker landing pages
+    {
+      url: `${base}/zh/hreflang-checker`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+      alternates: { languages: { en: `${base}/en/hreflang-checker`, zh: `${base}/zh/hreflang-checker` } },
+    },
+    {
+      url: `${base}/en/hreflang-checker`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+      alternates: { languages: { en: `${base}/en/hreflang-checker`, zh: `${base}/zh/hreflang-checker` } },
+    },
     {
       url: `${base}/zh/privacy`,
       lastModified: now,
