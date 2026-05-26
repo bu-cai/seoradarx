@@ -6,6 +6,7 @@ import CategoryBar from '@/components/CategoryBar'
 import IssueCard from '@/components/IssueCard'
 import PlatformBadge from '@/components/PlatformBadge'
 import PdfPreview from '@/components/PdfPreview'
+import ScoreHistory from '@/components/ScoreHistory'
 import LanguageSwitcher from '@/components/LanguageSwitcher'
 import type { AuditCheck } from '@/lib/auditor'
 
@@ -350,6 +351,9 @@ export default function ResultsClient({ audit, locale }: Props) {
 
               {/* PDF Download */}
               <PdfPreview auditId={audit.id} paid={audit.paid} score={audit.score} />
+
+              {/* Score History */}
+              <ScoreHistory url={audit.url} currentId={audit.id} locale={locale} />
             </div>
           </div>
 
