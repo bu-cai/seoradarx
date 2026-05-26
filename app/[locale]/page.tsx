@@ -413,32 +413,104 @@ export default async function HomePage() {
       </section>
 
       {/* ── Footer ── */}
-      <footer className="border-t border-[#1e3a5f] px-6 py-8">
+      <footer className="border-t border-[#1e3a5f] px-6 pt-10 pb-8">
         <div className="max-w-5xl mx-auto">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-4">
-            <div className="flex items-center gap-2 text-sm text-[#64748b]">
-              <div className="w-5 h-5 bg-blue-600 rounded flex items-center justify-center text-white text-xs font-bold">S</div>
-              <span className="font-semibold text-[#94a3b8]">SEO Radar X</span>
-              <span>· {new Date().getFullYear()}</span>
+          {/* Top row: brand + columns */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 mb-10">
+            {/* Brand */}
+            <div className="col-span-2 sm:col-span-1">
+              <div className="flex items-center gap-2 mb-3">
+                <div className="w-7 h-7 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">S</div>
+                <span className="font-bold text-[#e2e8f0] text-sm">SEO Radar X</span>
+              </div>
+              <p className="text-xs text-[#4a5568] leading-relaxed">
+                {zh
+                  ? '专为跨境卖家打造的 GEO + SEO 检测工具'
+                  : 'GEO + SEO audit tool for cross-border sellers'}
+              </p>
             </div>
-            <div className="flex gap-6">
-              <a href={`/${locale}/privacy`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
-                {t('footer.privacy')}
-              </a>
-              <a href={`/${locale}/terms`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
-                {t('footer.terms')}
-              </a>
-              <a href="mailto:support@seoradarx.com" className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
-                {t('footer.contact')}
-              </a>
+            {/* Tools */}
+            <div>
+              <div className="text-xs font-bold text-[#94a3b8] uppercase tracking-wider mb-3">
+                {zh ? '工具' : 'Tools'}
+              </div>
+              <ul className="space-y-2">
+                <li>
+                  <Link href={`/${locale}`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {zh ? '免费SEO检测' : 'Free SEO Audit'}
+                  </Link>
+                </li>
+                <li>
+                  <Link href={`/${locale}/hreflang-checker`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {zh ? 'Hreflang 检测' : 'Hreflang Checker'}
+                  </Link>
+                </li>
+                <li>
+                  <Link href={`/${locale}/pricing`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {zh ? '价格方案' : 'Pricing'}
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            {/* Resources */}
+            <div>
+              <div className="text-xs font-bold text-[#94a3b8] uppercase tracking-wider mb-3">
+                {zh ? '资源' : 'Resources'}
+              </div>
+              <ul className="space-y-2">
+                <li>
+                  <Link href={`/${locale}/blog`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {zh ? 'SEO 博客' : 'SEO Blog'}
+                  </Link>
+                </li>
+                <li>
+                  <Link href={`/${locale}/blog/best-llm-seo-tools`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {zh ? 'AI SEO 工具指南' : 'Best AI SEO Tools'}
+                  </Link>
+                </li>
+                <li>
+                  <Link href={`/${locale}/blog/white-label-seo-audit-tool-agencies`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {zh ? '白标SEO工具' : 'White-Label SEO'}
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            {/* Legal */}
+            <div>
+              <div className="text-xs font-bold text-[#94a3b8] uppercase tracking-wider mb-3">
+                {zh ? '法律' : 'Legal'}
+              </div>
+              <ul className="space-y-2">
+                <li>
+                  <Link href={`/${locale}/privacy`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {t('footer.privacy')}
+                  </Link>
+                </li>
+                <li>
+                  <Link href={`/${locale}/terms`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {t('footer.terms')}
+                  </Link>
+                </li>
+                <li>
+                  <a href="mailto:support@seoradarx.com" className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {t('footer.contact')}
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
-          {/* About snippet — EEAT signal */}
-          <p className="text-xs text-[#64748b] text-center leading-relaxed">
-            {zh
-              ? 'SEO Radar X 由一支专注跨境电商增长的团队构建，致力于帮助 Shopify 和 WordPress 独立站卖家发现并修复阻碍谷歌排名的 GEO 与 SEO 问题。'
-              : 'SEO Radar X is built by a team focused on cross-border e-commerce growth, helping Shopify and WordPress store owners discover and fix the GEO and SEO issues blocking their Google rankings.'}
-          </p>
+
+          {/* Bottom row */}
+          <div className="border-t border-[#1e3a5f]/40 pt-5 flex flex-col sm:flex-row items-center justify-between gap-3">
+            <p className="text-xs text-[#4a5568]">
+              © {new Date().getFullYear()} SEO Radar X. {zh ? '保留所有权利。' : 'All rights reserved.'}
+            </p>
+            <p className="text-xs text-[#4a5568] text-center leading-relaxed max-w-sm">
+              {zh
+                ? '专为 Shopify 和 WordPress 跨境卖家打造，发现并修复 GEO + SEO 问题。'
+                : 'Built for Shopify & WordPress cross-border sellers. Detect and fix GEO + SEO issues.'}
+            </p>
+          </div>
         </div>
       </footer>
 
