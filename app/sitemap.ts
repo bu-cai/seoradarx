@@ -51,6 +51,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       alternates: { languages: { en: `${base}/en/pricing`, zh: `${base}/zh/pricing` } },
     },
+    // White-label landing pages
+    {
+      url: `${base}/zh/white-label-seo-audit`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+      alternates: { languages: { en: `${base}/en/white-label-seo-audit`, zh: `${base}/zh/white-label-seo-audit` } },
+    },
+    {
+      url: `${base}/en/white-label-seo-audit`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+      alternates: { languages: { en: `${base}/en/white-label-seo-audit`, zh: `${base}/zh/white-label-seo-audit` } },
+    },
+    // Agency landing pages
+    {
+      url: `${base}/zh/seo-audit-agencies`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+      alternates: { languages: { en: `${base}/en/seo-audit-agencies`, zh: `${base}/zh/seo-audit-agencies` } },
+    },
+    {
+      url: `${base}/en/seo-audit-agencies`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+      alternates: { languages: { en: `${base}/en/seo-audit-agencies`, zh: `${base}/zh/seo-audit-agencies` } },
+    },
     // Hreflang checker landing pages
     {
       url: `${base}/zh/hreflang-checker`,
