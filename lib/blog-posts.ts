@@ -1922,6 +1922,955 @@ export const blogPosts: BlogPost[] = [
       `,
     },
   },
+  // ─────────────────────────────────────────────────────────────────────────
+  // POST 6: What Is an SEO Score?
+  // Target EN: what is seo score (480,KD28), what is an seo score (140,KD14),
+  //            best seo score (170,KD30), seo score checker (high CPC)
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'what-is-seo-score',
+    category: 'seo-guide',
+    date: '2026-05-26',
+    readTime: 9,
+    en: {
+      title: 'What Is an SEO Score? (And How to Improve Yours in 2026)',
+      description:
+        'SEO score explained: what it measures, what counts as a good score, and the exact steps to improve your website\'s SEO score fast — for Shopify and WordPress stores.',
+      keywords: [
+        'what is seo score',
+        'what is an seo score',
+        'best seo score',
+        'seo score checker',
+        'website seo score',
+        'how to improve seo score',
+        'seo score meaning',
+      ],
+      content: `
+<h2>What Is an SEO Score?</h2>
+<p>
+  An <strong>SEO score</strong> is a numerical rating — typically from 0 to 100 — that measures how well
+  a website is optimized for search engines. It aggregates dozens of individual signals across technical SEO,
+  on-page content, performance, and international targeting into a single number you can track over time.
+</p>
+<p>
+  Think of it as a report card for your website. Just like a student's GPA reflects performance across
+  multiple subjects, your SEO score reflects your website's health across multiple ranking factors.
+  A higher score means fewer barriers between your pages and the top of Google search results.
+</p>
+<p>
+  <strong>Important caveat:</strong> SEO scores are <em>diagnostic tools</em>, not ranking guarantees.
+  Google doesn't use a single "score" — it evaluates hundreds of signals simultaneously.
+  But a comprehensive SEO score is one of the fastest ways to identify your biggest weaknesses and fix them.
+</p>
+
+<h2>How Is an SEO Score Calculated?</h2>
+<p>Different tools calculate SEO scores differently, but most evaluate five core categories:</p>
+<table>
+  <thead>
+    <tr><th>Category</th><th>What It Measures</th><th>Weight</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Technical SEO</strong></td><td>Crawlability, indexability, HTTPS, sitemap, robots.txt, canonical tags</td><td>~25%</td></tr>
+    <tr><td><strong>On-Page SEO</strong></td><td>Title tags, meta descriptions, H1/H2 structure, keyword usage, content length</td><td>~25%</td></tr>
+    <tr><td><strong>Performance</strong></td><td>Page speed, Core Web Vitals (LCP, CLS, FID), mobile-friendliness</td><td>~20%</td></tr>
+    <tr><td><strong>International / GEO</strong></td><td>Hreflang tags, geo.region meta, x-default, language targeting</td><td>~20%</td></tr>
+    <tr><td><strong>Content Quality</strong></td><td>Word count, image alt text, internal links, Schema markup, Open Graph</td><td>~10%</td></tr>
+  </tbody>
+</table>
+<p>
+  SEO Radar X runs <strong>30 checks</strong> across all five categories and calculates a weighted score out of 100.
+  Each failed check has a specific fix recommendation in English and Chinese — so you know exactly what to fix first.
+</p>
+
+<h2>What's a Good SEO Score?</h2>
+<p>Here's how to interpret your SEO score:</p>
+<table>
+  <thead>
+    <tr><th>Score Range</th><th>Grade</th><th>What It Means</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>85–100</strong></td><td>🟢 Excellent</td><td>Well-optimized. Focus on content strategy and link building.</td></tr>
+    <tr><td><strong>70–84</strong></td><td>🟡 Good</td><td>Minor issues. Fix 3–5 specific items to push rankings up.</td></tr>
+    <tr><td><strong>55–69</strong></td><td>🟠 Average</td><td>Meaningful gaps. Likely missing hreflang, Schema, or speed issues.</td></tr>
+    <tr><td><strong>40–54</strong></td><td>🔴 Poor</td><td>Multiple critical issues blocking Google from indexing correctly.</td></tr>
+    <tr><td><strong>0–39</strong></td><td>⛔ Critical</td><td>Severe technical problems. Google is struggling to crawl your site.</td></tr>
+  </tbody>
+</table>
+<p>
+  In SEO Radar X's analysis of <strong>thousands of Shopify and WordPress cross-border stores</strong>,
+  the average score is around <strong>58/100</strong> — solidly in the "average" range,
+  with hreflang errors and missing geo.region tags being the most common critical failures.
+</p>
+
+<h2>How to Check Your SEO Score for Free</h2>
+<p>
+  You can check your website's SEO score in under 30 seconds using SEO Radar X.
+  Unlike generic tools, it's specifically designed for cross-border Shopify and WordPress stores,
+  so it checks the signals that actually matter for international sellers: hreflang tags,
+  geo.region meta, x-default, multi-currency signals, and more.
+</p>
+<p>
+  <a href="/en" style="color:#3b82f6;font-weight:600;">→ Check Your SEO Score Free (30 seconds, no sign-up)</a>
+</p>
+<p>You'll get a score breakdown across all 5 categories, plus specific fix recommendations for each failed check.</p>
+
+<h2>The 5 Factors That Affect Your SEO Score Most</h2>
+
+<h3>1. Hreflang Tags (International SEO)</h3>
+<p>
+  For cross-border stores, <strong>missing or broken hreflang tags</strong> are the single biggest SEO score killer.
+  Hreflang tells Google which language/region version of your page to show to which user.
+  Without it, Google guesses — and usually gets it wrong, showing your English pages to Chinese users
+  or vice versa. This destroys both rankings and conversions.
+</p>
+<p>
+  <strong>Quick fix:</strong> Add proper hreflang tags to every page, including a correct x-default.
+  See our <a href="/en/hreflang-checker" style="color:#3b82f6;">hreflang checker guide</a> for step-by-step instructions.
+</p>
+
+<h3>2. Page Speed &amp; Core Web Vitals</h3>
+<p>
+  Google uses Core Web Vitals as a ranking factor since 2021. The three key metrics are:
+</p>
+<ul>
+  <li><strong>LCP (Largest Contentful Paint)</strong>: How fast your main content loads. Target: under 2.5s</li>
+  <li><strong>CLS (Cumulative Layout Shift)</strong>: How much your page jumps around while loading. Target: under 0.1</li>
+  <li><strong>FID/INP (Interaction to Next Paint)</strong>: How fast the page responds to user input. Target: under 200ms</li>
+</ul>
+<p>Shopify stores frequently fail LCP due to large hero images. WordPress stores often fail CLS from ads loading after content.</p>
+
+<h3>3. Title Tags &amp; Meta Descriptions</h3>
+<p>
+  Missing, duplicate, or incorrectly-sized title tags and meta descriptions are found in
+  <strong>over 60% of stores</strong> in SEO Radar X's database.
+  Title tags should be 50–60 characters with the primary keyword near the front.
+  Meta descriptions should be 150–160 characters with a clear value proposition.
+</p>
+
+<h3>4. Schema Markup</h3>
+<p>
+  Schema markup (structured data) tells search engines exactly what your content means.
+  For e-commerce stores, <strong>Product Schema</strong> enables rich snippets showing price, availability,
+  and reviews directly in search results — dramatically improving click-through rates.
+  For SaaS tools, <strong>SoftwareApplication Schema</strong> and <strong>FAQPage Schema</strong>
+  can generate answer boxes and featured snippets.
+</p>
+
+<h3>5. Mobile Optimization</h3>
+<p>
+  Google uses mobile-first indexing, meaning it primarily crawls and indexes the mobile version of your website.
+  If your mobile experience has unclickable buttons, text that's too small to read,
+  or content wider than the screen — your rankings suffer even on desktop searches.
+</p>
+
+<h2>How to Improve Your SEO Score: Step-by-Step</h2>
+
+<h3>Step 1: Run a Free Audit to Find Your Baseline</h3>
+<p>
+  Before optimizing anything, you need to know where you stand.
+  <a href="/en" style="color:#3b82f6;">Run a free SEO Radar X audit</a> to get your current score
+  and see exactly which checks you're failing.
+</p>
+
+<h3>Step 2: Fix Critical Issues First (Score: 0–54)</h3>
+<p>
+  If your score is below 55, you have critical technical issues that need immediate attention:
+</p>
+<ul>
+  <li>Add missing hreflang tags if you have multiple language versions</li>
+  <li>Fix any pages returning errors (4xx, 5xx) that appear in your sitemap</li>
+  <li>Enable HTTPS if you're still on HTTP</li>
+  <li>Submit a proper XML sitemap to Google Search Console</li>
+  <li>Check that your robots.txt isn't accidentally blocking key pages</li>
+</ul>
+
+<h3>Step 3: Optimize On-Page Elements (Score: 55–74)</h3>
+<ul>
+  <li>Rewrite title tags that are too short (&lt;30 chars) or too long (&gt;65 chars)</li>
+  <li>Add meta descriptions to every page (many Shopify themes leave these blank)</li>
+  <li>Ensure every page has exactly one H1 tag that includes the primary keyword</li>
+  <li>Add alt text to all images — especially product images on e-commerce stores</li>
+  <li>Implement Product Schema or Article Schema as appropriate</li>
+</ul>
+
+<h3>Step 4: Improve Performance (Score: 75–84)</h3>
+<ul>
+  <li>Compress images — use WebP format and lazy loading for images below the fold</li>
+  <li>Remove unused JavaScript and CSS (especially third-party apps on Shopify)</li>
+  <li>Enable browser caching and use a CDN</li>
+  <li>Fix Core Web Vitals issues identified in Google Search Console</li>
+</ul>
+
+<h3>Step 5: Advanced Optimization (Score: 85+)</h3>
+<ul>
+  <li>Build high-quality backlinks from relevant industry sites</li>
+  <li>Improve content depth — aim for comprehensive guides that answer all related questions</li>
+  <li>Optimize for featured snippets with structured content (tables, numbered lists)</li>
+  <li>Add FAQPage Schema to capture "People Also Ask" boxes</li>
+</ul>
+
+<h2>SEO Score Differences: Shopify vs WordPress</h2>
+<p>
+  The same SEO principles apply to both platforms, but the most common issues differ:
+</p>
+<table>
+  <thead>
+    <tr><th>Issue</th><th>Shopify</th><th>WordPress</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Hreflang setup</td><td>Often missing; needs theme.liquid edit</td><td>Handled by Yoast/WPML if configured</td></tr>
+    <tr><td>Page speed</td><td>App bloat slows LCP</td><td>Plugin bloat + shared hosting</td></tr>
+    <tr><td>Duplicate content</td><td>/collections + /products overlap</td><td>Category + tag pages overlap</td></tr>
+    <tr><td>Schema markup</td><td>Basic Product Schema built-in</td><td>Requires Yoast or Rank Math</td></tr>
+    <tr><td>Sitemap</td><td>Auto-generated (usually fine)</td><td>Requires Yoast plugin</td></tr>
+  </tbody>
+</table>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Does Google use an SEO score to rank websites?</h3>
+<p>
+  No — Google doesn't use a single "SEO score." It evaluates hundreds of individual signals.
+  However, SEO scores from tools like SEO Radar X are useful because they measure the same technical
+  and on-page factors Google cares about, giving you a practical way to identify and prioritize improvements.
+</p>
+
+<h3>How often should I check my SEO score?</h3>
+<p>
+  Check your score after any major site change (new theme, redesign, platform migration),
+  after publishing a batch of new content, and at minimum once per month.
+  Use SEO Radar X's free audit for quick checks and a PDF full report for in-depth analysis.
+</p>
+
+<h3>What's a good SEO score for a new Shopify store?</h3>
+<p>
+  Realistically, most new Shopify stores score between 45–65. Don't panic — the gap between 50 and 75
+  is achievable within 2–4 weeks of focused fixes. Prioritize hreflang (if selling internationally),
+  meta descriptions, and page speed for the fastest score improvements.
+</p>
+
+<h3>Can I improve my SEO score without a developer?</h3>
+<p>
+  Yes, for most fixes. Adding meta descriptions, fixing title tags, submitting a sitemap to Search Console,
+  and adding alt text are all doable in Shopify's admin or WordPress dashboard.
+  Hreflang tags and Schema markup typically require a small code edit — but our full PDF report
+  includes copy-paste code snippets you can hand directly to any developer.
+</p>
+
+<h2>Check Your SEO Score Now — It Takes 30 Seconds</h2>
+<p>
+  Stop guessing what's holding your rankings back. Enter your URL below and get a free SEO score
+  with a full breakdown across 30 checks — hreflang, performance, Schema, Core Web Vitals, and more.
+  No sign-up required.
+</p>
+<p>
+  <a href="/en" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ Get My Free SEO Score Now</a>
+</p>
+      `,
+    },
+    zh: {
+      title: 'SEO分数是什么？（以及如何在2026年快速提升）',
+      description:
+        'SEO分数全面解析：它衡量什么、多少分算好、以及提升Shopify/WordPress独立站SEO分数的具体步骤——附免费检测工具。',
+      keywords: [
+        'seo分数是什么',
+        '网站seo评分',
+        '如何提升seo分数',
+        'seo评分工具',
+        'shopify seo分数',
+        '免费seo检测',
+        'seo健康度检测',
+      ],
+      content: `
+<h2>SEO分数是什么？</h2>
+<p>
+  <strong>SEO分数</strong>是一个通常从0到100的数值评级，用于衡量网站对搜索引擎的优化程度。
+  它将技术SEO、页面内容、性能和国际化定向等数十项指标汇总成一个可跟踪的数字。
+</p>
+<p>
+  把它想象成你网站的"成绩单"。就像学生的GPA反映了多门学科的综合表现，
+  你的SEO分数反映了网站在多个排名因素上的整体健康状态。
+  分数越高，意味着你的页面与谷歌搜索结果前列之间的障碍越少。
+</p>
+<p>
+  <strong>重要提示：</strong>SEO分数是<em>诊断工具</em>，而非排名保证。
+  谷歌不使用单一的"分数"——它同时评估数百个信号。
+  但全面的SEO分数是快速找到最大弱点并加以修复的最有效方式之一。
+</p>
+
+<h2>SEO分数是如何计算的？</h2>
+<p>不同工具的计算方式各有差异，但大多数工具都会评估以下五个核心维度：</p>
+<table>
+  <thead>
+    <tr><th>维度</th><th>衡量内容</th><th>权重</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>技术SEO</strong></td><td>可爬取性、可索引性、HTTPS、站点地图、robots.txt、规范标签</td><td>~25%</td></tr>
+    <tr><td><strong>页面SEO</strong></td><td>标题标签、meta描述、H1/H2结构、关键词使用、内容长度</td><td>~25%</td></tr>
+    <tr><td><strong>性能速度</strong></td><td>页面速度、Core Web Vitals（LCP、CLS、FID）、移动端适配</td><td>~20%</td></tr>
+    <tr><td><strong>国际化/GEO</strong></td><td>Hreflang标签、geo.region元标签、x-default、语言定向</td><td>~20%</td></tr>
+    <tr><td><strong>内容质量</strong></td><td>字数、图片alt文本、内链、Schema标记、Open Graph</td><td>~10%</td></tr>
+  </tbody>
+</table>
+<p>
+  SEO Radar X在所有五个维度上运行<strong>30项检测</strong>，计算出百分制的加权分数。
+  每项失败检测都附有中英双语的具体修复建议——让你清楚知道该先修复什么。
+</p>
+
+<h2>多少分算是好的SEO分数？</h2>
+<p>以下是SEO分数的解读标准：</p>
+<table>
+  <thead>
+    <tr><th>分数区间</th><th>等级</th><th>含义</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>85–100</strong></td><td>🟢 优秀</td><td>优化良好，专注内容策略和外链建设即可。</td></tr>
+    <tr><td><strong>70–84</strong></td><td>🟡 良好</td><td>有小问题，修复3–5个具体项目即可提升排名。</td></tr>
+    <tr><td><strong>55–69</strong></td><td>🟠 一般</td><td>有明显缺口，可能缺少hreflang、Schema或有速度问题。</td></tr>
+    <tr><td><strong>40–54</strong></td><td>🔴 较差</td><td>存在多个阻碍谷歌正确索引的严重问题。</td></tr>
+    <tr><td><strong>0–39</strong></td><td>⛔ 危险</td><td>严重技术问题，谷歌难以爬取你的网站。</td></tr>
+  </tbody>
+</table>
+<p>
+  在SEO Radar X对<strong>数千家Shopify和WordPress跨境独立站</strong>的分析中，
+  平均分约为<strong>58/100</strong>——处于"一般"区间，
+  其中hreflang错误和缺少geo.region标签是最常见的严重失败项。
+</p>
+
+<h2>如何免费检测你的SEO分数</h2>
+<p>
+  使用SEO Radar X可在30秒内检测你网站的SEO分数，无需注册。
+  与通用工具不同，它专为跨境Shopify和WordPress独立站设计，
+  检测真正对国际卖家重要的信号：hreflang标签、geo.region元标签、
+  x-default、多货币信号等。
+</p>
+<p>
+  <a href="/zh" style="color:#3b82f6;font-weight:600;">→ 免费检测我的SEO分数（30秒，无需注册）</a>
+</p>
+<p>你将获得5个维度的分数明细，以及每项失败检测的具体修复建议。</p>
+
+<h2>影响SEO分数最大的5个因素</h2>
+
+<h3>1. Hreflang标签（国际SEO）</h3>
+<p>
+  对于跨境独立站来说，<strong>缺少或错误的hreflang标签</strong>是SEO分数最大的杀手。
+  Hreflang告诉谷歌应该向哪些用户展示哪个语言/地区版本的页面。
+  没有它，谷歌只能猜测——通常会猜错，向中文用户显示英文页面，或反之。
+  这会同时损害排名和转化率。
+</p>
+<p>
+  <strong>快速修复：</strong>为每个页面添加正确的hreflang标签，包括正确的x-default。
+  查看我们的<a href="/zh/hreflang-checker" style="color:#3b82f6;">hreflang检测指南</a>获取分步操作说明。
+</p>
+
+<h3>2. 页面速度与Core Web Vitals</h3>
+<p>谷歌自2021年起将Core Web Vitals作为排名因素。三个关键指标是：</p>
+<ul>
+  <li><strong>LCP（最大内容渲染）</strong>：主要内容加载速度。目标：2.5秒以内</li>
+  <li><strong>CLS（累积布局偏移）</strong>：页面加载时的跳动程度。目标：0.1以下</li>
+  <li><strong>INP（交互响应时间）</strong>：页面响应用户操作的速度。目标：200ms以内</li>
+</ul>
+<p>Shopify独立站通常因大图横幅导致LCP失败；WordPress独立站常因广告在内容后加载导致CLS失败。</p>
+
+<h3>3. 标题标签与Meta描述</h3>
+<p>
+  在SEO Radar X数据库中，<strong>超过60%的独立站</strong>存在缺失、重复或尺寸不当的标题和描述问题。
+  标题标签应为50–60字符，主关键词靠前；
+  Meta描述应为150–160字符，包含清晰的价值主张。
+</p>
+
+<h3>4. Schema标记</h3>
+<p>
+  Schema标记（结构化数据）向搜索引擎精确说明你的内容含义。
+  对于电商独立站，<strong>商品Schema</strong>能在搜索结果中直接显示价格、库存和评价的富媒体摘要——
+  大幅提升点击率。
+  对于SaaS工具，<strong>SoftwareApplication Schema</strong>和<strong>FAQPage Schema</strong>
+  可以生成答案框和精选摘要。
+</p>
+
+<h3>5. 移动端优化</h3>
+<p>
+  谷歌使用移动优先索引，主要抓取和索引网站的移动端版本。
+  如果移动端有按钮无法点击、文字太小难以阅读、内容超出屏幕宽度，
+  即使在桌面端搜索中排名也会受影响。
+</p>
+
+<h2>如何提升SEO分数：分步操作指南</h2>
+
+<h3>第1步：运行免费审计，建立基准线</h3>
+<p>
+  优化之前，先了解当前状态。
+  <a href="/zh" style="color:#3b82f6;">运行SEO Radar X免费审计</a>，获取当前分数，
+  并清楚看到哪些检测项目失败了。
+</p>
+
+<h3>第2步：优先修复严重问题（分数0–54）</h3>
+<p>如果分数低于55，有严重技术问题需要立即处理：</p>
+<ul>
+  <li>如果有多语言版本，添加缺失的hreflang标签</li>
+  <li>修复站点地图中出现的错误页面（4xx、5xx）</li>
+  <li>如果仍在使用HTTP，启用HTTPS</li>
+  <li>向Google Search Console提交正确的XML站点地图</li>
+  <li>检查robots.txt是否意外屏蔽了重要页面</li>
+</ul>
+
+<h3>第3步：优化页面元素（分数55–74）</h3>
+<ul>
+  <li>重写过短（&lt;30字符）或过长（&gt;65字符）的标题标签</li>
+  <li>为每个页面添加Meta描述（许多Shopify主题默认留空）</li>
+  <li>确保每个页面有且仅有一个包含主关键词的H1标签</li>
+  <li>为所有图片添加alt文本——尤其是电商独立站的商品图片</li>
+  <li>根据页面类型实施商品Schema或文章Schema</li>
+</ul>
+
+<h3>第4步：提升性能（分数75–84）</h3>
+<ul>
+  <li>压缩图片——使用WebP格式，对首屏以下的图片使用懒加载</li>
+  <li>删除未使用的JavaScript和CSS（尤其是Shopify上的第三方应用）</li>
+  <li>启用浏览器缓存并使用CDN</li>
+  <li>修复Google Search Console中发现的Core Web Vitals问题</li>
+</ul>
+
+<h3>第5步：进阶优化（分数85+）</h3>
+<ul>
+  <li>从相关行业网站建立高质量外链</li>
+  <li>提升内容深度——创作能回答所有相关问题的综合指南</li>
+  <li>用结构化内容（表格、编号列表）优化精选摘要</li>
+  <li>添加FAQPage Schema以获取"相关问题"展示框</li>
+</ul>
+
+<h2>Shopify vs WordPress SEO分数差异</h2>
+<p>两个平台适用相同的SEO原则，但最常见的问题不同：</p>
+<table>
+  <thead>
+    <tr><th>问题类型</th><th>Shopify</th><th>WordPress</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Hreflang设置</td><td>通常缺失，需编辑theme.liquid</td><td>配置正确则由Yoast/WPML处理</td></tr>
+    <tr><td>页面速度</td><td>应用过多导致LCP偏慢</td><td>插件过多+共享主机影响速度</td></tr>
+    <tr><td>重复内容</td><td>/collections和/products页面重叠</td><td>分类页和标签页内容重叠</td></tr>
+    <tr><td>Schema标记</td><td>内置基础商品Schema</td><td>需要Yoast或Rank Math插件</td></tr>
+    <tr><td>站点地图</td><td>自动生成（通常没问题）</td><td>需要Yoast插件</td></tr>
+  </tbody>
+</table>
+
+<h2>常见问题</h2>
+
+<h3>谷歌会用SEO分数来排名网站吗？</h3>
+<p>
+  不会——谷歌不使用单一的"SEO分数"。它同时评估数百个独立信号。
+  但SEO Radar X等工具的SEO分数非常有用，因为它们衡量的是谷歌真正关心的技术和页面因素，
+  为你提供识别和优先修复问题的实用方法。
+</p>
+
+<h3>我应该多久检测一次SEO分数？</h3>
+<p>
+  在任何重大网站变更后（新主题、重新设计、平台迁移），
+  在批量发布新内容后，以及每月至少检测一次。
+  使用SEO Radar X的免费审计进行快速检测，使用PDF完整报告进行深度分析。
+</p>
+
+<h3>新Shopify独立站的SEO分数多少算正常？</h3>
+<p>
+  现实情况是，大多数新Shopify独立站的分数在45–65之间。
+  不必恐慌——从50分到75分在2–4周的专注修复内是完全可以实现的。
+  对于国际卖家，优先修复hreflang（如果有多语言版本）、Meta描述和页面速度，
+  这些是提分最快的项目。
+</p>
+
+<h3>不懂代码也能提升SEO分数吗？</h3>
+<p>
+  大多数修复都可以。添加Meta描述、修复标题标签、向Search Console提交站点地图、
+  添加alt文本——这些都可以在Shopify后台或WordPress仪表板中完成。
+  Hreflang标签和Schema标记通常需要少量代码修改——但我们的PDF完整报告
+  包含可以直接复制粘贴的代码片段，可以直接交给任何开发者执行。
+</p>
+
+<h2>立即检测你的SEO分数——只需30秒</h2>
+<p>
+  不要再猜测是什么阻碍了你的排名。输入你的网址，获取免费SEO分数，
+  涵盖30项检测的完整明细——hreflang、性能、Schema、Core Web Vitals等。
+  无需注册。
+</p>
+<p>
+  <a href="/zh" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ 立即获取我的免费SEO分数</a>
+</p>
+      `,
+    },
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // POST 7: Best Local SEO Audit Tools 2026
+  // Target EN: local seo audit tool (480,KD28), best local seo audit tool
+  //            (110,KD19), local seo audit tools (260,KD25),
+  //            local seo audit tools for agencies (210,KD21), CPC $6.55
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'best-local-seo-audit-tool',
+    category: 'tool-review',
+    date: '2026-05-26',
+    readTime: 11,
+    en: {
+      title: 'Best Local SEO Audit Tools in 2026 (Free & Paid Compared)',
+      description:
+        'Compared the top 7 local SEO audit tools for accuracy, price, and cross-border features. Includes free options for Shopify and WordPress stores targeting multiple markets.',
+      keywords: [
+        'local seo audit tool',
+        'best local seo audit tool',
+        'local seo audit tools',
+        'local seo audit tools for agencies',
+        'free local seo audit',
+        'local seo checker',
+        'local seo audit software',
+      ],
+      content: `
+<h2>What Is a Local SEO Audit?</h2>
+<p>
+  A <strong>local SEO audit</strong> is a systematic review of your website's optimization for
+  location-based search queries — the kind where Google shows results based on where the user is,
+  or where they want to find a business.
+</p>
+<p>
+  For brick-and-mortar businesses, "local SEO" means ranking in the map pack for queries like
+  "coffee shop near me." But for <strong>cross-border e-commerce stores</strong>, local SEO has a
+  different meaning: it means ensuring Google shows the right version of your store to users in
+  different <em>countries and languages</em> — English for US buyers, Chinese for Chinese buyers,
+  and so on.
+</p>
+<p>
+  This is where most local SEO audit tools fall short. They're built for brick-and-mortar local businesses,
+  not for Shopify or WordPress stores selling internationally. That's why we've included a specialist
+  cross-border tool alongside the traditional local SEO options.
+</p>
+
+<h2>The 7 Best Local SEO Audit Tools Compared</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Tool</th><th>Best For</th><th>Price</th><th>Free Option</th><th>Cross-Border?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>SEO Radar X</strong></td><td>Cross-border Shopify/WordPress stores</td><td>Free / $9.99 report</td><td>✅ Yes</td><td>✅ Yes</td></tr>
+    <tr><td><strong>BrightLocal</strong></td><td>Local brick-and-mortar businesses</td><td>From $39/mo</td><td>❌ Trial only</td><td>❌ No</td></tr>
+    <tr><td><strong>Whitespark</strong></td><td>Citation building &amp; local rankings</td><td>From $33/mo</td><td>❌ No</td><td>❌ No</td></tr>
+    <tr><td><strong>Moz Local</strong></td><td>NAP consistency &amp; listing management</td><td>From $14/mo</td><td>❌ No</td><td>❌ Limited</td></tr>
+    <tr><td><strong>Semrush</strong></td><td>Full-service agencies</td><td>From $139/mo</td><td>❌ Limited</td><td>✅ Partial</td></tr>
+    <tr><td><strong>Synup</strong></td><td>Multi-location enterprise</td><td>Custom pricing</td><td>❌ No</td><td>❌ No</td></tr>
+    <tr><td><strong>Google Search Console</strong></td><td>Free baseline data</td><td>Free</td><td>✅ Yes</td><td>✅ Yes</td></tr>
+  </tbody>
+</table>
+
+<h2>1. SEO Radar X — Best for Cross-Border Stores</h2>
+<p>
+  <strong>Best for:</strong> Shopify and WordPress stores selling to international markets
+</p>
+<p>
+  SEO Radar X is the only tool on this list built specifically for cross-border e-commerce.
+  While traditional local SEO tools focus on Google My Business and citation consistency,
+  SEO Radar X audits the signals that matter for international sellers: hreflang tags,
+  geo.region meta tags, x-default, multi-currency signals, and 26 other technical and on-page checks.
+</p>
+<p><strong>Key features:</strong></p>
+<ul>
+  <li>30 checks covering GEO, hreflang, Schema, Core Web Vitals, and on-page SEO</li>
+  <li>Specific fix recommendations for Shopify and WordPress platforms</li>
+  <li>Bilingual reports (English and Chinese) — ideal for Chinese cross-border sellers</li>
+  <li>Results in 30 seconds, no sign-up required for the free version</li>
+  <li>Full PDF report for $9.99 — shareable with developers</li>
+</ul>
+<p><strong>Limitation:</strong> Not designed for brick-and-mortar local businesses (no Google My Business audit).</p>
+<p>
+  <a href="/en" style="color:#3b82f6;font-weight:600;">→ Run a Free SEO Radar X Audit</a>
+</p>
+
+<h2>2. BrightLocal — Best for Local Brick-and-Mortar</h2>
+<p>
+  <strong>Best for:</strong> Physical businesses that need map pack rankings
+</p>
+<p>
+  BrightLocal is the most popular dedicated local SEO platform. Its audit tool checks Google My Business
+  optimization, citation consistency across directories, local keyword rankings, and review signals.
+  It's the go-to choice for agencies managing multiple local business clients.
+</p>
+<p><strong>Key features:</strong></p>
+<ul>
+  <li>Local search grid rank tracker showing rankings by geographic area</li>
+  <li>Citation finder and builder across 1,400+ directories</li>
+  <li>Review management across Google, Yelp, Facebook, and others</li>
+  <li>White-label reporting for agencies</li>
+</ul>
+<p><strong>Limitation:</strong> Starts at $39/month. Not useful for e-commerce stores without a physical location.</p>
+
+<h2>3. Whitespark — Best for Citation Building</h2>
+<p>
+  <strong>Best for:</strong> Businesses that need citations across local directories
+</p>
+<p>
+  Whitespark specializes in local citation building — getting your business listed consistently
+  across directories like Yelp, Yellow Pages, and industry-specific sites.
+  Their Local Citation Finder tool identifies where your competitors are listed that you aren't.
+</p>
+<p><strong>Key features:</strong></p>
+<ul>
+  <li>Local citation finder — find citation opportunities competitors use</li>
+  <li>Reputation Builder for review generation</li>
+  <li>Google Business Profile audit</li>
+  <li>Local rank tracker with city/neighborhood-level granularity</li>
+</ul>
+<p><strong>Limitation:</strong> Primarily focused on North American markets. Limited value for international e-commerce.</p>
+
+<h2>4. Moz Local — Best for Listing Management</h2>
+<p>
+  <strong>Best for:</strong> Businesses managing location data at scale
+</p>
+<p>
+  Moz Local helps ensure your business name, address, and phone number (NAP) are consistent
+  across the web. Inconsistent NAP data is one of the most common local SEO problems —
+  it confuses Google about which information is correct.
+</p>
+<p><strong>Key features:</strong></p>
+<ul>
+  <li>Automated NAP distribution to 15+ major directories</li>
+  <li>Duplicate listing detection and removal</li>
+  <li>Local search performance dashboard</li>
+  <li>Entry-level pricing at $14/month makes it accessible for smaller businesses</li>
+</ul>
+<p><strong>Limitation:</strong> Limited to listing management — not a full technical SEO audit tool.</p>
+
+<h2>5. Semrush — Best for Full-Service Agencies</h2>
+<p>
+  <strong>Best for:</strong> SEO agencies managing clients across multiple channels
+</p>
+<p>
+  Semrush's Local SEO toolkit includes a listing management tool, review management, and
+  position tracking for local keywords. As part of the broader Semrush platform, it integrates
+  seamlessly with keyword research, backlink analysis, and site audits.
+</p>
+<p><strong>Key features:</strong></p>
+<ul>
+  <li>Listing Management add-on (syncs to 70+ directories)</li>
+  <li>Local Rank Tracker with map pack position tracking</li>
+  <li>Hreflang configuration checker (in Site Audit)</li>
+  <li>Full competitive intelligence across organic, paid, and local</li>
+</ul>
+<p><strong>Limitation:</strong> Expensive for individual store owners — starts at $139/month. Better suited for agencies.</p>
+
+<h2>6. Google Search Console — Free Baseline Tool</h2>
+<p>
+  <strong>Best for:</strong> Any website, free forever
+</p>
+<p>
+  Google Search Console doesn't run an "audit" in the traditional sense, but it's the only tool
+  that shows you exactly what Google sees on your site. The international targeting report
+  (under Legacy Tools) shows your hreflang configuration errors directly from Google's perspective.
+</p>
+<p><strong>Key features:</strong></p>
+<ul>
+  <li>Coverage report: indexation issues Google has actually found</li>
+  <li>International targeting: hreflang errors detected by Google</li>
+  <li>Core Web Vitals report: real-world performance data from Chrome users</li>
+  <li>Search performance: clicks, impressions, CTR, and position by country</li>
+</ul>
+<p><strong>Limitation:</strong> Reactive, not proactive — shows problems Google has already found, not all potential issues.</p>
+
+<h2>How to Choose the Right Local SEO Audit Tool</h2>
+<p>Your choice should depend on one key question: <strong>what type of "local" do you need?</strong></p>
+<table>
+  <thead>
+    <tr><th>Your Situation</th><th>Best Tool</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cross-border Shopify/WordPress store, multiple languages</td><td><strong>SEO Radar X</strong></td></tr>
+    <tr><td>Physical business needing map pack rankings</td><td><strong>BrightLocal</strong></td></tr>
+    <tr><td>Need to build citations across directories</td><td><strong>Whitespark</strong></td></tr>
+    <tr><td>Managing business listings at scale</td><td><strong>Moz Local</strong></td></tr>
+    <tr><td>Agency needing an all-in-one platform</td><td><strong>Semrush</strong></td></tr>
+    <tr><td>Just getting started, need free data</td><td><strong>Google Search Console</strong></td></tr>
+  </tbody>
+</table>
+
+<h2>What Does a Good Local SEO Audit Check?</h2>
+<p>
+  Regardless of which tool you use, a complete local SEO audit should verify:
+</p>
+<ul>
+  <li><strong>Hreflang tags</strong> — correctly formatted, reciprocal, with x-default</li>
+  <li><strong>Geo signals</strong> — geo.region, geo.placename meta tags if applicable</li>
+  <li><strong>Language targeting</strong> — correct HTML lang attribute on each page</li>
+  <li><strong>Canonical tags</strong> — preventing duplicate content between language versions</li>
+  <li><strong>Page speed</strong> — Core Web Vitals performance by country (via CrUX data)</li>
+  <li><strong>Structured data</strong> — LocalBusiness Schema for physical businesses; Product/Article Schema for e-commerce</li>
+  <li><strong>Mobile optimization</strong> — critical since Google uses mobile-first indexing</li>
+  <li><strong>URL structure</strong> — consistent language/region URL patterns (e.g. /en/, /zh-CN/)</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What's the best free local SEO audit tool?</h3>
+<p>
+  For cross-border e-commerce stores: <strong>SEO Radar X</strong> is the best free option — it runs 30 checks
+  including hreflang, GEO signals, and Core Web Vitals in 30 seconds.
+  For brick-and-mortar local businesses: <strong>Google Search Console</strong> is the best free baseline,
+  though it's reactive rather than proactive.
+</p>
+
+<h3>Do local SEO audit tools work for Shopify?</h3>
+<p>
+  Most traditional local SEO tools (BrightLocal, Whitespark, Moz Local) are designed for businesses
+  with a Google My Business profile. For Shopify stores, they offer limited value.
+  SEO Radar X is specifically designed for Shopify and WordPress stores,
+  including Shopify-specific recommendations for hreflang implementation and theme.liquid fixes.
+</p>
+
+<h3>How often should I run a local SEO audit?</h3>
+<p>
+  Run a full audit whenever you make significant changes: new theme, new language version,
+  platform migration, or major content update. For routine monitoring, monthly audits are sufficient.
+  After fixing identified issues, re-run within 1–2 weeks to confirm the fixes were successful.
+</p>
+
+<h3>What's the difference between local SEO and international SEO?</h3>
+<p>
+  Traditional local SEO focuses on Google My Business, citations, and map pack rankings for
+  searches in a specific geographic area. International SEO focuses on serving multiple
+  language/country versions of your site correctly — using hreflang tags, separate URL structures,
+  and geo-targeted signals. For cross-border e-commerce, international SEO is more relevant than
+  traditional local SEO.
+</p>
+
+<h2>Start Your Free Local SEO Audit</h2>
+<p>
+  Not sure where your site stands? Run a free SEO Radar X audit in 30 seconds.
+  You'll get a score across 5 categories, specific hreflang and GEO checks,
+  and actionable fix recommendations for Shopify and WordPress.
+</p>
+<p>
+  <a href="/en" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ Run Free Local SEO Audit Now</a>
+</p>
+      `,
+    },
+    zh: {
+      title: '2026年最佳本地SEO审计工具（免费和付费对比）',
+      description:
+        '对比7款顶级本地SEO审计工具的准确性、价格和跨境功能。包含适合Shopify和WordPress跨境独立站的免费选项。',
+      keywords: [
+        '本地seo审计工具',
+        '最佳本地seo工具',
+        '本地seo检测',
+        'seo审计工具对比',
+        '免费本地seo检测',
+        'shopify seo审计工具',
+        'wordpress seo审计工具',
+        '跨境独立站seo工具',
+      ],
+      content: `
+<h2>什么是本地SEO审计？</h2>
+<p>
+  <strong>本地SEO审计</strong>是对网站在基于位置的搜索查询中的优化程度进行系统性检查的过程——
+  即谷歌根据用户所在位置或用户想要找到的业务位置来显示结果的那类搜索。
+</p>
+<p>
+  对于实体店来说，"本地SEO"意味着在"附近的咖啡店"等查询中出现在地图包中。
+  但对于<strong>跨境电商独立站</strong>，本地SEO有着不同的含义：
+  确保谷歌向不同<em>国家和语言</em>的用户显示正确的店铺版本——
+  为美国买家显示英文版本，为中文用户显示中文版本，依此类推。
+</p>
+<p>
+  这正是大多数本地SEO审计工具的不足之处。它们是为实体本地商家而构建的，
+  而非为国际销售的Shopify或WordPress独立站设计的。
+  因此，我们在传统本地SEO工具旁边加入了一个专门的跨境工具。
+</p>
+
+<h2>7款最佳本地SEO审计工具对比</h2>
+<table>
+  <thead>
+    <tr>
+      <th>工具</th><th>最适合</th><th>价格</th><th>免费版</th><th>跨境支持</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>SEO Radar X</strong></td><td>跨境Shopify/WordPress独立站</td><td>免费 / $9.99报告</td><td>✅ 有</td><td>✅ 有</td></tr>
+    <tr><td><strong>BrightLocal</strong></td><td>本地实体商家</td><td>起价$39/月</td><td>❌ 仅试用</td><td>❌ 无</td></tr>
+    <tr><td><strong>Whitespark</strong></td><td>引用建设与本地排名</td><td>起价$33/月</td><td>❌ 无</td><td>❌ 无</td></tr>
+    <tr><td><strong>Moz Local</strong></td><td>NAP一致性与listing管理</td><td>起价$14/月</td><td>❌ 无</td><td>❌ 有限</td></tr>
+    <tr><td><strong>Semrush</strong></td><td>全服务代理机构</td><td>起价$139/月</td><td>❌ 有限</td><td>✅ 部分</td></tr>
+    <tr><td><strong>Synup</strong></td><td>多门店企业</td><td>定制报价</td><td>❌ 无</td><td>❌ 无</td></tr>
+    <tr><td><strong>Google Search Console</strong></td><td>免费基础数据</td><td>免费</td><td>✅ 有</td><td>✅ 有</td></tr>
+  </tbody>
+</table>
+
+<h2>1. SEO Radar X — 跨境独立站首选</h2>
+<p><strong>最适合：</strong>面向国际市场的Shopify和WordPress独立站</p>
+<p>
+  SEO Radar X是本列表中唯一专为跨境电商打造的工具。
+  传统本地SEO工具关注的是谷歌商家资料和引用一致性，
+  而SEO Radar X审计的是国际卖家真正需要关注的信号：
+  hreflang标签、geo.region元标签、x-default、多货币信号，以及其他26项技术和页面检测。
+</p>
+<p><strong>核心功能：</strong></p>
+<ul>
+  <li>覆盖GEO、hreflang、Schema、Core Web Vitals和页面SEO的30项检测</li>
+  <li>针对Shopify和WordPress平台的具体修复建议</li>
+  <li>中英双语报告——特别适合中国跨境卖家</li>
+  <li>30秒出结果，免费版无需注册</li>
+  <li>$9.99完整PDF报告——可直接分享给开发者</li>
+</ul>
+<p><strong>局限性：</strong>不适合实体本地商家（无谷歌商家资料审计）。</p>
+<p>
+  <a href="/zh" style="color:#3b82f6;font-weight:600;">→ 运行免费SEO Radar X审计</a>
+</p>
+
+<h2>2. BrightLocal — 本地实体商家最佳选择</h2>
+<p><strong>最适合：</strong>需要出现在地图包中的实体商家</p>
+<p>
+  BrightLocal是最受欢迎的专用本地SEO平台。其审计工具检查谷歌商家资料优化、
+  跨目录的引用一致性、本地关键词排名和评价信号。
+  对于管理多个本地商家客户的代理机构来说，这是首选工具。
+</p>
+<p><strong>核心功能：</strong></p>
+<ul>
+  <li>按地理区域显示排名的本地搜索网格排名追踪器</li>
+  <li>跨1,400+目录的引用查找和建设</li>
+  <li>跨谷歌、Yelp、Facebook等平台的评价管理</li>
+  <li>面向代理机构的白标报告</li>
+</ul>
+<p><strong>局限性：</strong>起价$39/月。对没有实体地址的电商独立站价值有限。</p>
+
+<h2>3. Whitespark — 引用建设最佳工具</h2>
+<p><strong>最适合：</strong>需要在本地目录建立引用的商家</p>
+<p>
+  Whitespark专注于本地引用建设——在Yelp、黄页和行业专属网站等目录上
+  保持业务信息的一致性。他们的本地引用查找工具能识别竞对已在但你尚未入驻的目录。
+</p>
+<p><strong>核心功能：</strong></p>
+<ul>
+  <li>本地引用查找——发现竞对使用的引用机会</li>
+  <li>用于生成评价的Reputation Builder</li>
+  <li>谷歌商家资料审计</li>
+  <li>城市/街区级别精细度的本地排名追踪</li>
+</ul>
+<p><strong>局限性：</strong>主要面向北美市场，对国际电商价值有限。</p>
+
+<h2>4. Moz Local — Listing管理最佳工具</h2>
+<p><strong>最适合：</strong>需要大规模管理位置数据的商家</p>
+<p>
+  Moz Local帮助确保你的商家名称、地址和电话（NAP）在网络上保持一致。
+  NAP数据不一致是最常见的本地SEO问题之一——会让谷歌对哪个信息是正确的产生混淆。
+</p>
+<p><strong>核心功能：</strong></p>
+<ul>
+  <li>自动向15+主要目录分发NAP数据</li>
+  <li>重复listing检测和删除</li>
+  <li>本地搜索表现仪表板</li>
+  <li>$14/月的入门级定价，小型商家也能负担</li>
+</ul>
+<p><strong>局限性：</strong>仅限于listing管理，不是完整的技术SEO审计工具。</p>
+
+<h2>5. Semrush — 全服务代理机构最佳选择</h2>
+<p><strong>最适合：</strong>管理多渠道客户的SEO代理机构</p>
+<p>
+  Semrush的本地SEO工具包包括listing管理工具、评价管理和本地关键词位置追踪。
+  作为更广泛的Semrush平台的一部分，它与关键词研究、外链分析和网站审计无缝集成。
+</p>
+<p><strong>核心功能：</strong></p>
+<ul>
+  <li>Listing Management插件（同步到70+目录）</li>
+  <li>含地图包位置追踪的本地排名追踪器</li>
+  <li>Hreflang配置检查器（在网站审计中）</li>
+  <li>跨自然搜索、付费和本地的完整竞争情报</li>
+</ul>
+<p><strong>局限性：</strong>对个人独立站主来说费用较高——起价$139/月，更适合代理机构。</p>
+
+<h2>6. Google Search Console — 免费基础工具</h2>
+<p><strong>最适合：</strong>任何网站，永久免费</p>
+<p>
+  谷歌搜索控制台不运行传统意义上的"审计"，但它是唯一能显示谷歌实际看到你网站内容的工具。
+  国际定向报告（在旧版工具下）直接从谷歌的角度显示你的hreflang配置错误。
+</p>
+<p><strong>核心功能：</strong></p>
+<ul>
+  <li>覆盖率报告：谷歌实际发现的索引问题</li>
+  <li>国际定向：谷歌检测到的hreflang错误</li>
+  <li>Core Web Vitals报告：来自Chrome用户的真实性能数据</li>
+  <li>搜索表现：按国家分类的点击次数、展示次数、CTR和排名</li>
+</ul>
+<p><strong>局限性：</strong>是被动工具而非主动工具——只显示谷歌已发现的问题，而非所有潜在问题。</p>
+
+<h2>如何选择合适的本地SEO审计工具</h2>
+<p>你的选择应该取决于一个关键问题：<strong>你需要哪种"本地"？</strong></p>
+<table>
+  <thead>
+    <tr><th>你的情况</th><th>最佳工具</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>多语言跨境Shopify/WordPress独立站</td><td><strong>SEO Radar X</strong></td></tr>
+    <tr><td>需要地图包排名的实体商家</td><td><strong>BrightLocal</strong></td></tr>
+    <tr><td>需要在目录建立引用</td><td><strong>Whitespark</strong></td></tr>
+    <tr><td>大规模管理商家listing</td><td><strong>Moz Local</strong></td></tr>
+    <tr><td>需要一站式平台的代理机构</td><td><strong>Semrush</strong></td></tr>
+    <tr><td>刚起步，需要免费数据</td><td><strong>Google Search Console</strong></td></tr>
+  </tbody>
+</table>
+
+<h2>一份好的本地SEO审计应该检查什么？</h2>
+<p>无论使用哪种工具，完整的本地SEO审计都应验证以下内容：</p>
+<ul>
+  <li><strong>Hreflang标签</strong>——格式正确、双向引用、包含x-default</li>
+  <li><strong>地理信号</strong>——适用时包含geo.region、geo.placename元标签</li>
+  <li><strong>语言定向</strong>——每个页面都有正确的HTML lang属性</li>
+  <li><strong>规范标签</strong>——防止语言版本间的重复内容</li>
+  <li><strong>页面速度</strong>——按国家分类的Core Web Vitals表现</li>
+  <li><strong>结构化数据</strong>——实体商家的LocalBusiness Schema；电商的Product/Article Schema</li>
+  <li><strong>移动端优化</strong>——至关重要，因为谷歌使用移动优先索引</li>
+  <li><strong>URL结构</strong>——一致的语言/地区URL模式（如/en/、/zh-CN/）</li>
+</ul>
+
+<h2>常见问题</h2>
+
+<h3>最佳的免费本地SEO审计工具是什么？</h3>
+<p>
+  对于跨境电商独立站：<strong>SEO Radar X</strong>是最佳免费选项——30秒内运行30项检测，
+  包括hreflang、GEO信号和Core Web Vitals。
+  对于实体本地商家：<strong>Google Search Console</strong>是最佳免费基础工具，
+  不过它是被动工具而非主动工具。
+</p>
+
+<h3>本地SEO审计工具适用于Shopify吗？</h3>
+<p>
+  大多数传统本地SEO工具（BrightLocal、Whitespark、Moz Local）是为拥有谷歌商家资料的商家设计的，
+  对Shopify独立站价值有限。
+  SEO Radar X专为Shopify和WordPress独立站设计，
+  包括针对hreflang实施和theme.liquid修复的Shopify专属建议。
+</p>
+
+<h3>多久应该运行一次本地SEO审计？</h3>
+<p>
+  每当进行重大网站变更时运行完整审计：新主题、新语言版本、平台迁移或重大内容更新。
+  日常监控方面，每月审计一次就足够了。
+  修复已发现的问题后，1–2周内重新运行以确认修复成功。
+</p>
+
+<h3>本地SEO和国际SEO有什么区别？</h3>
+<p>
+  传统本地SEO专注于谷歌商家资料、引用，以及特定地理区域内搜索的地图包排名。
+  国际SEO专注于正确地为多个语言/国家版本的网站提供服务——使用hreflang标签、
+  独立的URL结构和地理定向信号。
+  对于跨境电商来说，国际SEO比传统本地SEO更相关。
+</p>
+
+<h2>立即开始你的免费本地SEO审计</h2>
+<p>
+  不确定你的网站现状如何？使用SEO Radar X在30秒内运行免费审计。
+  你将获得5个维度的评分、具体的hreflang和GEO检测结果，
+  以及针对Shopify和WordPress的可执行修复建议。
+</p>
+<p>
+  <a href="/zh" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ 立即运行免费本地SEO审计</a>
+</p>
+      `,
+    },
+  },
 ]
 
 /** Return a post by slug (locale-independent) */
