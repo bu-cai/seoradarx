@@ -4338,6 +4338,977 @@ link, image, and script. Export to CSV and prioritize by inlinks count.</p>
       `,
     },
   },
+  // ─────────────────────────────────────────────────────────────────────────
+  // POST 11: Best SEO Report Generator Tools
+  // Target: seo report generator software (170, KD31), seo report generator,
+  //         automated seo reports, white label seo reports
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'best-seo-report-generator-tools',
+    category: 'tool-review',
+    date: '2026-05-29',
+    readTime: 10,
+    en: {
+      title: 'Best SEO Report Generator Tools in 2026 (Free, White Label & Automated)',
+      description:
+        'Compare the best SEO report generator software in 2026 — covering free tools, white label reports for agencies, and automated SEO reporting. Find the right tool for your workflow.',
+      keywords: [
+        'seo report generator software',
+        'seo report generator',
+        'automated seo reports',
+        'white label seo reports',
+        'seo reporting tool',
+        'seo audit report generator',
+        'free seo report generator',
+        'seo report tool',
+      ],
+      content: `
+<h2>Why Your SEO Report Generator Matters More Than You Think</h2>
+<p>
+  An SEO report is how you justify your work — to clients, to your boss, or to yourself.
+  A good <strong>SEO report generator</strong> turns raw audit data into a clear narrative:
+  what the site's current state is, what changed, and what to fix next.
+</p>
+<p>
+  In 2026, with AI-powered search evolving fast and clients expecting more transparency,
+  generic traffic-count reports no longer cut it. The best SEO reporting software now covers:
+</p>
+<ul>
+  <li>Technical health scores (crawlability, Core Web Vitals, schema markup)</li>
+  <li>GEO (Generative Engine Optimization) visibility signals</li>
+  <li>Historical score trends with delta comparisons</li>
+  <li>Platform-specific fixes (Shopify vs WordPress)</li>
+  <li>White-label branding for agency client delivery</li>
+</ul>
+
+<h2>Top SEO Report Generator Tools Compared (2026)</h2>
+<div style="overflow-x:auto;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9em;">
+  <thead>
+    <tr style="background:#0f1729;color:#94a3b8;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">Tool</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">Free Plan</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">White Label</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">Auto-Schedule</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">PDF Export</th>
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">Best For</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">SEO Radar X</td>
+      <td style="padding:10px 14px;text-align:center;">✅ Unlimited</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">🔜 Soon</td>
+      <td style="padding:10px 14px;text-align:center;">✅ EN+ZH</td>
+      <td style="padding:10px 14px;">E-commerce + GEO audits</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Semrush</td>
+      <td style="padding:10px 14px;text-align:center;">❌ Limited</td>
+      <td style="padding:10px 14px;text-align:center;">✅ ($449+/mo)</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;">Full-service agencies</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Ahrefs</td>
+      <td style="padding:10px 14px;text-align:center;">❌ Trial</td>
+      <td style="padding:10px 14px;text-align:center;">❌</td>
+      <td style="padding:10px 14px;text-align:center;">❌</td>
+      <td style="padding:10px 14px;text-align:center;">Partial</td>
+      <td style="padding:10px 14px;">Backlink-heavy reports</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Databox</td>
+      <td style="padding:10px 14px;text-align:center;">✅ (3 dashboards)</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;">Multi-source dashboards</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Google Looker Studio</td>
+      <td style="padding:10px 14px;text-align:center;">✅ Unlimited</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;">Custom data connectors</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">AgencyAnalytics</td>
+      <td style="padding:10px 14px;text-align:center;">✅ 14-day trial</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;">Agency client portals</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>1. SEO Radar X — Best Free SEO Report Generator for E-commerce</h2>
+<p>
+  SEO Radar X generates a comprehensive <strong>30-check SEO audit report</strong> in under
+  30 seconds. For Shopify and WordPress sellers, it's the fastest way to produce a
+  client-ready PDF covering technical, on-page, performance, GEO, and content scores.
+</p>
+<p><strong>What's in an SEO Radar X report:</strong></p>
+<ul>
+  <li>Overall SEO score (0–100) with category breakdown (SEO / Performance / Technical / GEO / Content)</li>
+  <li>Priority-sorted issue list with specific fix instructions per platform</li>
+  <li>Core Web Vitals (LCP, INP, CLS) with pass/fail status</li>
+  <li>GEO signals: hreflang, geo.region, AI-answer optimization checklist</li>
+  <li>Historical score trend chart (how the site improved over time)</li>
+  <li>Professional PDF export in English and Chinese (bilingual for cross-border sellers)</li>
+</ul>
+<p><strong>Best for:</strong> Cross-border e-commerce sellers and agencies serving Shopify/WordPress clients who need fast, actionable reports without a $99+/month subscription.</p>
+<p>
+  <a href="/en/pricing" style="color:#3b82f6;font-weight:700;">→ Get a full SEO PDF report ($9.99)</a>
+</p>
+
+<h2>2. Google Looker Studio — Best Free White-Label SEO Report Builder</h2>
+<p>
+  Looker Studio (formerly Data Studio) is Google's free reporting tool. With native
+  connectors to Google Analytics 4, Search Console, and Google Ads, you can build
+  completely custom, white-labeled SEO dashboards and schedule them to email automatically.
+</p>
+<p><strong>Pros:</strong></p>
+<ul>
+  <li>Completely free, unlimited reports</li>
+  <li>White-label: remove all Google branding, add your logo</li>
+  <li>Scheduled email delivery to clients</li>
+  <li>Community connectors for Semrush, Ahrefs, and more</li>
+</ul>
+<p><strong>Cons:</strong></p>
+<ul>
+  <li>Steep learning curve — takes hours to build a good template from scratch</li>
+  <li>No technical SEO audit data out-of-the-box (you need connectors)</li>
+  <li>GA4 data can lag by 24–48 hours</li>
+</ul>
+<p><strong>Best for:</strong> Agencies that already have Looker Studio experience and need a scalable, free reporting infrastructure.</p>
+
+<h2>3. AgencyAnalytics — Best Automated White-Label Reports for Agencies</h2>
+<p>
+  AgencyAnalytics is purpose-built for SEO agencies. It pulls from 80+ integrations
+  (GSC, GA4, Semrush, Ahrefs, Google My Business, social platforms) into white-labeled
+  client dashboards and automated monthly PDF reports.
+</p>
+<p><strong>Key features:</strong></p>
+<ul>
+  <li>Client-facing portals with your branding and domain</li>
+  <li>Automated weekly/monthly SEO reports via email</li>
+  <li>Rank tracking integrated directly into reports</li>
+  <li>AI-generated report summaries (saves hours of manual commentary)</li>
+</ul>
+<p><strong>Pricing:</strong> From $12/month per client (minimum 5 clients). Best value for agencies managing 10+ clients.</p>
+
+<h2>4. Semrush — Most Complete SEO Reporting Suite</h2>
+<p>
+  Semrush's My Reports module lets you build custom PDF reports from any combination of
+  Semrush data — keyword rankings, backlinks, site audit results, competitor comparisons.
+  White-label reports are available on Business plans ($449/month and up).
+</p>
+<p>For agencies on Enterprise plans, Semrush offers:</p>
+<ul>
+  <li>Branded PDF reports with automatic scheduling</li>
+  <li>Custom report templates per client</li>
+  <li>API access for programmatic report generation</li>
+</ul>
+<p><strong>Best for:</strong> Large agencies that already pay for Semrush and want everything in one platform.</p>
+
+<h2>5. Google Looker Studio + SEO Radar X (The $0 Agency Stack)</h2>
+<p>
+  For lean agencies or solo consultants, this free combination covers 90% of what
+  $300/month tools do:
+</p>
+<ol>
+  <li><strong>SEO Radar X</strong> — generates technical audit PDF per client ($9.99/report)</li>
+  <li><strong>Google Search Console</strong> — provides ranking and index data</li>
+  <li><strong>Google Analytics 4</strong> — provides traffic and conversion data</li>
+  <li><strong>Looker Studio</strong> — combines GSC + GA4 into a white-labeled monthly dashboard</li>
+</ol>
+<p>
+  Total cost: $0/month infrastructure + $9.99 per client technical audit. Compare that to
+  $449/month for Semrush agency plan.
+</p>
+
+<h2>What to Include in Every SEO Report</h2>
+<p>A high-quality SEO report should answer these questions for the client:</p>
+<ol>
+  <li><strong>Where are we now?</strong> — Overall health score, current rankings, organic traffic</li>
+  <li><strong>What changed this period?</strong> — Score delta, ranking movements, traffic trends</li>
+  <li><strong>What broke?</strong> — New technical issues, lost rankings, traffic drops</li>
+  <li><strong>What did we fix?</strong> — Issues resolved since last report</li>
+  <li><strong>What's the priority next?</strong> — Top 3 recommendations ranked by impact</li>
+</ol>
+<p>
+  The best SEO report generators automate sections 1 and 2. Sections 3–5 still need
+  human interpretation — that's where your SEO expertise adds irreplaceable value.
+</p>
+
+<h2>White-Label SEO Reports: What to Look For</h2>
+<p>
+  When evaluating white-label SEO reporting software, check for:
+</p>
+<ul>
+  <li><strong>Custom branding:</strong> Logo, color scheme, domain/URL (reports at yourfirm.com/reports/client)</li>
+  <li><strong>Client access portal:</strong> Can clients log in themselves to view live data?</li>
+  <li><strong>Scheduling:</strong> Can reports auto-generate and email on a monthly cadence?</li>
+  <li><strong>Data freshness:</strong> How often does ranking/traffic data update?</li>
+  <li><strong>Scalability:</strong> Per-report pricing vs. flat monthly fee — which works for your volume?</li>
+</ul>
+
+<h2>FAQ: SEO Report Generator Software</h2>
+<div itemscope itemtype="https://schema.org/FAQPage">
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">What is the best free SEO report generator?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">For technical SEO audit reports, SEO Radar X offers unlimited free audits with a professional PDF for $9.99 — the most affordable per-report option for agencies. For ongoing traffic and ranking dashboards, Google Looker Studio is completely free with no limits and supports white-label branding.</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">How do I automate SEO reports for clients?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">Use AgencyAnalytics or Looker Studio to auto-schedule monthly PDF reports from GA4 and Search Console data. For technical audits, SEO Radar X's upcoming scheduled audit feature will auto-generate audit reports on a set cadence. The most common agency workflow: auto-scheduled Looker Studio dashboard + manual SEO Radar X technical audit when needed.</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">What should an SEO report include?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">A complete SEO report should include: (1) overall health score and category breakdown, (2) period-over-period score changes, (3) organic traffic and ranking trends, (4) critical technical issues found, (5) Core Web Vitals status, (6) top priority action items. For cross-border sellers, add GEO signals and hreflang validation results.</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">Can I generate white-label SEO reports for free?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">Yes. Google Looker Studio is completely free and supports full white-labeling — you can add your agency logo, custom colors, and even serve reports from your own domain. Combine it with free GSC and GA4 data for a zero-cost white-label reporting stack.</p>
+    </div>
+  </div>
+</div>
+
+<h2>Generate Your First SEO Report Now</h2>
+<p>
+  Stop copying metrics into slide decks manually. Run a 30-second SEO audit with SEO Radar X,
+  download the professional PDF, and deliver it to your client today.
+</p>
+<p>
+  <a href="/en" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ Generate a free SEO audit report</a>
+</p>
+      `,
+    },
+    zh: {
+      title: '2026年最佳SEO报告生成工具（免费、白标与自动化）',
+      description:
+        '对比2026年最佳SEO报告生成软件——涵盖免费工具、代理机构白标报告和自动化SEO报告。找到适合你工作流的正确工具。',
+      keywords: [
+        'seo报告生成工具',
+        'seo报告生成软件',
+        '自动化seo报告',
+        '白标seo报告',
+        'seo报告工具',
+        '免费seo报告生成器',
+        'seo审计报告',
+        'seo报告模板',
+      ],
+      content: `
+<h2>为什么SEO报告生成工具比你想象的更重要</h2>
+<p>
+  SEO报告是你证明工作价值的方式——面向客户、上级，或者自己。
+  好的<strong>SEO报告生成工具</strong>将原始审计数据转化为清晰叙述：
+  网站当前状态、发生了什么变化、下一步该修复什么。
+</p>
+<p>2026年，随着AI驱动搜索快速演进，客户期望更高透明度，
+泛泛的流量统计报告已经不够用了。最好的SEO报告软件现在涵盖：</p>
+<ul>
+  <li>技术健康评分（可爬性、Core Web Vitals、结构化标记）</li>
+  <li>GEO（生成式引擎优化）可见度信号</li>
+  <li>带增量对比的历史分数趋势</li>
+  <li>平台专项修复建议（Shopify vs WordPress）</li>
+  <li>代理机构客户交付的白标品牌</li>
+</ul>
+
+<h2>2026年顶级SEO报告生成工具对比</h2>
+<div style="overflow-x:auto;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9em;">
+  <thead>
+    <tr style="background:#0f1729;color:#94a3b8;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">工具</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">免费版</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">白标</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">自动定时</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">PDF导出</th>
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">最适合</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">SEO Radar X</td>
+      <td style="padding:10px 14px;text-align:center;">✅ 无限次</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">🔜 即将推出</td>
+      <td style="padding:10px 14px;text-align:center;">✅ 中英双语</td>
+      <td style="padding:10px 14px;">电商 + GEO审计</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Semrush</td>
+      <td style="padding:10px 14px;text-align:center;">❌ 有限</td>
+      <td style="padding:10px 14px;text-align:center;">✅ ($449+/月)</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;">大型全服务代理机构</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Ahrefs</td>
+      <td style="padding:10px 14px;text-align:center;">❌ 试用</td>
+      <td style="padding:10px 14px;text-align:center;">❌</td>
+      <td style="padding:10px 14px;text-align:center;">❌</td>
+      <td style="padding:10px 14px;text-align:center;">部分</td>
+      <td style="padding:10px 14px;">外链密集型报告</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Databox</td>
+      <td style="padding:10px 14px;text-align:center;">✅ (3个仪表板)</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;">多数据源仪表板</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Google Looker Studio</td>
+      <td style="padding:10px 14px;text-align:center;">✅ 无限</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;">自定义数据连接</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">AgencyAnalytics</td>
+      <td style="padding:10px 14px;text-align:center;">✅ 14天试用</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;">代理机构客户门户</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>1. SEO Radar X — 最佳免费电商SEO报告生成器</h2>
+<p>
+  SEO Radar X在30秒内生成包含<strong>30项检测的SEO审计报告</strong>。
+  对于Shopify和WordPress卖家，这是生成覆盖技术、页面、性能、GEO和内容评分的
+  客户级PDF报告的最快方式。
+</p>
+<p><strong>SEO Radar X报告包含：</strong></p>
+<ul>
+  <li>总体SEO评分（0-100）含维度分解（SEO基础/性能/技术/GEO/内容）</li>
+  <li>按优先级排序的问题列表，含各平台具体修复说明</li>
+  <li>Core Web Vitals（LCP、INP、CLS）通过/失败状态</li>
+  <li>GEO信号：hreflang、geo.region、AI回答优化清单</li>
+  <li>历史分数趋势图（网站随时间改善的情况）</li>
+  <li>中英双语专业PDF导出（专为跨境卖家设计）</li>
+</ul>
+<p><strong>最适合：</strong>服务Shopify/WordPress客户的跨境电商卖家和代理机构，
+无需$99+/月订阅即可获得快速可执行的报告。</p>
+<p>
+  <a href="/zh/pricing" style="color:#3b82f6;font-weight:700;">→ 获取完整SEO PDF报告（$9.99）</a>
+</p>
+
+<h2>2. Google Looker Studio — 最佳免费白标SEO报告构建工具</h2>
+<p>
+  Looker Studio（原Data Studio）是谷歌的免费报告工具。
+  通过与Google Analytics 4、Search Console和Google Ads的原生连接，
+  你可以构建完全自定义的白标SEO仪表板，并设置自动邮件定时发送。
+</p>
+<p><strong>优点：</strong></p>
+<ul>
+  <li>完全免费，无限报告</li>
+  <li>白标：去除所有谷歌品牌，添加你的logo</li>
+  <li>向客户定时邮件发送</li>
+  <li>Semrush、Ahrefs等第三方连接器</li>
+</ul>
+<p><strong>缺点：</strong></p>
+<ul>
+  <li>学习曲线陡峭——从零构建好的模板需要数小时</li>
+  <li>默认没有技术SEO审计数据（需要连接器）</li>
+  <li>GA4数据可能延迟24-48小时</li>
+</ul>
+
+<h2>3. AgencyAnalytics — 最佳代理机构自动化白标报告</h2>
+<p>
+  AgencyAnalytics专为SEO代理机构设计。它从80+集成
+  （GSC、GA4、Semrush、Ahrefs、谷歌我的商家、社交平台）
+  拉取数据，整合到白标客户仪表板和自动化月度PDF报告中。
+</p>
+<p><strong>关键特性：</strong></p>
+<ul>
+  <li>带你品牌和域名的客户门户</li>
+  <li>每周/每月自动SEO报告邮件</li>
+  <li>直接集成到报告中的排名追踪</li>
+  <li>AI生成报告摘要（节省数小时手动撰写时间）</li>
+</ul>
+<p><strong>定价：</strong>每客户$12/月起（最少5个客户）。管理10+客户的代理机构性价比最高。</p>
+
+<h2>零成本代理机构SEO报告组合</h2>
+<p>对于精简代理机构或独立顾问，这个免费组合覆盖了$300/月工具90%的功能：</p>
+<ol>
+  <li><strong>SEO Radar X</strong> — 按客户生成技术审计PDF（$9.99/份报告）</li>
+  <li><strong>Google Search Console</strong> — 提供排名和索引数据</li>
+  <li><strong>Google Analytics 4</strong> — 提供流量和转化数据</li>
+  <li><strong>Looker Studio</strong> — 将GSC + GA4整合为白标月度仪表板</li>
+</ol>
+<p>
+  总成本：$0/月基础设施 + 每份技术审计$9.99。
+  对比Semrush代理机构计划$449/月，节省巨大。
+</p>
+
+<h2>每份SEO报告应包含的内容</h2>
+<p>高质量的SEO报告应为客户回答以下问题：</p>
+<ol>
+  <li><strong>我们现在在哪里？</strong>——总体健康评分、当前排名、自然流量</li>
+  <li><strong>本期发生了什么变化？</strong>——评分增量、排名变动、流量趋势</li>
+  <li><strong>什么出了问题？</strong>——新的技术问题、丢失的排名、流量下降</li>
+  <li><strong>我们修复了什么？</strong>——自上次报告以来解决的问题</li>
+  <li><strong>下一步优先级是什么？</strong>——按影响力排序的前3个建议</li>
+</ol>
+<p>
+  最好的SEO报告生成器自动化了第1、2项。
+  第3-5项仍需要人工解读——这正是你的SEO专业知识创造不可替代价值的地方。
+</p>
+
+<h2>常见问题解答</h2>
+<div itemscope itemtype="https://schema.org/FAQPage">
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">最好的免费SEO报告生成工具是什么？</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">针对技术SEO审计报告，SEO Radar X提供无限次免费审计，专业PDF仅需$9.99——对代理机构而言是最实惠的按报告计费选项。针对持续流量和排名仪表板，Google Looker Studio完全免费、无限制，支持白标品牌。</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">如何为客户自动化SEO报告？</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">使用AgencyAnalytics或Looker Studio从GA4和Search Console数据自动定时发送月度PDF报告。针对技术审计，SEO Radar X即将推出的定时审计功能将按设定频率自动生成审计报告。最常见的代理机构工作流：自动定时Looker Studio仪表板 + 按需手动SEO Radar X技术审计。</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">SEO报告应该包含什么内容？</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">完整的SEO报告应包括：(1) 总体健康评分和维度分解，(2) 环比分数变化，(3) 自然流量和排名趋势，(4) 发现的关键技术问题，(5) Core Web Vitals状态，(6) 优先行动项目。对于跨境卖家，还需添加GEO信号和hreflang验证结果。</p>
+    </div>
+  </div>
+</div>
+
+<h2>立即生成你的第一份SEO报告</h2>
+<p>
+  停止手动将指标复制到幻灯片中。
+  使用SEO Radar X运行30秒SEO审计，下载专业PDF，今天就交付给你的客户。
+</p>
+<p>
+  <a href="/zh" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ 免费生成SEO审计报告</a>
+</p>
+      `,
+    },
+  },
+  // ─────────────────────────────────────────────────────────────────────────
+  // POST 12: WooRank vs SEO Radar X
+  // Target: woorank seo audit tool (170, KD18), woorank alternative,
+  //         woorank review, woorank vs competitors
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'woorank-vs-seo-radar-x',
+    category: 'tool-review',
+    date: '2026-05-29',
+    readTime: 9,
+    en: {
+      title: 'WooRank vs SEO Radar X (2026): Which SEO Audit Tool Is Better?',
+      description:
+        'WooRank vs SEO Radar X — detailed 2026 comparison of features, pricing, and accuracy. Find out which SEO audit tool is better for cross-border e-commerce sellers and agencies.',
+      keywords: [
+        'woorank seo audit tool',
+        'woorank alternative',
+        'woorank review 2026',
+        'woorank vs',
+        'woorank competitor',
+        'seo audit tool comparison',
+        'best seo audit tool 2026',
+        'woorank free',
+      ],
+      content: `
+<h2>WooRank vs SEO Radar X: The Quick Summary</h2>
+<p>
+  <strong>WooRank</strong> is a well-established SEO audit platform founded in 2011,
+  offering website reviews, rank tracking, and lead generation tools for agencies.
+  <strong>SEO Radar X</strong> is a newer, specialized tool built specifically for
+  cross-border e-commerce sellers on Shopify and WordPress, with a focus on GEO
+  (Generative Engine Optimization) alongside traditional SEO.
+</p>
+<p>
+  The short answer: <strong>WooRank is better for agency lead generation</strong>;
+  <strong>SEO Radar X is better for technical depth on e-commerce sites and GEO visibility</strong>.
+  Both have free tiers — here's how they actually compare.
+</p>
+
+<h2>Side-by-Side Comparison: WooRank vs SEO Radar X</h2>
+<div style="overflow-x:auto;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9em;">
+  <thead>
+    <tr style="background:#0f1729;color:#94a3b8;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">Feature</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">WooRank</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">SEO Radar X</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">Free tier</td>
+      <td style="padding:10px 14px;text-align:center;">✅ Limited (1 site)</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅ Unlimited</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">Paid price</td>
+      <td style="padding:10px 14px;text-align:center;">$89.99/month</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">$9.99/report</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">Audit checks</td>
+      <td style="padding:10px 14px;text-align:center;">~70 checks</td>
+      <td style="padding:10px 14px;text-align:center;">30 checks (focused)</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">GEO / AI search signals</td>
+      <td style="padding:10px 14px;text-align:center;">❌</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">Hreflang validation</td>
+      <td style="padding:10px 14px;text-align:center;">Partial</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅ Full</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">Shopify-specific checks</td>
+      <td style="padding:10px 14px;text-align:center;">❌</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">Core Web Vitals (LCP/INP/CLS)</td>
+      <td style="padding:10px 14px;text-align:center;">Partial (FID, not INP)</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅ Updated to INP</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">Historical score tracking</td>
+      <td style="padding:10px 14px;text-align:center;">✅ (paid)</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅ Free</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">PDF report export</td>
+      <td style="padding:10px 14px;text-align:center;">✅ (paid)</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅ Bilingual (EN+ZH)</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">Rank tracking</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅ Daily auto-track</td>
+      <td style="padding:10px 14px;text-align:center;">📈 Score tracking</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">Agency lead gen</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅ Built-in CRM</td>
+      <td style="padding:10px 14px;text-align:center;">Via white-label reports</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">Signup required</td>
+      <td style="padding:10px 14px;text-align:center;">✅ Required</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">❌ Not needed</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">Bilingual (EN + ZH)</td>
+      <td style="padding:10px 14px;text-align:center;">❌ English only</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>WooRank: What It Does Well</h2>
+<p>
+  WooRank has been around since 2011 and has a genuinely strong feature set for agencies:
+</p>
+<ul>
+  <li><strong>Lead generation widget:</strong> Embed a white-label audit widget on your agency
+  website. Visitors enter their URL, get a report, and become warm leads. This alone justifies
+  WooRank's price for high-traffic agency sites.</li>
+  <li><strong>Keyword rank tracking:</strong> Daily position tracking for target keywords,
+  which SEO Radar X doesn't replicate (it tracks audit scores, not individual keyword positions).</li>
+  <li><strong>Competitor comparison:</strong> Side-by-side audit of your site vs competitors.</li>
+  <li><strong>~70 checks:</strong> Broader surface area than SEO Radar X's 30 focused checks.</li>
+</ul>
+
+<h2>SEO Radar X: What It Does Better</h2>
+<p>
+  For cross-border e-commerce sellers in 2026, SEO Radar X covers gaps WooRank hasn't addressed:
+</p>
+<ul>
+  <li><strong>GEO optimization signals:</strong> WooRank has no GEO checks. SEO Radar X audits
+  geo.region meta tags, hreflang completeness, AI-answer optimization, and structured data
+  for generative engine citations — essential for brands targeting multiple markets.</li>
+  <li><strong>Updated Core Web Vitals:</strong> WooRank's performance section still references
+  FID (First Input Delay), which Google deprecated in March 2024. SEO Radar X uses INP
+  (Interaction to Next Paint), the current official metric.</li>
+  <li><strong>Shopify platform detection:</strong> SEO Radar X detects Shopify-specific issues
+  (duplicate product URLs, app JS bloat, theme-level canonical problems). WooRank gives
+  generic recommendations regardless of platform.</li>
+  <li><strong>Zero signup friction:</strong> WooRank requires account creation before showing
+  results. SEO Radar X shows results instantly, no signup needed — better for clients who
+  want a quick check.</li>
+  <li><strong>Price:</strong> $9.99 per report vs $89.99/month. For sellers who audit 1–5
+  sites occasionally, per-report pricing is dramatically cheaper.</li>
+  <li><strong>Bilingual reports:</strong> Critical for Chinese cross-border sellers —
+  SEO Radar X generates professional PDF reports in both English and Chinese.</li>
+</ul>
+
+<h2>Pricing Breakdown: Which Is Cheaper?</h2>
+<div style="overflow-x:auto;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9em;">
+  <thead>
+    <tr style="background:#0f1729;color:#94a3b8;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">Scenario</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">WooRank</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">SEO Radar X</th>
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">Winner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;">1 report/month</td>
+      <td style="padding:10px 14px;text-align:center;">$89.99</td>
+      <td style="padding:10px 14px;text-align:center;">$9.99</td>
+      <td style="padding:10px 14px;color:#4ade80;">SEO Radar X</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;">5 reports/month</td>
+      <td style="padding:10px 14px;text-align:center;">$89.99</td>
+      <td style="padding:10px 14px;text-align:center;">$49.95</td>
+      <td style="padding:10px 14px;color:#4ade80;">SEO Radar X</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;">10 reports/month</td>
+      <td style="padding:10px 14px;text-align:center;">$89.99</td>
+      <td style="padding:10px 14px;text-align:center;">$99.90</td>
+      <td style="padding:10px 14px;color:#facc15;">WooRank</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;">30+ reports/month (agency)</td>
+      <td style="padding:10px 14px;text-align:center;">$89.99–$199</td>
+      <td style="padding:10px 14px;text-align:center;">Agency plan (TBD)</td>
+      <td style="padding:10px 14px;color:#facc15;">WooRank</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p style="font-size:0.8em;color:#4a5568;">* SEO Radar X agency plan pricing TBD — join the waitlist at <a href="mailto:support@seoradarx.com?subject=Agency Plan Waitlist" style="color:#3b82f6;">support@seoradarx.com</a></p>
+
+<h2>Who Should Use WooRank</h2>
+<ul>
+  <li>✅ SEO agencies wanting a lead generation widget on their site</li>
+  <li>✅ Agencies tracking keyword rankings for 5+ clients with daily updates</li>
+  <li>✅ Teams already invested in WooRank's workflow and CRM integrations</li>
+  <li>✅ High-volume audit shops where $89.99/month amortizes well</li>
+</ul>
+
+<h2>Who Should Use SEO Radar X</h2>
+<ul>
+  <li>✅ Shopify and WordPress cross-border sellers (especially CN → US/EU/Global)</li>
+  <li>✅ Anyone needing GEO optimization signals for AI search visibility</li>
+  <li>✅ Sellers auditing 1–9 sites per month (per-report pricing wins)</li>
+  <li>✅ Chinese brands needing bilingual (EN+ZH) audit reports</li>
+  <li>✅ Teams wanting actionable Shopify/WordPress platform-specific fixes</li>
+  <li>✅ Quick checks with zero signup friction</li>
+</ul>
+
+<h2>Can You Use Both?</h2>
+<p>
+  Yes — they're complementary, not mutually exclusive. A practical combination:
+</p>
+<ul>
+  <li>Use <strong>SEO Radar X</strong> for deep technical audits (GEO, hreflang, Core Web Vitals,
+  Shopify-specific) → deliver as PDF to clients</li>
+  <li>Use <strong>WooRank</strong> for daily keyword rank tracking and agency lead gen widget</li>
+</ul>
+<p>
+  This gives you the best of both: technical depth + ongoing ranking monitoring,
+  at a combined cost still lower than enterprise Semrush plans.
+</p>
+
+<h2>FAQ: WooRank vs SEO Radar X</h2>
+<div itemscope itemtype="https://schema.org/FAQPage">
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">Is WooRank free?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">WooRank has a limited free tier that allows one website review per day with basic results. Full access, rank tracking, and PDF reports require a paid plan starting at $89.99/month. SEO Radar X offers unlimited free audits with no account required, with professional PDF reports available for $9.99 each.</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">What is a good WooRank alternative?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">The best WooRank alternative depends on your use case. For technical SEO audits with GEO signals and cross-border e-commerce focus: SEO Radar X. For comprehensive SEO suites with keyword research: Semrush or Ahrefs. For free website analysis: Google Search Console + PageSpeed Insights. For agency-specific reporting: AgencyAnalytics.</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">Does WooRank check for GEO optimization?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">No. WooRank does not audit GEO (Generative Engine Optimization) signals such as geo.region meta tags, AI-answer optimization, or structured data for generative engine citations. SEO Radar X is one of the few tools that specifically checks GEO signals alongside traditional SEO, which is increasingly important as AI search engines like Perplexity and ChatGPT become major traffic sources.</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">Is SEO Radar X accurate?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">SEO Radar X pulls data directly from Google's PageSpeed Insights API for Core Web Vitals, fetches live page content for on-page analysis, and uses current 2026 best-practice rules for all checks. For GEO signals, it checks against published standards for generative engine optimization. Results reflect the live state of your page at the time of the audit.</p>
+    </div>
+  </div>
+</div>
+
+<h2>Try SEO Radar X Free — No Signup Required</h2>
+<p>
+  Unlike WooRank, you don't need to create an account to see your results. Enter your URL,
+  get 30 checks in 30 seconds, compare your score against industry benchmarks.
+</p>
+<p>
+  <a href="/en" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ Run a free SEO audit now</a>
+</p>
+      `,
+    },
+    zh: {
+      title: 'WooRank vs SEO Radar X（2026年对比）：哪款SEO审计工具更好？',
+      description:
+        'WooRank vs SEO Radar X深度对比——功能、定价和准确性全面分析。了解哪款SEO审计工具更适合跨境电商卖家和代理机构。',
+      keywords: [
+        'woorank seo审计工具',
+        'woorank替代品',
+        'woorank评测2026',
+        'woorank对比',
+        'seo审计工具对比',
+        '最佳seo审计工具2026',
+        'woorank免费版',
+        'seo工具对比',
+      ],
+      content: `
+<h2>WooRank vs SEO Radar X：快速总结</h2>
+<p>
+  <strong>WooRank</strong>是一个成熟的SEO审计平台，成立于2011年，
+  为代理机构提供网站评测、排名追踪和潜在客户生成工具。
+  <strong>SEO Radar X</strong>是一款较新的专业工具，
+  专为Shopify和WordPress跨境电商卖家设计，
+  在传统SEO的基础上重点关注GEO（生成式引擎优化）。
+</p>
+<p>
+  简而言之：<strong>WooRank更适合代理机构潜客生成</strong>；
+  <strong>SEO Radar X在电商网站技术深度和GEO可见度方面更出色</strong>。
+  两者都有免费版——下面是详细对比。
+</p>
+
+<h2>WooRank vs SEO Radar X 功能对比</h2>
+<div style="overflow-x:auto;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9em;">
+  <thead>
+    <tr style="background:#0f1729;color:#94a3b8;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">功能</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">WooRank</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">SEO Radar X</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">免费版</td>
+      <td style="padding:10px 14px;text-align:center;">✅ 有限（1个网站）</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅ 无限次</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">付费价格</td>
+      <td style="padding:10px 14px;text-align:center;">$89.99/月</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">$9.99/份报告</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">审计项目数</td>
+      <td style="padding:10px 14px;text-align:center;">约70项</td>
+      <td style="padding:10px 14px;text-align:center;">30项（精准聚焦）</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">GEO / AI搜索信号</td>
+      <td style="padding:10px 14px;text-align:center;">❌</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">Hreflang验证</td>
+      <td style="padding:10px 14px;text-align:center;">部分</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅ 完整</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">Shopify专项检测</td>
+      <td style="padding:10px 14px;text-align:center;">❌</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">Core Web Vitals（含INP）</td>
+      <td style="padding:10px 14px;text-align:center;">部分（FID旧版）</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅ 已更新至INP</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">历史分数追踪</td>
+      <td style="padding:10px 14px;text-align:center;">✅（付费）</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅ 免费</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">PDF报告导出</td>
+      <td style="padding:10px 14px;text-align:center;">✅（付费）</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅ 中英双语</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">关键词排名追踪</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅ 每日自动追踪</td>
+      <td style="padding:10px 14px;text-align:center;">📈 评分追踪</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">代理机构潜客生成</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅ 内置CRM</td>
+      <td style="padding:10px 14px;text-align:center;">通过白标报告</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">需要注册账号</td>
+      <td style="padding:10px 14px;text-align:center;">✅ 必须注册</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">❌ 无需注册</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">中英双语报告</td>
+      <td style="padding:10px 14px;text-align:center;">❌ 仅英文</td>
+      <td style="padding:10px 14px;text-align:center;color:#4ade80;font-weight:700;">✅</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>WooRank的优势所在</h2>
+<p>WooRank自2011年成立以来，为代理机构建立了真正强大的功能集：</p>
+<ul>
+  <li><strong>潜客生成小组件：</strong>在你的代理机构网站嵌入白标审计小组件。
+  访客输入URL，获得报告，成为温热潜客。
+  对于高流量代理机构网站，仅此一项就足以证明WooRank价格值得。</li>
+  <li><strong>关键词排名追踪：</strong>目标关键词的每日位置追踪，
+  这是SEO Radar X目前不具备的功能。</li>
+  <li><strong>竞品对比：</strong>你的网站与竞品的并排审计。</li>
+  <li><strong>约70项检测：</strong>覆盖面比SEO Radar X的30项精准检测更广。</li>
+</ul>
+
+<h2>SEO Radar X的优势所在</h2>
+<p>对于2026年的跨境电商卖家，SEO Radar X覆盖了WooRank未解决的空白：</p>
+<ul>
+  <li><strong>GEO优化信号：</strong>WooRank没有GEO检测。SEO Radar X审计geo.region元标签、
+  hreflang完整性、AI回答优化和生成式引擎引用的结构化数据——
+  这对面向多个市场的品牌至关重要。</li>
+  <li><strong>更新的Core Web Vitals：</strong>WooRank的性能部分仍引用FID（首次输入延迟），
+  该指标已于2024年3月被谷歌弃用。SEO Radar X使用INP（交互到下一帧绘制），
+  这是当前官方指标。</li>
+  <li><strong>Shopify平台检测：</strong>SEO Radar X检测Shopify专项问题
+  （产品URL重复、应用JS膨胀、主题级canonical问题）。
+  WooRank无论什么平台都给出通用建议。</li>
+  <li><strong>零注册门槛：</strong>WooRank在显示结果前需要创建账户。
+  SEO Radar X立即显示结果，无需注册——对想要快速检查的客户更友好。</li>
+  <li><strong>价格：</strong>每份报告$9.99 vs $89.99/月。
+  对于偶尔审计1-5个网站的卖家，按报告计费价格低得多。</li>
+  <li><strong>双语报告：</strong>对中国跨境卖家至关重要——
+  SEO Radar X生成中英双语专业PDF报告。</li>
+</ul>
+
+<h2>定价对比：哪个更便宜？</h2>
+<div style="overflow-x:auto;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9em;">
+  <thead>
+    <tr style="background:#0f1729;color:#94a3b8;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">使用场景</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">WooRank</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">SEO Radar X</th>
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">胜出</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;">每月1份报告</td>
+      <td style="padding:10px 14px;text-align:center;">$89.99</td>
+      <td style="padding:10px 14px;text-align:center;">$9.99</td>
+      <td style="padding:10px 14px;color:#4ade80;">SEO Radar X</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;">每月5份报告</td>
+      <td style="padding:10px 14px;text-align:center;">$89.99</td>
+      <td style="padding:10px 14px;text-align:center;">$49.95</td>
+      <td style="padding:10px 14px;color:#4ade80;">SEO Radar X</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;">每月10份报告</td>
+      <td style="padding:10px 14px;text-align:center;">$89.99</td>
+      <td style="padding:10px 14px;text-align:center;">$99.90</td>
+      <td style="padding:10px 14px;color:#facc15;">WooRank</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;">每月30+份报告（代理机构）</td>
+      <td style="padding:10px 14px;text-align:center;">$89.99–$199</td>
+      <td style="padding:10px 14px;text-align:center;">代理机构套餐（待定）</td>
+      <td style="padding:10px 14px;color:#facc15;">WooRank</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>谁应该用WooRank</h2>
+<ul>
+  <li>✅ 想在官网嵌入潜客生成小组件的SEO代理机构</li>
+  <li>✅ 需要为5+个客户每日更新关键词排名的代理机构</li>
+  <li>✅ 已深度使用WooRank工作流和CRM集成的团队</li>
+  <li>✅ 高频审计业务（$89.99/月摊薄成本合算）</li>
+</ul>
+
+<h2>谁应该用SEO Radar X</h2>
+<ul>
+  <li>✅ Shopify和WordPress跨境电商卖家（尤其是中国→美欧全球卖家）</li>
+  <li>✅ 需要AI搜索可见度GEO优化信号的所有人</li>
+  <li>✅ 每月审计1-9个网站的卖家（按报告计费更合算）</li>
+  <li>✅ 需要中英双语审计报告的中国品牌</li>
+  <li>✅ 需要Shopify/WordPress平台专项修复建议的团队</li>
+  <li>✅ 希望零注册门槛快速检查的用户</li>
+</ul>
+
+<h2>常见问题解答</h2>
+<div itemscope itemtype="https://schema.org/FAQPage">
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">WooRank是免费的吗？</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">WooRank有限制版免费版，允许每天进行一次基本结果的网站评测。完整访问、排名追踪和PDF报告需要付费计划，起价$89.99/月。SEO Radar X提供无限次免费审计，无需注册账号，专业PDF报告每份$9.99。</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">WooRank检测GEO优化吗？</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">不检测。WooRank不审计GEO（生成式引擎优化）信号，如geo.region元标签、AI回答优化或生成式引擎引用的结构化数据。SEO Radar X是少数专门检测GEO信号的工具之一，这在Perplexity和ChatGPT成为主要流量来源的今天越来越重要。</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">SEO Radar X准确吗？</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">SEO Radar X直接从谷歌的PageSpeed Insights API获取Core Web Vitals数据，实时抓取页面内容进行页面分析，并使用2026年最新最佳实践规则进行所有检测。对于GEO信号，它对照已发布的生成式引擎优化标准进行检测。结果反映审计时页面的实时状态。</p>
+    </div>
+  </div>
+</div>
+
+<h2>免费试用SEO Radar X——无需注册</h2>
+<p>
+  与WooRank不同，你不需要创建账户即可查看结果。
+  输入你的URL，30秒内获得30项检测结果，与行业基准对比你的评分。
+</p>
+<p>
+  <a href="/zh" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ 立即运行免费SEO审计</a>
+</p>
+      `,
+    },
+  },
 ]
 
 /** Return a post by slug (locale-independent) */
