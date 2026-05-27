@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { getLocale } from 'next-intl/server'
 import { Noto_Sans_SC, Plus_Jakarta_Sans, JetBrains_Mono } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.seoradarx.com'
@@ -106,7 +107,16 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           }}
         />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        {/* Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7224234791121280"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+      </body>
     </html>
   )
 }
