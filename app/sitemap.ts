@@ -81,6 +81,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       alternates: { languages: { en: `${base}/en/seo-audit-agencies`, zh: `${base}/zh/seo-audit-agencies` } },
     },
+    // Rank tracker landing pages
+    {
+      url: `${base}/zh/rank-tracker`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+      alternates: { languages: { en: `${base}/en/rank-tracker`, zh: `${base}/zh/rank-tracker` } },
+    },
+    {
+      url: `${base}/en/rank-tracker`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+      alternates: { languages: { en: `${base}/en/rank-tracker`, zh: `${base}/zh/rank-tracker` } },
+    },
     // Hreflang checker landing pages
     {
       url: `${base}/zh/hreflang-checker`,

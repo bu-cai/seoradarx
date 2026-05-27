@@ -2871,6 +2871,515 @@ export const blogPosts: BlogPost[] = [
       `,
     },
   },
+  // ─────────────────────────────────────────────────────────────────────────
+  // POST 8: Best Free Backlink Checker Tools 2026
+  // Target: do follow backlinks checker (260, KD27), best free broken link
+  //         checker (140, KD27), free backlink analysis tool
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'best-free-backlink-checker-tools',
+    category: 'tool-review',
+    date: '2026-05-27',
+    readTime: 10,
+    en: {
+      title: 'Best Free Backlink Checker Tools in 2026 (Do-Follow & Broken Links)',
+      description:
+        'Find the best free backlink checker tools for 2026 — covering do-follow backlink checkers, broken link finders, and full link-profile analyzers to boost your domain authority.',
+      keywords: [
+        'do follow backlinks checker',
+        'best free broken link checker',
+        'free backlink checker',
+        'backlink analysis tool',
+        'free backlink analysis',
+        'check do follow backlinks',
+        'broken link checker free',
+        'backlink checker tool free',
+      ],
+      content: `
+<h2>Why Backlinks Still Matter in 2026</h2>
+<p>
+  Despite years of algorithm changes, backlinks remain one of Google's top-three ranking factors.
+  A strong backlink profile — especially rich in <strong>do-follow backlinks</strong> from authoritative
+  domains — signals trust and expertise to every major search engine.
+</p>
+<p>
+  But backlinks are double-edged: <strong>broken links</strong> waste your link equity, hurt user experience,
+  and signal neglect to crawlers. In 2026, with AI-powered search engines like Perplexity and ChatGPT
+  pulling citations from high-authority pages, a clean link profile is more important than ever.
+</p>
+<p>
+  This guide covers the best <strong>free backlink checker tools</strong> for three jobs:
+  auditing your do-follow profile, finding broken inbound links, and spotting toxic links before
+  they drag your rankings down.
+</p>
+
+<h2>Quick Comparison: Best Free Backlink Checkers 2026</h2>
+<div style="overflow-x:auto;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9em;">
+  <thead>
+    <tr style="background:#0f1729;color:#94a3b8;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">Tool</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">Free Limit</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">Do-Follow Filter</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">Broken Links</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">Best For</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Ahrefs Free</td>
+      <td style="padding:10px 14px;text-align:center;">100 backlinks/report</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">❌</td>
+      <td style="padding:10px 14px;">Quick do-follow overview</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Moz Link Explorer</td>
+      <td style="padding:10px 14px;text-align:center;">10 queries/month</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">❌</td>
+      <td style="padding:10px 14px;">DA/PA authority check</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Screaming Frog (free)</td>
+      <td style="padding:10px 14px;text-align:center;">500 URLs/crawl</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;">Broken link crawler</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Google Search Console</td>
+      <td style="padding:10px 14px;text-align:center;">Unlimited (your site)</td>
+      <td style="padding:10px 14px;text-align:center;">Partial</td>
+      <td style="padding:10px 14px;text-align:center;">✅ (404s)</td>
+      <td style="padding:10px 14px;">Official crawl errors</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Ubersuggest Free</td>
+      <td style="padding:10px 14px;text-align:center;">3 searches/day</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">❌</td>
+      <td style="padding:10px 14px;">Beginners / small sites</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">SEO Radar X</td>
+      <td style="padding:10px 14px;text-align:center;">Unlimited audits</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;">Shopify / WP all-in-one</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>1. Ahrefs Free Backlink Checker — Best for Do-Follow Snapshots</h2>
+<p>
+  Ahrefs' free tier shows your top-100 backlinks ranked by Domain Rating (DR). You can filter
+  to <strong>do-follow only</strong> in one click, making it the fastest way to see which
+  high-authority sites are passing link equity to your domain.
+</p>
+<p>
+  <strong>Limitation:</strong> You only see 100 links. If your site has thousands of backlinks,
+  this is a preview, not a full audit. For a complete profile you'll need the paid version
+  (from $99/month) or a combination of tools.
+</p>
+<p><strong>Best use case:</strong> Competitor research — paste a competitor's URL to see their
+top do-follow backlinks and find the same link opportunities.</p>
+
+<h2>2. Google Search Console — Best Free Broken Link Checker</h2>
+<p>
+  Google Search Console is the most authoritative <strong>broken link checker</strong> available —
+  because it's powered by Google's own crawler. Under <em>Coverage → Not Found (404)</em>,
+  you'll see every URL Google tried to crawl that returned a 404 error.
+</p>
+<p>
+  This catches two types of broken links:
+</p>
+<ul>
+  <li><strong>Inbound broken links:</strong> Other sites linking to pages you've deleted or moved</li>
+  <li><strong>Internal broken links:</strong> Your own site linking to non-existent pages</li>
+</ul>
+<p>
+  <strong>Pro tip:</strong> Cross-reference your GSC 404s with Ahrefs to find which broken URLs
+  still have backlinks — those are the highest-priority pages to 301-redirect.
+</p>
+
+<h2>3. Screaming Frog — Best Desktop Broken Link Crawler (Free up to 500 URLs)</h2>
+<p>
+  Screaming Frog's free tier crawls up to 500 pages and flags every broken link (4xx, 5xx) on
+  your site. It's the go-to tool for agencies running <strong>broken link audits</strong> for clients.
+</p>
+<p>Filter by "Response Codes → Client Error (4xx)" to get a clean list of every broken internal
+link, image, and script. Export to CSV and prioritize by inlinks count.</p>
+<p><strong>Limitation:</strong> Desktop software (Windows/Mac). Not suitable for quick checks on mobile.</p>
+
+<h2>4. Moz Link Explorer — Best for Domain Authority Context</h2>
+<p>
+  Moz gives you 10 free queries per month in Link Explorer. Each report shows your <strong>
+  do-follow vs. no-follow</strong> ratio, Domain Authority (DA), and top linking domains.
+</p>
+<p>
+  DA is Moz's proprietary metric (not Google's), but it correlates well with ranking ability.
+  A DA 50+ site linking to you do-follow is significantly more valuable than a DA 10 no-follow link.
+</p>
+
+<h2>5. SEO Radar X — All-in-One Backlink + Technical Audit (Free)</h2>
+<p>
+  SEO Radar X combines backlink health checks with full on-page and technical SEO in a single
+  30-check audit. Unlike standalone backlink tools, it flags broken internal links, missing
+  canonical tags, slow load times, and GEO optimization gaps all in one report.
+</p>
+<p>
+  <strong>For Shopify and WordPress sellers</strong> selling cross-border, SEO Radar X is the
+  only tool that checks both your backlink profile health <em>and</em> your hreflang setup —
+  critical for targeting multiple countries without duplicate-content penalties.
+</p>
+<p>
+  <a href="/en" style="color:#3b82f6;font-weight:700;">→ Run a free SEO audit now (no signup needed)</a>
+</p>
+
+<h2>How to Check Do-Follow Backlinks (Step-by-Step)</h2>
+<ol>
+  <li>
+    <strong>Open Ahrefs Free Backlink Checker</strong> — enter your domain and click "Check backlinks"
+  </li>
+  <li>
+    <strong>Filter by Link type: Dofollow</strong> — remove no-follow links from the view
+  </li>
+  <li>
+    <strong>Sort by DR (Domain Rating)</strong> — prioritize which links are passing the most authority
+  </li>
+  <li>
+    <strong>Export and track</strong> — save the list; monitor monthly for lost links (link drops = ranking drops)
+  </li>
+  <li>
+    <strong>Find lost do-follow links</strong> — in Ahrefs, use "Lost backlinks" filter to find recently
+    removed links and consider reaching out to restore them
+  </li>
+</ol>
+
+<h2>How to Find and Fix Broken Links (Step-by-Step)</h2>
+<ol>
+  <li>
+    <strong>Check GSC → Coverage → Not Found (404)</strong> — list all URLs Google found broken
+  </li>
+  <li>
+    <strong>Run Screaming Frog on your domain</strong> — crawl internal links to catch broken ones GSC missed
+  </li>
+  <li>
+    <strong>Cross-reference with Ahrefs</strong> — find which 404 URLs have inbound backlinks (high priority)
+  </li>
+  <li>
+    <strong>Set up 301 redirects</strong> — for pages with backlinks, always redirect to the nearest
+    equivalent page (preserves link equity; a 404 wastes it entirely)
+  </li>
+  <li>
+    <strong>Fix internal links</strong> — update any internal anchor tags pointing to the old URLs
+  </li>
+  <li>
+    <strong>Re-crawl in GSC</strong> — request indexing on the fixed pages to speed up re-evaluation
+  </li>
+</ol>
+
+<h2>Do-Follow vs. No-Follow: What Actually Matters in 2026</h2>
+<p>
+  Google's official stance: no-follow links <em>may</em> be counted as a "hint" (since 2019),
+  meaning they can still influence rankings. But in practice, <strong>do-follow links remain
+  far more impactful</strong> for moving the needle on competitive keywords.
+</p>
+<p>A healthy link profile should have roughly:</p>
+<ul>
+  <li><strong>60–80% do-follow</strong> from editorial and content links</li>
+  <li><strong>20–40% no-follow</strong> from social, directories, and sponsored links</li>
+</ul>
+<p>
+  A site with 100% do-follow looks unnatural (manipulative). A site with 100% no-follow can't
+  compete on authority. Balance is the goal.
+</p>
+
+<h2>What About Toxic Backlinks?</h2>
+<p>
+  Toxic backlinks (from spammy directories, link farms, or PBNs) can trigger manual Google
+  penalties. Signs of a toxic link profile:
+</p>
+<ul>
+  <li>Many links from domains with DR under 5 and no real content</li>
+  <li>Anchor text over-optimization (50%+ exact-match anchors)</li>
+  <li>Sudden large spikes in backlink count with no content marketing activity</li>
+</ul>
+<p>
+  Use Google's <strong>Disavow Tool</strong> (via GSC) as a last resort. Before disavowing,
+  always try to get the link manually removed by contacting the site owner.
+</p>
+
+<h2>FAQ: Free Backlink Checker Tools</h2>
+<div itemscope itemtype="https://schema.org/FAQPage">
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">What is the best free do-follow backlink checker?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">Ahrefs' free backlink checker is the best free option for checking do-follow backlinks specifically. It shows your top 100 backlinks with a do-follow/no-follow filter and Domain Rating data. For a complete audit including broken links and on-page issues, SEO Radar X offers unlimited free audits.</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">How do I check for broken links on my website for free?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">The best free broken link checkers are: (1) Google Search Console — shows 404 errors found by Google's crawler, (2) Screaming Frog — crawls up to 500 URLs for free and flags all broken links, and (3) SEO Radar X — audits broken internal links as part of its 30-check free audit.</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">How many do-follow backlinks do I need to rank?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">There's no magic number. What matters is the quality (Domain Rating) and relevance of your do-follow backlinks relative to your competitors. For low-competition keywords (KD under 20), even 5–10 strong do-follow backlinks can be enough. For competitive terms (KD 50+), you may need hundreds from high-DR domains.</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">Are broken links bad for SEO?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">Yes. Broken internal links waste crawl budget, hurt user experience, and can cause pages deep in your site to be missed by Googlebot. Broken inbound links (from other sites) waste the link equity those links would otherwise pass to you. Always 301-redirect broken URLs that have backlinks pointing to them.</p>
+    </div>
+  </div>
+</div>
+
+<h2>Start Your Free Backlink + SEO Audit</h2>
+<p>
+  A backlink audit in isolation only shows half the picture. Your rankings depend on on-page SEO,
+  page speed, technical health, and GEO optimization just as much as your link profile.
+</p>
+<p>
+  SEO Radar X runs all 30 checks — including backlink health signals, broken link detection,
+  hreflang validation, and Core Web Vitals — in under 30 seconds. Free, no signup.
+</p>
+<p>
+  <a href="/en" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ Run your free backlink + SEO audit</a>
+</p>
+      `,
+    },
+    zh: {
+      title: '2026年最佳免费外链检测工具（Do-Follow与死链全面对比）',
+      description:
+        '盘点2026年最好用的免费外链检测工具，涵盖do-follow外链分析、死链检测和完整链接档案分析，帮你提升域名权重。',
+      keywords: [
+        'do follow外链检测',
+        '免费死链检测工具',
+        '免费外链分析工具',
+        '外链检测工具',
+        '检查外链',
+        '死链检测',
+        '外链分析',
+        'do follow外链',
+      ],
+      content: `
+<h2>为什么外链在2026年仍然重要</h2>
+<p>
+  尽管谷歌算法不断迭代，外链依然是排名前三的重要因素之一。
+  一个强健的外链档案——尤其是来自权威域名的 <strong>do-follow外链</strong>——
+  向每个主流搜索引擎传递信任与专业度信号。
+</p>
+<p>
+  但外链是把双刃剑：<strong>死链</strong>会浪费你的链接权重，影响用户体验，
+  并向爬虫传递"网站疏于维护"的信号。
+  2026年，随着Perplexity、ChatGPT等AI搜索引擎从高权威页面引用内容，
+  干净的链接档案比以往任何时候都更重要。
+</p>
+<p>
+  本文精选最佳<strong>免费外链检测工具</strong>，覆盖三个核心需求：
+  审计do-follow链接档案、发现入链死链、在毒性链接拖累排名前提前发现。
+</p>
+
+<h2>快速对比：2026年最佳免费外链检测工具</h2>
+<div style="overflow-x:auto;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9em;">
+  <thead>
+    <tr style="background:#0f1729;color:#94a3b8;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">工具</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">免费额度</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">Do-Follow筛选</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">死链检测</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">最适合</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Ahrefs免费版</td>
+      <td style="padding:10px 14px;text-align:center;">每份报告100条外链</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">❌</td>
+      <td style="padding:10px 14px;">快速do-follow概览</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Moz Link Explorer</td>
+      <td style="padding:10px 14px;text-align:center;">10次/月</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">❌</td>
+      <td style="padding:10px 14px;">DA/PA权重查询</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Screaming Frog（免费）</td>
+      <td style="padding:10px 14px;text-align:center;">500 URL/次爬取</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;">死链爬取神器</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Google Search Console</td>
+      <td style="padding:10px 14px;text-align:center;">无限（仅限自有网站）</td>
+      <td style="padding:10px 14px;text-align:center;">部分</td>
+      <td style="padding:10px 14px;text-align:center;">✅（404错误）</td>
+      <td style="padding:10px 14px;">谷歌官方爬取错误</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">Ubersuggest免费版</td>
+      <td style="padding:10px 14px;text-align:center;">3次/天</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">❌</td>
+      <td style="padding:10px 14px;">初学者/小型网站</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:700;color:#3b82f6;">SEO Radar X</td>
+      <td style="padding:10px 14px;text-align:center;">无限次免费审计</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;text-align:center;">✅</td>
+      <td style="padding:10px 14px;">Shopify/WP一体化工具</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>1. Ahrefs免费外链检测——最佳Do-Follow快照工具</h2>
+<p>
+  Ahrefs免费版展示你按域名评分（DR）排序的前100条外链。
+  一键筛选 <strong>仅do-follow</strong>，是最快速查看哪些权威网站在向你传递链接权重的方式。
+</p>
+<p>
+  <strong>局限性：</strong>仅显示100条链接。如果你的网站有数千条外链，
+  这只是预览而非完整审计。完整档案需要付费版（$99/月起）或多工具组合。
+</p>
+<p><strong>最佳使用场景：</strong>竞品研究——粘贴竞品URL，查看其顶级do-follow外链，
+寻找相同的链接建设机会。</p>
+
+<h2>2. Google Search Console——最佳免费死链检测工具</h2>
+<p>
+  Google Search Console是最权威的<strong>死链检测工具</strong>——因为它由谷歌自己的爬虫驱动。
+  在"覆盖率→未找到（404）"下，你将看到谷歌爬虫尝试抓取但返回404错误的每个URL。
+</p>
+<p>它能发现两类死链：</p>
+<ul>
+  <li><strong>入站死链：</strong>其他网站链接到你已删除或移动的页面</li>
+  <li><strong>内部死链：</strong>你自己的网站链接到不存在的页面</li>
+</ul>
+<p>
+  <strong>专业技巧：</strong>将GSC的404错误与Ahrefs交叉比对，
+  找出仍有入链的死链URL——这些是最优先需要301重定向的页面。
+</p>
+
+<h2>3. Screaming Frog——最佳桌面死链爬虫（免费500 URL）</h2>
+<p>
+  Screaming Frog免费版可爬取500个页面，标记网站上的每条死链（4xx、5xx）。
+  它是代理机构为客户运行<strong>死链审计</strong>的首选工具。
+</p>
+<p>按"响应代码→客户端错误（4xx）"筛选，获取所有内部死链、图片和脚本的清单。
+导出为CSV，按内链数量优先级排序处理。</p>
+<p><strong>局限性：</strong>桌面软件（Windows/Mac），不适合移动端快速检查。</p>
+
+<h2>4. Moz Link Explorer——最佳域名权威性参考工具</h2>
+<p>
+  Moz每月提供10次免费Link Explorer查询。每份报告显示你的
+  <strong>do-follow与no-follow</strong>比例、域名权威性（DA）和顶级外链域名。
+</p>
+<p>
+  DA是Moz的专有指标（非谷歌官方），但与排名能力相关性较高。
+  DA 50+网站的do-follow外链价值远高于DA 10网站的no-follow外链。
+</p>
+
+<h2>5. SEO Radar X——一体化外链+技术审计（免费）</h2>
+<p>
+  SEO Radar X将外链健康检查与完整的页面和技术SEO整合为30项检测的单一审计报告。
+  与独立外链工具不同，它在同一报告中标记内部死链、缺失的canonical标签、
+  加载速度慢和GEO优化缺口。
+</p>
+<p>
+  <strong>对于跨境Shopify和WordPress卖家</strong>，SEO Radar X是唯一同时检查
+  外链档案健康状况<em>和</em>hreflang设置的工具——
+  这对于面向多个国家而不产生重复内容惩罚至关重要。
+</p>
+<p>
+  <a href="/zh" style="color:#3b82f6;font-weight:700;">→ 立即运行免费SEO审计（无需注册）</a>
+</p>
+
+<h2>如何检查Do-Follow外链（分步骤教程）</h2>
+<ol>
+  <li><strong>打开Ahrefs免费外链检测工具</strong>——输入你的域名，点击"检查外链"</li>
+  <li><strong>筛选链接类型：Dofollow</strong>——从视图中移除no-follow链接</li>
+  <li><strong>按DR（域名评分）排序</strong>——优先处理传递权重最多的链接</li>
+  <li><strong>导出并追踪</strong>——保存列表；每月监控链接丢失情况（链接丢失=排名下降）</li>
+  <li><strong>发现丢失的do-follow链接</strong>——在Ahrefs使用"已丢失外链"筛选，
+  联系网站所有者尝试恢复</li>
+</ol>
+
+<h2>如何发现和修复死链（分步骤教程）</h2>
+<ol>
+  <li><strong>检查GSC→覆盖率→未找到（404）</strong>——列出谷歌发现的所有死链</li>
+  <li><strong>在你的域名上运行Screaming Frog</strong>——爬取内部链接，发现GSC遗漏的死链</li>
+  <li><strong>与Ahrefs交叉比对</strong>——找出哪些404 URL有入站外链（高优先级）</li>
+  <li><strong>设置301重定向</strong>——对有外链的页面，始终重定向到最近的等效页面
+  （保留链接权重；404完全浪费链接价值）</li>
+  <li><strong>修复内部链接</strong>——更新指向旧URL的内部锚文本链接</li>
+  <li><strong>在GSC中重新爬取</strong>——请求为修复后的页面建立索引，加速重新评估</li>
+</ol>
+
+<h2>Do-Follow与No-Follow：2026年什么真正重要</h2>
+<p>
+  谷歌官方立场：自2019年起，no-follow链接<em>可能</em>被视为"提示"
+  （意味着它们仍可影响排名）。但实际上，<strong>do-follow链接对竞争性关键词
+  的影响力仍远大于no-follow</strong>。
+</p>
+<p>健康的链接档案大致应有：</p>
+<ul>
+  <li><strong>60–80% do-follow</strong>来自编辑和内容链接</li>
+  <li><strong>20–40% no-follow</strong>来自社交、目录和赞助链接</li>
+</ul>
+<p>
+  100% do-follow的网站看起来不自然（有操纵嫌疑）。
+  100% no-follow的网站无法在权威性上竞争。平衡才是目标。
+</p>
+
+<h2>常见问题解答</h2>
+<div itemscope itemtype="https://schema.org/FAQPage">
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">最好的免费do-follow外链检测工具是什么？</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">Ahrefs免费外链检测工具是专门检测do-follow外链的最佳免费选择。它显示你的前100条外链，带do-follow/no-follow筛选器和域名评分数据。如需包含死链检测和页面问题的完整审计，SEO Radar X提供无限次免费审计。</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">如何免费检查网站死链？</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">最好的免费死链检测工具：(1) Google Search Console——显示谷歌爬虫发现的404错误，(2) Screaming Frog——免费爬取500个URL，标记所有死链，(3) SEO Radar X——作为30项免费审计的一部分，检测内部死链。</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">死链对SEO有害吗？</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">是的。内部死链浪费爬取预算，影响用户体验，可能导致网站深层页面被Googlebot遗漏。入站死链（来自其他网站）浪费这些链接本应传递给你的链接权重。对有外链指向的死链URL始终设置301重定向。</p>
+    </div>
+  </div>
+</div>
+
+<h2>立即开始免费外链+SEO审计</h2>
+<p>
+  单独的外链审计只能看到一半的情况。你的排名同样依赖页面SEO、
+  页面速度、技术健康和GEO优化，不亚于链接档案。
+</p>
+<p>
+  SEO Radar X在30秒内运行全部30项检测——包括外链健康信号、死链检测、
+  hreflang验证和核心网页指标——完全免费，无需注册。
+</p>
+<p>
+  <a href="/zh" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ 运行你的免费外链+SEO审计</a>
+</p>
+      `,
+    },
+  },
 ]
 
 /** Return a post by slug (locale-independent) */
