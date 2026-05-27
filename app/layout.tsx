@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { getLocale } from 'next-intl/server'
 import { Noto_Sans_SC, Plus_Jakarta_Sans, JetBrains_Mono } from 'next/font/google'
-import Script from 'next/script'
 import './globals.css'
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.seoradarx.com'
@@ -78,6 +77,13 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <link rel="alternate" hrefLang="zh" href={`${BASE_URL}/zh`} />
         <link rel="alternate" hrefLang="en" href={`${BASE_URL}/en`} />
         <link rel="alternate" hrefLang="x-default" href={`${BASE_URL}/zh`} />
+        {/* Google AdSense — must be in <head> as static HTML for verification */}
+        {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7224234791121280"
+          crossOrigin="anonymous"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -107,16 +113,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           }}
         />
       </head>
-      <body>
-        {children}
-        {/* Google AdSense */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7224234791121280"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
-      </body>
+      <body>{children}</body>
     </html>
   )
 }
