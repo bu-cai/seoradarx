@@ -3380,6 +3380,964 @@ link, image, and script. Export to CSV and prioritize by inlinks count.</p>
       `,
     },
   },
+  // ─────────────────────────────────────────────────────────────────────────
+  // POST 9: Website Crawlability Checker
+  // Target: check website crawlability (170, KD29), crawlability checker,
+  //         website crawl test, seo crawl checker
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'website-crawlability-checker',
+    category: 'seo-guide',
+    date: '2026-05-28',
+    readTime: 9,
+    en: {
+      title: 'Website Crawlability Checker: How to Test and Fix Crawl Issues in 2026',
+      description:
+        'Learn how to check website crawlability and fix crawl issues before they hurt your rankings. Step-by-step guide using free tools — robots.txt, sitemap, and crawl budget optimization.',
+      keywords: [
+        'check website crawlability',
+        'website crawlability checker',
+        'crawlability checker',
+        'website crawl test',
+        'seo crawl checker',
+        'crawl budget optimization',
+        'robots txt checker',
+        'site crawlability test',
+      ],
+      content: `
+<h2>What Is Website Crawlability — and Why Does It Matter?</h2>
+<p>
+  <strong>Crawlability</strong> is how easily search engine bots (Googlebot, Bingbot, etc.)
+  can discover and access the pages on your website. If a bot can't crawl a page, that page
+  can't be indexed — and if it's not indexed, it can't rank.
+</p>
+<p>
+  In 2026, crawlability matters more than ever because:
+</p>
+<ul>
+  <li><strong>AI search engines</strong> (Perplexity, ChatGPT) also crawl your site to decide
+  what to cite. If your pages are blocked, you miss GEO visibility too.</li>
+  <li><strong>Crawl budget</strong> is finite. Google won't crawl an infinite number of pages on your
+  site — waste it on low-value URLs and your important pages get crawled less frequently.</li>
+  <li><strong>JavaScript-heavy sites</strong> (Shopify, many WordPress themes) are particularly
+  prone to crawlability issues, since bots process JS differently than humans.</li>
+</ul>
+
+<h2>Quick Crawlability Check: 5 Warning Signs</h2>
+<div style="overflow-x:auto;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9em;">
+  <thead>
+    <tr style="background:#0f1729;color:#94a3b8;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">Warning Sign</th>
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">What It Means</th>
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">Severity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;">Pages returning 4xx/5xx</td>
+      <td style="padding:10px 14px;">Bot hits an error, stops crawling that path</td>
+      <td style="padding:10px 14px;color:#f87171;">🔴 Critical</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;">Blocked in robots.txt</td>
+      <td style="padding:10px 14px;">Important pages accidentally disallowed</td>
+      <td style="padding:10px 14px;color:#f87171;">🔴 Critical</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;">No XML sitemap</td>
+      <td style="padding:10px 14px;">Bot has no roadmap to find deep pages</td>
+      <td style="padding:10px 14px;color:#fb923c;">🟠 High</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;">Noindex on important pages</td>
+      <td style="padding:10px 14px;">Pages crawled but excluded from index</td>
+      <td style="padding:10px 14px;color:#fb923c;">🟠 High</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;">Orphan pages (no internal links)</td>
+      <td style="padding:10px 14px;">Bot never discovers the page exists</td>
+      <td style="padding:10px 14px;color:#facc15;">🟡 Medium</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;">Redirect chains (3+ hops)</td>
+      <td style="padding:10px 14px;">Bot may abandon chain before reaching destination</td>
+      <td style="padding:10px 14px;color:#facc15;">🟡 Medium</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Free Tools to Check Website Crawlability</h2>
+
+<h3>1. Google Search Console (Best Free Crawl Checker)</h3>
+<p>
+  GSC's <strong>Coverage report</strong> is the most authoritative crawlability checker
+  available — it shows exactly which pages Google crawled, indexed, excluded, or errored on.
+</p>
+<p>Key reports to check:</p>
+<ul>
+  <li><strong>Coverage → Error:</strong> Pages returning 404 or server errors — fix these first</li>
+  <li><strong>Coverage → Excluded → Crawled – currently not indexed:</strong> Google crawled
+  the page but chose not to index it (thin content, near-duplicate, or canonicalization issue)</li>
+  <li><strong>Coverage → Excluded → Blocked by robots.txt:</strong> Pages you may have
+  accidentally blocked</li>
+  <li><strong>URL Inspection Tool:</strong> Test any specific URL to see if it's crawlable
+  and what Googlebot sees when it renders the page</li>
+</ul>
+
+<h3>2. SEO Radar X — Instant Crawlability Audit (Free)</h3>
+<p>
+  SEO Radar X runs 30 checks in 30 seconds, including specific crawlability tests:
+</p>
+<ul>
+  <li>✅ robots.txt accessibility and Disallow rules</li>
+  <li>✅ XML sitemap presence and validity</li>
+  <li>✅ Meta robots and X-Robots-Tag noindex/nofollow detection</li>
+  <li>✅ Canonical tag correctness (self-referencing vs. wrong-domain)</li>
+  <li>✅ HTTP status codes (redirects, 4xx, 5xx)</li>
+  <li>✅ Page render speed (slow TTFB can cause Googlebot to time out)</li>
+</ul>
+<p>
+  <a href="/en" style="color:#3b82f6;font-weight:700;">→ Check your crawlability for free (30 seconds)</a>
+</p>
+
+<h3>3. Screaming Frog — Deep Crawl (Free up to 500 URLs)</h3>
+<p>
+  Screaming Frog crawls your site the same way Googlebot does, flagging every:
+</p>
+<ul>
+  <li>Broken link (4xx, 5xx)</li>
+  <li>Redirect chain (3+ hops) and redirect loop</li>
+  <li>Noindex, nofollow, canonical tag issue</li>
+  <li>Missing or duplicate title/meta description</li>
+  <li>Orphan page (no inlinks found)</li>
+</ul>
+<p>Filter by <strong>"Directives → Noindex"</strong> to instantly see all pages excluded from Google's index — you may find important pages accidentally tagged noindex by your CMS.</p>
+
+<h3>4. Google's robots.txt Tester</h3>
+<p>
+  In GSC → Settings → robots.txt Tester, you can paste any URL and see whether your current
+  robots.txt rules block or allow it. Essential for catching accidental blocks before they
+  lose you rankings.
+</p>
+
+<h2>How to Test Website Crawlability (Step-by-Step)</h2>
+<ol>
+  <li>
+    <strong>Audit robots.txt</strong> — visit <code>yourdomain.com/robots.txt</code> and check:
+    <ul>
+      <li>Are product/collection/blog pages accidentally Disallowed?</li>
+      <li>Does the file point to your XML sitemap?</li>
+      <li>Avoid <code>Disallow: /</code> on any important section</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Validate your XML sitemap</strong> — visit <code>yourdomain.com/sitemap.xml</code>:
+    <ul>
+      <li>Does it include all your important pages?</li>
+      <li>Are there any 301-redirected or 404 URLs still listed? (Submit the updated sitemap to GSC after fixing)</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Run GSC Coverage report</strong> — check for errors, excluded pages, and recently crawled pages</li>
+  <li>
+    <strong>Use URL Inspection on your top 5 pages</strong> — confirm Googlebot can render them fully</li>
+  <li>
+    <strong>Run Screaming Frog (free)</strong> — crawl your site for redirect chains, broken links, and orphans</li>
+  <li>
+    <strong>Run SEO Radar X audit</strong> — get instant automated crawlability score with actionable fixes</li>
+</ol>
+
+<h2>Crawl Budget: What It Is and How to Optimize It</h2>
+<p>
+  Google allocates a <strong>crawl budget</strong> to each site — the number of pages it will
+  crawl per day. Small sites (under 1,000 pages) rarely hit this limit, but larger e-commerce
+  sites with thousands of product variants or filter pages can.
+</p>
+<p><strong>What wastes crawl budget:</strong></p>
+<ul>
+  <li>Faceted navigation URLs with infinite combinations (<code>/products?color=red&size=M&sort=price</code>)</li>
+  <li>Session IDs and tracking parameters in URLs (<code>?ref=newsletter&utm_source=email</code>)</li>
+  <li>Duplicate content across multiple URLs (www vs non-www, HTTP vs HTTPS)</li>
+  <li>Soft 404 pages (return 200 status but show "no results found")</li>
+  <li>Thin or auto-generated pages with no unique content</li>
+</ul>
+<p><strong>How to reclaim crawl budget:</strong></p>
+<ul>
+  <li>Block filter/facet URLs in robots.txt or use canonical tags pointing to the main category page</li>
+  <li>Set up proper HTTPS + www redirects (301, not 302) to consolidate crawl signals</li>
+  <li>Remove unnecessary sitemap URLs and keep it clean and current</li>
+  <li>Add <code>noindex</code> to thin pages (e.g., tag archives, empty search results) rather than letting Google waste crawl on them</li>
+</ul>
+
+<h2>Crawlability for Shopify Sites</h2>
+<p>Shopify-specific crawlability issues to watch:</p>
+<ul>
+  <li><strong>Duplicate product URLs:</strong> Shopify creates <code>/products/slug</code> and
+  <code>/collections/name/products/slug</code> for the same product. The collection path
+  should use a canonical pointing to the main <code>/products/slug</code> URL.</li>
+  <li><strong>robots.txt limitations:</strong> Shopify's default robots.txt blocks
+  <code>/checkout</code>, <code>/cart</code>, and <code>/admin</code> — good. But some
+  themes accidentally block CSS/JS files needed for rendering.</li>
+  <li><strong>App-injected content:</strong> Some Shopify apps add pages without adding them
+  to your sitemap. Audit your sitemap regularly.</li>
+</ul>
+
+<h2>Crawlability for WordPress Sites</h2>
+<p>WordPress-specific crawlability issues:</p>
+<ul>
+  <li><strong>Tag and author archive pages:</strong> These create thin duplicate content.
+  Use Yoast SEO or Rank Math to noindex them.</li>
+  <li><strong>Paginated content:</strong> <code>/page/2/</code>, <code>/page/3/</code> etc.
+  — use canonical tags or consolidate with infinite scroll carefully.</li>
+  <li><strong>"Search engine discouraged" checkbox:</strong> In Settings → Reading, this sets
+  <code>Disallow: /</code> in robots.txt. Easy to leave on after development — check immediately.</li>
+</ul>
+
+<h2>FAQ: Website Crawlability</h2>
+<div itemscope itemtype="https://schema.org/FAQPage">
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">How do I check if my website is crawlable by Google?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">The best way is Google Search Console's URL Inspection tool — paste any URL to see if Googlebot can crawl and render it. Also check the Coverage report for site-wide crawl errors. For a quick automated check, SEO Radar X audits your robots.txt, sitemap, noindex tags, and status codes in 30 seconds for free.</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">What is crawl budget and do I need to worry about it?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">Crawl budget is the number of pages Googlebot crawls on your site per day. For small sites (under 1,000 pages), it's rarely an issue. For larger e-commerce sites with thousands of product variants, filter pages, or duplicate URLs, optimizing crawl budget by blocking low-value URLs can significantly improve how quickly Google indexes your important pages.</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">My page is crawled but not indexed — why?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">Common reasons: thin or duplicate content (Google finds better versions elsewhere), a misconfigured canonical tag pointing to a different URL, accidental noindex meta tag, or very slow page load times. Check GSC's URL Inspection for the specific reason Google gives, then run an SEO audit to identify the technical culprit.</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">Does crawlability affect AI search engines like Perplexity?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">Yes. AI search engines like Perplexity and ChatGPT crawl the web to find citations. If your pages are blocked by robots.txt or return errors, they can't cite your content in their answers. GEO (Generative Engine Optimization) starts with the same technical foundation as traditional crawlability.</p>
+    </div>
+  </div>
+</div>
+
+<h2>Fix Your Crawlability Issues Today</h2>
+<p>
+  Every page that can't be crawled is invisible revenue. Whether it's an accidental
+  <code>noindex</code>, a broken sitemap, or a robots.txt blocking your best product pages —
+  these are fixable in minutes once you know where to look.
+</p>
+<p>
+  SEO Radar X flags crawlability issues across 30 checks in 30 seconds. No setup, no
+  account required.
+</p>
+<p>
+  <a href="/en" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ Run your free crawlability check now</a>
+</p>
+      `,
+    },
+    zh: {
+      title: '网站可爬性检测：如何在2026年测试并修复爬取问题',
+      description:
+        '了解如何检测网站可爬性，在爬取问题影响排名之前修复它们。使用免费工具的分步指南——robots.txt、XML站点地图和爬取预算优化。',
+      keywords: [
+        '网站可爬性检测',
+        '可爬性检测工具',
+        '网站爬取测试',
+        'seo爬取检测',
+        '爬取预算优化',
+        'robots.txt检测',
+        '网站可索引性',
+        'googlebot爬取',
+      ],
+      content: `
+<h2>什么是网站可爬性——为什么它很重要？</h2>
+<p>
+  <strong>可爬性</strong>是指搜索引擎蜘蛛（Googlebot、Bingbot等）
+  发现和访问你网站页面的能力。如果蜘蛛无法爬取某个页面，
+  该页面就无法被索引——没有索引就无法排名。
+</p>
+<p>2026年，可爬性比以往任何时候都更重要，原因如下：</p>
+<ul>
+  <li><strong>AI搜索引擎</strong>（Perplexity、ChatGPT）也会爬取你的网站，
+  决定引用哪些内容。如果你的页面被屏蔽，GEO可见度也会受损。</li>
+  <li><strong>爬取预算是有限的</strong>。谷歌不会无限制地爬取你网站的所有页面——
+  如果预算浪费在低价值URL上，重要页面的爬取频率就会降低。</li>
+  <li><strong>JavaScript密集型网站</strong>（Shopify、许多WordPress主题）
+  特别容易出现可爬性问题，因为蜘蛛处理JS的方式与浏览器不同。</li>
+</ul>
+
+<h2>快速可爬性检查：5个警示信号</h2>
+<div style="overflow-x:auto;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9em;">
+  <thead>
+    <tr style="background:#0f1729;color:#94a3b8;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">警示信号</th>
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">含义</th>
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">严重程度</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;">页面返回4xx/5xx错误</td>
+      <td style="padding:10px 14px;">蜘蛛遇到错误，停止爬取该路径</td>
+      <td style="padding:10px 14px;color:#f87171;">🔴 严重</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;">robots.txt中被屏蔽</td>
+      <td style="padding:10px 14px;">重要页面被意外屏蔽</td>
+      <td style="padding:10px 14px;color:#f87171;">🔴 严重</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;">没有XML站点地图</td>
+      <td style="padding:10px 14px;">蜘蛛没有发现深层页面的路线图</td>
+      <td style="padding:10px 14px;color:#fb923c;">🟠 高</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;">重要页面设置noindex</td>
+      <td style="padding:10px 14px;">页面被爬取但排除在索引之外</td>
+      <td style="padding:10px 14px;color:#fb923c;">🟠 高</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;">孤立页面（无内链）</td>
+      <td style="padding:10px 14px;">蜘蛛永远发现不了该页面的存在</td>
+      <td style="padding:10px 14px;color:#facc15;">🟡 中等</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;">重定向链（3+跳）</td>
+      <td style="padding:10px 14px;">蜘蛛可能在到达目标前放弃</td>
+      <td style="padding:10px 14px;color:#facc15;">🟡 中等</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>免费的网站可爬性检测工具</h2>
+
+<h3>1. Google Search Console（最佳免费爬取检测工具）</h3>
+<p>
+  GSC的<strong>覆盖率报告</strong>是最权威的可爬性检测工具——
+  它精确显示谷歌爬取、索引、排除或报错了哪些页面。
+</p>
+<p>重点检查以下报告：</p>
+<ul>
+  <li><strong>覆盖率→错误：</strong>返回404或服务器错误的页面——优先修复</li>
+  <li><strong>覆盖率→排除→已爬取但目前未编入索引：</strong>谷歌爬取了但选择不索引
+  （内容过薄、近似重复或规范化问题）</li>
+  <li><strong>覆盖率→排除→被robots.txt屏蔽：</strong>可能意外屏蔽的页面</li>
+  <li><strong>URL检查工具：</strong>测试任何具体URL，查看是否可爬取以及Googlebot渲染结果</li>
+</ul>
+
+<h3>2. SEO Radar X — 即时可爬性审计（免费）</h3>
+<p>SEO Radar X在30秒内完成30项检测，包括专项可爬性测试：</p>
+<ul>
+  <li>✅ robots.txt可访问性和Disallow规则</li>
+  <li>✅ XML站点地图存在性和有效性</li>
+  <li>✅ Meta robots和X-Robots-Tag noindex/nofollow检测</li>
+  <li>✅ Canonical标签正确性（自引用 vs 错误域名）</li>
+  <li>✅ HTTP状态码（重定向、4xx、5xx）</li>
+  <li>✅ 页面渲染速度（TTFB过慢会导致Googlebot超时）</li>
+</ul>
+<p>
+  <a href="/zh" style="color:#3b82f6;font-weight:700;">→ 免费检查你的可爬性（30秒）</a>
+</p>
+
+<h3>3. Screaming Frog — 深度爬取（免费500 URL）</h3>
+<p>Screaming Frog模拟Googlebot爬取你的网站，标记所有：</p>
+<ul>
+  <li>断链（4xx、5xx）</li>
+  <li>重定向链（3+跳）和重定向循环</li>
+  <li>Noindex、nofollow、canonical标签问题</li>
+  <li>缺失或重复的标题/元描述</li>
+  <li>孤立页面（未发现入链）</li>
+</ul>
+<p>按<strong>"指令→Noindex"</strong>筛选，立即查看所有被排除在谷歌索引之外的页面——
+你可能会发现CMS意外标记了noindex的重要页面。</p>
+
+<h2>如何测试网站可爬性（分步教程）</h2>
+<ol>
+  <li>
+    <strong>审计robots.txt</strong>——访问<code>yourdomain.com/robots.txt</code>，检查：
+    <ul>
+      <li>产品/分类/博客页面是否意外被Disallow？</li>
+      <li>文件是否指向你的XML站点地图？</li>
+      <li>避免对重要部分使用<code>Disallow: /</code></li>
+    </ul>
+  </li>
+  <li>
+    <strong>验证XML站点地图</strong>——访问<code>yourdomain.com/sitemap.xml</code>：
+    <ul>
+      <li>是否包含所有重要页面？</li>
+      <li>是否仍有301重定向或404 URL？（修复后重新提交GSC）</li>
+    </ul>
+  </li>
+  <li><strong>运行GSC覆盖率报告</strong>——检查错误、排除页面和近期爬取页面</li>
+  <li><strong>对你的前5个页面使用URL检查</strong>——确认Googlebot可以完整渲染</li>
+  <li><strong>运行Screaming Frog（免费）</strong>——爬取重定向链、断链和孤立页面</li>
+  <li><strong>运行SEO Radar X审计</strong>——获得即时自动化可爬性评分和可执行修复建议</li>
+</ol>
+
+<h2>爬取预算：是什么以及如何优化</h2>
+<p>
+  谷歌为每个网站分配<strong>爬取预算</strong>——每天爬取的页面数量。
+  小型网站（1000页以下）很少触及这个限制，但拥有数千个产品变体或筛选页面的大型电商网站可能会。
+</p>
+<p><strong>浪费爬取预算的因素：</strong></p>
+<ul>
+  <li>带无限组合的分面导航URL（<code>/products?color=red&size=M&sort=price</code>）</li>
+  <li>URL中的Session ID和追踪参数（<code>?ref=newsletter&utm_source=email</code>）</li>
+  <li>多个URL的重复内容（www vs 非www，HTTP vs HTTPS）</li>
+  <li>软404页面（返回200状态但显示"未找到结果"）</li>
+  <li>没有独特内容的单薄或自动生成页面</li>
+</ul>
+<p><strong>如何节省爬取预算：</strong></p>
+<ul>
+  <li>在robots.txt中屏蔽筛选/分面URL，或使用canonical标签指向主分类页面</li>
+  <li>设置正确的HTTPS + www重定向（301，不是302）合并爬取信号</li>
+  <li>清理不必要的站点地图URL，保持干净最新</li>
+  <li>对单薄页面添加<code>noindex</code>（如标签归档、空搜索结果）而非让谷歌浪费预算爬取</li>
+</ul>
+
+<h2>常见问题解答</h2>
+<div itemscope itemtype="https://schema.org/FAQPage">
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">如何检查我的网站是否可以被谷歌爬取？</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">最好的方法是Google Search Console的URL检查工具——粘贴任意URL查看Googlebot是否能爬取和渲染它。还要检查覆盖率报告了解全站爬取错误。快速自动化检查可使用SEO Radar X，在30秒内免费审计你的robots.txt、站点地图、noindex标签和状态码。</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">我的页面被爬取但未被索引——为什么？</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">常见原因：内容单薄或重复（谷歌在其他地方找到了更好的版本）、canonical标签配置错误指向不同URL、意外的noindex元标签，或页面加载速度极慢。在GSC的URL检查中查看谷歌给出的具体原因，然后运行SEO审计找到技术原因。</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">可爬性会影响Perplexity等AI搜索引擎吗？</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">是的。Perplexity、ChatGPT等AI搜索引擎爬取网络寻找引用来源。如果你的页面被robots.txt屏蔽或返回错误，它们就无法引用你的内容。GEO（生成式引擎优化）的基础与传统可爬性相同。</p>
+    </div>
+  </div>
+</div>
+
+<h2>立即修复你的可爬性问题</h2>
+<p>
+  每一个无法爬取的页面都是看不见的损失收入。
+  无论是意外的<code>noindex</code>、损坏的站点地图，还是robots.txt屏蔽了你最好的产品页面——
+  一旦知道问题所在，这些都可以在几分钟内修复。
+</p>
+<p>
+  SEO Radar X在30秒内完成30项检测，标记可爬性问题。无需设置，无需账户。
+</p>
+<p>
+  <a href="/zh" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ 立即运行免费可爬性检测</a>
+</p>
+      `,
+    },
+  },
+  // ─────────────────────────────────────────────────────────────────────────
+  // POST 10: Mobile SEO Guide
+  // Target: mobile friendliness seo (140, KD27), mobile seo tools (110, KD27)
+  //         mobile seo optimization, mobile-first indexing
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'mobile-seo-guide',
+    category: 'seo-guide',
+    date: '2026-05-28',
+    readTime: 10,
+    en: {
+      title: 'Mobile SEO Guide 2026: Mobile Friendliness, Tools & Mobile-First Indexing',
+      description:
+        'Complete mobile SEO guide for 2026 — covering mobile friendliness, Core Web Vitals on mobile, mobile-first indexing, and the best free mobile SEO tools for Shopify and WordPress.',
+      keywords: [
+        'mobile friendliness seo',
+        'mobile seo tools',
+        'mobile seo optimization',
+        'mobile-first indexing',
+        'mobile seo guide',
+        'mobile friendly test',
+        'mobile seo checker',
+        'core web vitals mobile',
+      ],
+      content: `
+<h2>Why Mobile SEO Is Non-Negotiable in 2026</h2>
+<p>
+  Google has been running <strong>mobile-first indexing</strong> since 2019, meaning it uses
+  the <em>mobile</em> version of your website — not desktop — as the primary basis for crawling,
+  indexing, and ranking.
+</p>
+<p>The numbers make it clear:</p>
+<ul>
+  <li><strong>63%</strong> of all Google searches come from mobile devices</li>
+  <li><strong>74%</strong> of e-commerce shoppers will return to a competitor's site if yours
+  isn't mobile-friendly</li>
+  <li>Google's Core Web Vitals (LCP, INP, CLS) are measured on mobile by default for ranking signals</li>
+  <li>AI search engines like Perplexity also index mobile-first, meaning poor mobile performance
+  reduces your GEO citations too</li>
+</ul>
+<p>
+  For Shopify and WordPress cross-border sellers, mobile SEO is the difference between ranking
+  in your target markets and being invisible.
+</p>
+
+<h2>Mobile SEO Checklist 2026</h2>
+<div style="overflow-x:auto;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9em;">
+  <thead>
+    <tr style="background:#0f1729;color:#94a3b8;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">Check</th>
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">What to Look For</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">Priority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">Viewport meta tag</td>
+      <td style="padding:10px 14px;"><code>&lt;meta name="viewport" content="width=device-width,initial-scale=1"&gt;</code></td>
+      <td style="padding:10px 14px;text-align:center;color:#f87171;">🔴 Critical</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">Responsive design</td>
+      <td style="padding:10px 14px;">Layout adapts to all screen sizes (320px–1440px+)</td>
+      <td style="padding:10px 14px;text-align:center;color:#f87171;">🔴 Critical</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">LCP under 2.5s (mobile)</td>
+      <td style="padding:10px 14px;">Largest Contentful Paint — hero image/heading load time</td>
+      <td style="padding:10px 14px;text-align:center;color:#f87171;">🔴 Critical</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">INP under 200ms</td>
+      <td style="padding:10px 14px;">Interaction to Next Paint — button tap responsiveness</td>
+      <td style="padding:10px 14px;text-align:center;color:#fb923c;">🟠 High</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">CLS under 0.1</td>
+      <td style="padding:10px 14px;">Cumulative Layout Shift — content jumping on load</td>
+      <td style="padding:10px 14px;text-align:center;color:#fb923c;">🟠 High</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">Touch targets ≥ 44px</td>
+      <td style="padding:10px 14px;">Buttons and links tappable without zooming</td>
+      <td style="padding:10px 14px;text-align:center;color:#fb923c;">🟠 High</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">Font size ≥ 16px body</td>
+      <td style="padding:10px 14px;">Readable without pinch-zoom</td>
+      <td style="padding:10px 14px;text-align:center;color:#facc15;">🟡 Medium</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">No intrusive interstitials</td>
+      <td style="padding:10px 14px;">No full-screen popups blocking content on mobile</td>
+      <td style="padding:10px 14px;text-align:center;color:#facc15;">🟡 Medium</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">Image optimization</td>
+      <td style="padding:10px 14px;">WebP/AVIF format, lazy loading, correct srcset</td>
+      <td style="padding:10px 14px;text-align:center;color:#facc15;">🟡 Medium</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Best Free Mobile SEO Tools in 2026</h2>
+
+<h3>1. Google PageSpeed Insights — Core Web Vitals on Mobile</h3>
+<p>
+  PageSpeed Insights gives you real-world mobile performance data from the Chrome User
+  Experience Report (CrUX). Enter any URL and get:
+</p>
+<ul>
+  <li>LCP, INP, CLS scores with pass/fail labels</li>
+  <li>Field data (real users on real devices) vs. Lab data</li>
+  <li>Specific recommendations: "Eliminate render-blocking resources", "Serve images in next-gen formats", etc.</li>
+</ul>
+<p><strong>Pro tip:</strong> Always check <em>mobile</em> scores specifically — they're typically
+30–50 points lower than desktop and are what Google actually ranks you on.</p>
+
+<h3>2. Google's Mobile-Friendly Test</h3>
+<p>
+  A simple pass/fail check at <strong>search.google.com/test/mobile-friendly</strong>.
+  It renders your page as Googlebot sees it on mobile and flags issues like:
+</p>
+<ul>
+  <li>Viewport not configured</li>
+  <li>Content wider than screen</li>
+  <li>Text too small to read</li>
+  <li>Clickable elements too close together</li>
+</ul>
+<p>This is the minimum bar — if you fail here, you have a severe mobile SEO problem.</p>
+
+<h3>3. SEO Radar X — Mobile SEO in the 30-Check Audit (Free)</h3>
+<p>
+  SEO Radar X automatically checks mobile SEO signals including:
+</p>
+<ul>
+  <li>✅ Viewport meta tag presence and correct configuration</li>
+  <li>✅ Core Web Vitals (LCP, INP, CLS) via PageSpeed Insights API</li>
+  <li>✅ Time to First Byte (TTFB) — server response speed</li>
+  <li>✅ Image optimization (lazy loading, alt text, format)</li>
+  <li>✅ Mobile-specific structured data (product schema, FAQPage)</li>
+</ul>
+<p>
+  <a href="/en" style="color:#3b82f6;font-weight:700;">→ Run a free mobile SEO audit (30 seconds)</a>
+</p>
+
+<h3>4. Chrome DevTools Device Mode</h3>
+<p>
+  In Chrome, press <kbd>F12</kbd> → click the device icon (top-left of DevTools) → select
+  a device like iPhone 14. This renders your site at real mobile dimensions and lets you:
+</p>
+<ul>
+  <li>Spot layout breakage at specific screen widths</li>
+  <li>Throttle network to "Slow 4G" to simulate real mobile conditions</li>
+  <li>Run Lighthouse audit specifically on mobile</li>
+</ul>
+
+<h2>Mobile-First Indexing: What It Means for You</h2>
+<p>
+  Since Google indexes the <em>mobile version</em> of your site, any content that appears
+  on desktop-only will <strong>not be counted</strong> for ranking purposes. Common mistakes:
+</p>
+<ul>
+  <li><strong>Hidden content on mobile:</strong> "Read more" accordions or tabs that hide
+  text — Google used to ignore this, but now counts it. Still, make sure your mobile version
+  shows the same depth of content as desktop.</li>
+  <li><strong>Different content per device:</strong> Serving completely different HTML to mobile
+  users (separate mobile site) can cause crawl budget issues and indexing inconsistencies.
+  Responsive design (same HTML, CSS-driven layout changes) is strongly preferred.</li>
+  <li><strong>Missing structured data on mobile:</strong> If your desktop page has Product
+  schema but your mobile template strips it out, Google won't see rich results on mobile searches.</li>
+  <li><strong>Slower mobile page speed:</strong> A 5-second LCP on mobile tanks your CWV score
+  even if your desktop loads in 1 second.</li>
+</ul>
+
+<h2>Mobile SEO for Shopify: Top 5 Quick Wins</h2>
+<ol>
+  <li>
+    <strong>Enable Shopify's built-in image optimization</strong> — Shopify automatically
+    serves WebP images when supported. Ensure you're on a theme that uses
+    <code>image_url</code> with <code>format: 'webp'</code>.
+  </li>
+  <li>
+    <strong>Reduce app-injected scripts</strong> — Every third-party Shopify app adds JS.
+    Audit your apps and remove unused ones. Apps = slow mobile load = lower CWV scores.
+  </li>
+  <li>
+    <strong>Test on real devices</strong> — iPhone 14 in DevTools isn't the same as real
+    budget Android phones your customers use. Test on actual low-end devices.
+  </li>
+  <li>
+    <strong>Optimize hero images</strong> — The hero product image is almost always your LCP
+    element. Use <code>loading="eager"</code> and <code>fetchpriority="high"</code> on it.
+  </li>
+  <li>
+    <strong>Simplify mobile navigation</strong> — Deep nested menus frustrate mobile users.
+    Prioritize search over navigation for mobile shoppers.
+  </li>
+</ol>
+
+<h2>Mobile SEO for WordPress: Top 5 Quick Wins</h2>
+<ol>
+  <li>
+    <strong>Use a performance-first theme</strong> — GeneratePress, Kadence, or Blocksy are
+    significantly faster on mobile than most premium themes.
+  </li>
+  <li>
+    <strong>Install a caching plugin</strong> — WP Rocket, LiteSpeed Cache, or W3 Total Cache.
+    Enable mobile-specific caching rules.
+  </li>
+  <li>
+    <strong>Optimize images with ShortPixel or Smush</strong> — Convert to WebP/AVIF and
+    enable lazy loading for images below the fold.
+  </li>
+  <li>
+    <strong>Defer non-critical JS</strong> — Use your cache plugin's JS deferral feature or
+    the <code>defer</code>/<code>async</code> attributes to prevent render-blocking.
+  </li>
+  <li>
+    <strong>Remove unused CSS</strong> — WP Rocket's "Remove Unused CSS" feature can
+    dramatically reduce the render-blocking CSS on mobile.
+  </li>
+</ol>
+
+<h2>Core Web Vitals: Mobile Targets for 2026</h2>
+<p>Google's thresholds (measured on mobile by default in Search Console):</p>
+<ul>
+  <li><strong>LCP (Largest Contentful Paint):</strong> Under 2.5s = Good | 2.5–4.0s = Needs Improvement | Over 4.0s = Poor</li>
+  <li><strong>INP (Interaction to Next Paint):</strong> Under 200ms = Good | 200–500ms = Needs Improvement | Over 500ms = Poor</li>
+  <li><strong>CLS (Cumulative Layout Shift):</strong> Under 0.1 = Good | 0.1–0.25 = Needs Improvement | Over 0.25 = Poor</li>
+</ul>
+<p>
+  <strong>Note:</strong> INP replaced FID (First Input Delay) as the third Core Web Vital in
+  March 2024. If your monitoring tools still show FID, update them.
+</p>
+
+<h2>FAQ: Mobile Friendliness &amp; Mobile SEO</h2>
+<div itemscope itemtype="https://schema.org/FAQPage">
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">What is mobile-first indexing and how does it affect my rankings?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">Mobile-first indexing means Google primarily uses your site's mobile version to determine rankings. If your mobile site has less content, slower speeds, or missing structured data compared to desktop, your rankings will suffer. All new websites have been mobile-first indexed since July 2019.</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">How do I make my Shopify store more mobile-friendly?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">Start with: (1) Enable WebP image delivery via your theme's image_url filter, (2) Remove unused Shopify apps that inject JavaScript, (3) Add fetchpriority="high" to your hero product image, (4) Test with Google PageSpeed Insights on mobile and fix the specific recommendations listed, (5) Run a free SEO audit with SEO Radar X to catch Core Web Vitals issues in 30 seconds.</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">What is a good mobile SEO score?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">For Google PageSpeed Insights, a score of 90+ is excellent, 50-89 needs improvement, and below 50 needs urgent attention. For Core Web Vitals, aim for LCP under 2.5s, INP under 200ms, and CLS under 0.1. For SEO Radar X's composite score, 80+ across the Performance and Technical categories indicates good mobile health.</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">Does page speed on mobile affect Google rankings?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">Yes. Core Web Vitals (LCP, INP, CLS) are official Google ranking signals since May 2021, and they're measured primarily on mobile. Poor CWV scores won't cause dramatic ranking drops on their own, but they act as a tiebreaker between otherwise equal pages — and they directly impact conversion rates, which affects everything else.</p>
+    </div>
+  </div>
+</div>
+
+<h2>Check Your Mobile SEO Score Now</h2>
+<p>
+  Mobile SEO issues are invisible in the browser — you need tools to surface them.
+  SEO Radar X checks viewport configuration, Core Web Vitals, image optimization, and
+  structured data in a single 30-second audit. Free, no signup required.
+</p>
+<p>
+  <a href="/en" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ Run your free mobile SEO audit</a>
+</p>
+      `,
+    },
+    zh: {
+      title: '移动端SEO指南2026：移动友好性、工具与移动优先索引',
+      description:
+        '完整的2026年移动端SEO指南——涵盖移动友好性、移动端Core Web Vitals、移动优先索引，以及Shopify和WordPress最佳免费移动SEO工具。',
+      keywords: [
+        '移动端SEO优化',
+        '移动友好性SEO',
+        '移动SEO工具',
+        '移动优先索引',
+        '移动端SEO指南',
+        '移动友好性测试',
+        'core web vitals移动端',
+        '手机端SEO优化',
+      ],
+      content: `
+<h2>为什么2026年移动端SEO不可忽视</h2>
+<p>
+  谷歌自2019年起实施<strong>移动优先索引</strong>，
+  这意味着它使用你网站的<em>移动版本</em>——而非桌面版——
+  作为爬取、索引和排名的主要依据。
+</p>
+<p>数据说明一切：</p>
+<ul>
+  <li><strong>63%</strong>的谷歌搜索来自移动设备</li>
+  <li><strong>74%</strong>的电商购物者会因你的网站不适合移动端而转向竞品</li>
+  <li>谷歌的Core Web Vitals（LCP、INP、CLS）默认在移动端测量作为排名信号</li>
+  <li>Perplexity等AI搜索引擎也优先索引移动版，
+  移动端性能差同样会减少GEO引用机会</li>
+</ul>
+<p>
+  对于Shopify和WordPress跨境卖家，移动端SEO是在目标市场排名与被忽视之间的分水岭。
+</p>
+
+<h2>2026年移动端SEO检查清单</h2>
+<div style="overflow-x:auto;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9em;">
+  <thead>
+    <tr style="background:#0f1729;color:#94a3b8;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">检查项目</th>
+      <th style="padding:10px 14px;text-align:left;border-bottom:1px solid #1e3a5f;">检查要点</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:1px solid #1e3a5f;">优先级</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">Viewport meta标签</td>
+      <td style="padding:10px 14px;"><code>&lt;meta name="viewport" content="width=device-width,initial-scale=1"&gt;</code></td>
+      <td style="padding:10px 14px;text-align:center;color:#f87171;">🔴 严重</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">响应式设计</td>
+      <td style="padding:10px 14px;">布局适配所有屏幕尺寸（320px–1440px+）</td>
+      <td style="padding:10px 14px;text-align:center;color:#f87171;">🔴 严重</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">LCP低于2.5秒（移动端）</td>
+      <td style="padding:10px 14px;">最大内容绘制——首屏图片/标题加载时间</td>
+      <td style="padding:10px 14px;text-align:center;color:#f87171;">🔴 严重</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">INP低于200毫秒</td>
+      <td style="padding:10px 14px;">交互到下一帧绘制——按钮点击响应速度</td>
+      <td style="padding:10px 14px;text-align:center;color:#fb923c;">🟠 高</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">CLS低于0.1</td>
+      <td style="padding:10px 14px;">累积布局偏移——加载时内容跳动问题</td>
+      <td style="padding:10px 14px;text-align:center;color:#fb923c;">🟠 高</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">触摸目标≥44px</td>
+      <td style="padding:10px 14px;">按钮和链接无需缩放即可点击</td>
+      <td style="padding:10px 14px;text-align:center;color:#fb923c;">🟠 高</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">正文字体≥16px</td>
+      <td style="padding:10px 14px;">无需捏合缩放即可阅读</td>
+      <td style="padding:10px 14px;text-align:center;color:#facc15;">🟡 中等</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;background:#080e1a;">
+      <td style="padding:10px 14px;font-weight:600;">无侵入式弹窗</td>
+      <td style="padding:10px 14px;">移动端无全屏弹窗遮挡内容</td>
+      <td style="padding:10px 14px;text-align:center;color:#facc15;">🟡 中等</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e3a5f;">
+      <td style="padding:10px 14px;font-weight:600;">图片优化</td>
+      <td style="padding:10px 14px;">WebP/AVIF格式、懒加载、正确的srcset</td>
+      <td style="padding:10px 14px;text-align:center;color:#facc15;">🟡 中等</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>2026年最佳免费移动SEO工具</h2>
+
+<h3>1. Google PageSpeed Insights — 移动端Core Web Vitals</h3>
+<p>
+  PageSpeed Insights通过Chrome用户体验报告（CrUX）提供真实移动端性能数据。
+  输入任意URL获取：
+</p>
+<ul>
+  <li>LCP、INP、CLS评分及通过/失败标签</li>
+  <li>字段数据（真实用户在真实设备上）vs 实验室数据</li>
+  <li>具体建议："消除渲染阻塞资源"、"以新一代格式提供图片"等</li>
+</ul>
+<p><strong>专业技巧：</strong>务必专门检查<em>移动端</em>分数——
+通常比桌面端低30-50分，而这才是谷歌实际用于排名的数据。</p>
+
+<h3>2. 谷歌移动友好性测试</h3>
+<p>
+  在<strong>search.google.com/test/mobile-friendly</strong>进行简单的通过/失败检查。
+  它按Googlebot在移动端看到的方式渲染你的页面，标记以下问题：
+</p>
+<ul>
+  <li>未配置Viewport</li>
+  <li>内容宽度超出屏幕</li>
+  <li>文字太小无法阅读</li>
+  <li>可点击元素距离太近</li>
+</ul>
+<p>这是最低门槛——如果测试失败，你有严重的移动端SEO问题。</p>
+
+<h3>3. SEO Radar X — 30项审计中的移动端SEO检测（免费）</h3>
+<p>SEO Radar X自动检查移动端SEO信号，包括：</p>
+<ul>
+  <li>✅ Viewport meta标签存在性和正确配置</li>
+  <li>✅ Core Web Vitals（LCP、INP、CLS）通过PageSpeed Insights API</li>
+  <li>✅ 首字节时间（TTFB）——服务器响应速度</li>
+  <li>✅ 图片优化（懒加载、alt文本、格式）</li>
+  <li>✅ 移动端专项结构化数据（产品schema、FAQPage）</li>
+</ul>
+<p>
+  <a href="/zh" style="color:#3b82f6;font-weight:700;">→ 运行免费移动端SEO审计（30秒）</a>
+</p>
+
+<h2>移动优先索引：对你意味着什么</h2>
+<p>
+  由于谷歌索引你网站的<em>移动版本</em>，任何仅在桌面版出现的内容
+  <strong>都不会被计入</strong>排名因素。常见错误：
+</p>
+<ul>
+  <li><strong>移动端隐藏内容：</strong>"阅读更多"折叠或标签隐藏的文本——
+  谷歌过去忽略这些，但现在会计入。确保移动版显示的内容深度与桌面版一致。</li>
+  <li><strong>不同设备不同内容：</strong>向移动用户提供完全不同的HTML（独立移动站）
+  会导致爬取预算问题和索引不一致。强烈推荐响应式设计（相同HTML，CSS驱动布局变化）。</li>
+  <li><strong>移动端缺少结构化数据：</strong>如果桌面页面有产品Schema但移动模板删掉了，
+  谷歌就不会在移动搜索中显示富摘要。</li>
+  <li><strong>移动端页面速度更慢：</strong>移动端LCP 5秒会拖累你的CWV评分，
+  即使桌面端1秒加载完成。</li>
+</ul>
+
+<h2>Shopify移动端SEO：5个快速优化技巧</h2>
+<ol>
+  <li><strong>启用Shopify内置图片优化</strong>——Shopify在支持的情况下自动提供WebP图片。
+  确保你的主题使用带有<code>format: 'webp'</code>的<code>image_url</code>。</li>
+  <li><strong>减少应用注入的脚本</strong>——每个第三方Shopify应用都会增加JS。
+  审计你的应用，删除未使用的。应用=移动端加载慢=更低的CWV评分。</li>
+  <li><strong>在真实设备上测试</strong>——DevTools中的iPhone 14模拟不等同于
+  你的客户使用的真实低端Android手机。在实际低端设备上测试。</li>
+  <li><strong>优化主图</strong>——主产品图几乎总是你的LCP元素。
+  为其添加<code>loading="eager"</code>和<code>fetchpriority="high"</code>。</li>
+  <li><strong>简化移动端导航</strong>——深层嵌套菜单令移动用户沮丧。
+  移动购物者优先使用搜索而非导航。</li>
+</ol>
+
+<h2>WordPress移动端SEO：5个快速优化技巧</h2>
+<ol>
+  <li><strong>使用以性能为先的主题</strong>——GeneratePress、Kadence或Blocksy在移动端
+  比大多数付费主题快得多。</li>
+  <li><strong>安装缓存插件</strong>——WP Rocket、LiteSpeed Cache或W3 Total Cache。
+  启用移动端专项缓存规则。</li>
+  <li><strong>使用ShortPixel或Smush优化图片</strong>——转换为WebP/AVIF格式，
+  为首屏以下的图片启用懒加载。</li>
+  <li><strong>延迟非关键JS</strong>——使用缓存插件的JS延迟功能或
+  <code>defer</code>/<code>async</code>属性防止渲染阻塞。</li>
+  <li><strong>移除未使用的CSS</strong>——WP Rocket的"移除未使用CSS"功能可以
+  大幅减少移动端的渲染阻塞CSS。</li>
+</ol>
+
+<h2>Core Web Vitals：2026年移动端目标值</h2>
+<p>谷歌阈值（默认在Search Console中以移动端测量）：</p>
+<ul>
+  <li><strong>LCP（最大内容绘制）：</strong>2.5秒以下=良好 | 2.5–4.0秒=需改进 | 4.0秒以上=差</li>
+  <li><strong>INP（交互到下一帧绘制）：</strong>200毫秒以下=良好 | 200–500毫秒=需改进 | 500毫秒以上=差</li>
+  <li><strong>CLS（累积布局偏移）：</strong>0.1以下=良好 | 0.1–0.25=需改进 | 0.25以上=差</li>
+</ul>
+<p>
+  <strong>注意：</strong>INP于2024年3月替代FID（首次输入延迟）成为第三个Core Web Vital。
+  如果你的监控工具仍显示FID，请更新。
+</p>
+
+<h2>常见问题解答</h2>
+<div itemscope itemtype="https://schema.org/FAQPage">
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">什么是移动优先索引，它如何影响我的排名？</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">移动优先索引意味着谷歌主要使用你网站的移动版本来决定排名。如果你的移动版网站内容更少、速度更慢或缺少结构化数据，你的排名会受到影响。自2019年7月起，所有新网站都采用移动优先索引。</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">如何使我的Shopify独立站更适合移动端？</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">从以下几点开始：(1) 通过主题的image_url过滤器启用WebP图片，(2) 删除注入JavaScript的未使用Shopify应用，(3) 为主产品图添加fetchpriority="high"，(4) 在移动端使用Google PageSpeed Insights测试并修复具体建议，(5) 使用SEO Radar X运行免费SEO审计，在30秒内发现Core Web Vitals问题。</p>
+    </div>
+  </div>
+  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 itemprop="name">移动端页面速度会影响谷歌排名吗？</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p itemprop="text">是的。Core Web Vitals（LCP、INP、CLS）自2021年5月起成为谷歌官方排名信号，且主要在移动端测量。CWV评分差不会单独造成排名大幅下滑，但在其他条件相当的页面之间起决定性作用——而且它们直接影响转化率，进而影响一切指标。</p>
+    </div>
+  </div>
+</div>
+
+<h2>立即检查你的移动端SEO评分</h2>
+<p>
+  移动端SEO问题在浏览器中是看不见的——你需要工具来发现它们。
+  SEO Radar X在一次30秒审计中检查Viewport配置、Core Web Vitals、
+  图片优化和结构化数据。完全免费，无需注册。
+</p>
+<p>
+  <a href="/zh" style="color:#3b82f6;font-weight:700;font-size:1.05em;">→ 立即运行免费移动端SEO审计</a>
+</p>
+      `,
+    },
+  },
 ]
 
 /** Return a post by slug (locale-independent) */
