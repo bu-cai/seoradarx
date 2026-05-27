@@ -131,7 +131,11 @@ export default function BlogPost({
     { year: 'numeric', month: 'long', day: 'numeric' }
   )
 
-  const related = getSortedPosts().filter((p) => p.slug !== post.slug).slice(0, 2)
+  // Related: same category first, then fill with other posts (max 3)
+  const allOthers = getSortedPosts().filter((p) => p.slug !== post.slug)
+  const sameCategory = allOthers.filter((p) => p.category === post.category)
+  const otherCategory = allOthers.filter((p) => p.category !== post.category)
+  const related = [...sameCategory, ...otherCategory].slice(0, 3)
   const processedContent = processContent(data.content, params.locale)
   const toc = extractTOC(data.content)
   const faqs = extractFAQs(data.content)
@@ -386,11 +390,11 @@ export default function BlogPost({
 
       {/* ── Related posts ── */}
       {related.length > 0 && (
-        <div className="max-w-2xl mx-auto px-6 pb-16">
+        <div className="max-w-4xl mx-auto px-6 pb-8">
           <h2 className="text-sm font-bold text-[#64748b] uppercase tracking-wider mb-5">
             {zh ? '相关文章' : 'Related Articles'}
           </h2>
-          <div className="grid sm:grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {related.map((rp) => {
               const rd = zh ? rp.zh : rp.en
               return (
@@ -412,6 +416,36 @@ export default function BlogPost({
           </div>
         </div>
       )}
+
+      {/* ── Related Tools & Landing Pages ── */}
+      <div className="max-w-4xl mx-auto px-6 pb-16">
+        <h2 className="text-sm font-bold text-[#64748b] uppercase tracking-wider mb-5">
+          {zh ? '相关工具与功能' : 'Related Tools & Features'}
+        </h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          {(zh ? [
+            { href: `/${params.locale}/rank-tracker`, icon: '📈', title: '关键词排名追踪', desc: '免费追踪SEO历史得分变化' },
+            { href: `/${params.locale}/white-label-seo-audit`, icon: '🏷️', title: '白标SEO审计', desc: '代理机构专用品牌化报告' },
+            { href: `/${params.locale}/seo-audit-agencies`, icon: '🏢', title: '代理机构SEO工具', desc: '帮助客户发现并修复问题' },
+            { href: `/${params.locale}/hreflang-checker`, icon: '🌐', title: 'Hreflang检测', desc: '验证多语言国际SEO配置' },
+          ] : [
+            { href: `/${params.locale}/rank-tracker`, icon: '📈', title: 'Rank Tracker', desc: 'Free SEO score history tracking' },
+            { href: `/${params.locale}/white-label-seo-audit`, icon: '🏷️', title: 'White Label Audits', desc: 'Branded reports for agencies' },
+            { href: `/${params.locale}/seo-audit-agencies`, icon: '🏢', title: 'Agency SEO Tool', desc: 'Help clients find & fix issues' },
+            { href: `/${params.locale}/hreflang-checker`, icon: '🌐', title: 'Hreflang Checker', desc: 'Validate multilingual SEO setup' },
+          ]).map((tool) => (
+            <Link
+              key={tool.href}
+              href={tool.href}
+              className="group rounded-xl border border-[#1e3a5f]/50 hover:border-blue-600/40 bg-[#0c1322] hover:bg-[#0f1729] transition-all p-4"
+            >
+              <div className="text-xl mb-2">{tool.icon}</div>
+              <div className="text-xs font-bold text-[#e2e8f0] group-hover:text-white mb-1 transition-colors">{tool.title}</div>
+              <div className="text-[11px] text-[#4a5568] leading-snug">{tool.desc}</div>
+            </Link>
+          ))}
+        </div>
+      </div>
     </div>
   )
 }

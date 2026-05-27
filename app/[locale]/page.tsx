@@ -446,6 +446,21 @@ export default async function HomePage() {
                   </Link>
                 </li>
                 <li>
+                  <Link href={`/${locale}/rank-tracker`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {zh ? '排名追踪工具' : 'Rank Tracker'}
+                  </Link>
+                </li>
+                <li>
+                  <Link href={`/${locale}/white-label-seo-audit`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {zh ? '白标SEO审计' : 'White Label Audit'}
+                  </Link>
+                </li>
+                <li>
+                  <Link href={`/${locale}/seo-audit-agencies`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {zh ? '代理机构工具' : 'Agency SEO Tool'}
+                  </Link>
+                </li>
+                <li>
                   <Link href={`/${locale}/pricing`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
                     {zh ? '价格方案' : 'Pricing'}
                   </Link>
@@ -464,13 +479,28 @@ export default async function HomePage() {
                   </Link>
                 </li>
                 <li>
-                  <Link href={`/${locale}/blog/best-llm-seo-tools`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
-                    {zh ? 'AI SEO 工具指南' : 'Best AI SEO Tools'}
+                  <Link href={`/${locale}/blog/what-is-seo-score`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {zh ? 'SEO分数是什么' : 'What Is an SEO Score'}
                   </Link>
                 </li>
                 <li>
-                  <Link href={`/${locale}/blog/white-label-seo-audit-tool-agencies`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
-                    {zh ? '白标SEO工具' : 'White-Label SEO'}
+                  <Link href={`/${locale}/blog/best-local-seo-audit-tool`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {zh ? '本地SEO审计工具' : 'Best Local SEO Tools'}
+                  </Link>
+                </li>
+                <li>
+                  <Link href={`/${locale}/blog/best-free-backlink-checker-tools`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {zh ? '免费外链检测工具' : 'Free Backlink Checker'}
+                  </Link>
+                </li>
+                <li>
+                  <Link href={`/${locale}/blog/mobile-seo-guide`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {zh ? '移动端SEO指南' : 'Mobile SEO Guide'}
+                  </Link>
+                </li>
+                <li>
+                  <Link href={`/${locale}/blog/woorank-vs-seo-radar-x`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {zh ? 'WooRank 对比评测' : 'WooRank vs SEO Radar X'}
                   </Link>
                 </li>
               </ul>
