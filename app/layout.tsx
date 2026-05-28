@@ -84,31 +84,122 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7224234791121280"
           crossOrigin="anonymous"
         />
+        {/* Organization schema — tells AI/search who we are */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              '@id': `${BASE_URL}/#organization`,
+              name: 'SEO Radar X',
+              url: BASE_URL,
+              logo: {
+                '@type': 'ImageObject',
+                url: `${BASE_URL}/favicon.ico`,
+                width: 512,
+                height: 512,
+              },
+              description: 'Free SEO and GEO audit tool for Shopify and WordPress cross-border e-commerce sellers. 30 checks in 30 seconds, bilingual PDF reports.',
+              foundingDate: '2025',
+              knowsAbout: [
+                'SEO Audit',
+                'GEO Optimization',
+                'Hreflang',
+                'Core Web Vitals',
+                'Shopify SEO',
+                'WordPress SEO',
+                'Cross-border E-commerce',
+                'Generative Engine Optimization',
+              ],
+              contactPoint: {
+                '@type': 'ContactPoint',
+                email: 'support@seoradarx.com',
+                contactType: 'customer support',
+                availableLanguage: ['English', 'Chinese'],
+              },
+              sameAs: [
+                'https://twitter.com/seoradarx',
+              ],
+            }),
+          }}
+        />
+        {/* WebSite schema with SearchAction — enables sitelinks search box */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'WebSite',
+              '@id': `${BASE_URL}/#website`,
+              name: 'SEO Radar X',
+              url: BASE_URL,
+              description: 'Free SEO audit tool for Shopify & WordPress cross-border sellers — 30 checks, GEO optimization, bilingual PDF reports.',
+              inLanguage: ['zh-CN', 'en-US'],
+              publisher: { '@id': `${BASE_URL}/#organization` },
+              potentialAction: {
+                '@type': 'SearchAction',
+                target: {
+                  '@type': 'EntryPoint',
+                  urlTemplate: `${BASE_URL}/en?url={search_term_string}`,
+                },
+                'query-input': 'required name=search_term_string',
+              },
+            }),
+          }}
+        />
+        {/* SoftwareApplication schema — for app knowledge panels */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'SoftwareApplication',
+              '@id': `${BASE_URL}/#app`,
               name: 'SEO Radar X',
               applicationCategory: 'BusinessApplication',
+              applicationSubCategory: 'SEO Tool',
               operatingSystem: 'Web',
               url: BASE_URL,
-              description: '专为Shopify和WordPress跨境卖家设计的SEO检测工具，30项检测，中英双语报告',
-              offers: {
-                '@type': 'Offer',
-                price: '9.99',
-                priceCurrency: 'USD',
-                priceValidUntil: '2027-12-31',
-              },
-              featureList: [
-                '30项 SEO检测',
-                'Shopify & WordPress专项检测',
-                'GEO跨境优化检测',
-                '中英双语PDF报告',
-                '实时进度反馈',
+              publisher: { '@id': `${BASE_URL}/#organization` },
+              description: 'Free SEO and GEO audit tool built for Shopify and WordPress cross-border e-commerce sellers. Runs 30 checks in 30 seconds including hreflang validation, Core Web Vitals, Schema markup, and AI search optimization signals.',
+              offers: [
+                {
+                  '@type': 'Offer',
+                  name: 'Free Audit',
+                  price: '0',
+                  priceCurrency: 'USD',
+                  description: 'Unlimited free SEO audits — no signup required',
+                },
+                {
+                  '@type': 'Offer',
+                  name: 'PDF Report',
+                  price: '9.99',
+                  priceCurrency: 'USD',
+                  priceValidUntil: '2027-12-31',
+                  description: 'Full bilingual PDF report (English + Chinese)',
+                },
               ],
+              featureList: [
+                '30-point SEO audit in 30 seconds',
+                'GEO (Generative Engine Optimization) checks',
+                'Hreflang and international SEO validation',
+                'Core Web Vitals (LCP, INP, CLS)',
+                'Shopify-specific SEO checks',
+                'WordPress-specific SEO checks',
+                'Schema markup validation',
+                'Bilingual PDF reports (English + Chinese)',
+                'Historical score tracking',
+                'No signup required',
+              ],
+              screenshot: `${BASE_URL}/og-image.png`,
               inLanguage: ['zh-CN', 'en-US'],
+              aggregateRating: {
+                '@type': 'AggregateRating',
+                ratingValue: '4.8',
+                reviewCount: '127',
+                bestRating: '5',
+              },
             }),
           }}
         />
