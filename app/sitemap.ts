@@ -111,6 +111,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       alternates: { languages: { en: `${base}/en/hreflang-checker`, zh: `${base}/zh/hreflang-checker` } },
     },
+    // About pages
+    {
+      url: `${base}/zh/about`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+      alternates: { languages: { en: `${base}/en/about`, zh: `${base}/zh/about` } },
+    },
+    {
+      url: `${base}/en/about`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+      alternates: { languages: { en: `${base}/en/about`, zh: `${base}/zh/about` } },
+    },
     {
       url: `${base}/zh/privacy`,
       lastModified: now,

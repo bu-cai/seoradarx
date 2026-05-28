@@ -508,9 +508,14 @@ export default async function HomePage() {
             {/* Legal */}
             <div>
               <div className="text-xs font-bold text-[#94a3b8] uppercase tracking-wider mb-3">
-                {zh ? '法律' : 'Legal'}
+                {zh ? '法律 / 关于' : 'Legal / About'}
               </div>
               <ul className="space-y-2">
+                <li>
+                  <Link href={`/${locale}/about`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
+                    {zh ? '关于我们' : 'About Us'}
+                  </Link>
+                </li>
                 <li>
                   <Link href={`/${locale}/privacy`} className="text-xs text-[#64748b] hover:text-[#94a3b8] transition-colors">
                     {t('footer.privacy')}
