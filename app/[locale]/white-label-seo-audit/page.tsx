@@ -278,14 +278,32 @@ export default function WhiteLabelPage({ params }: { params: { locale: string } 
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: zh ? 'SEO Radar X 白标SEO审计工具' : 'SEO Radar X White Label SEO Audit Tool',
+    image: `${BASE_URL}/og-image.png`,
     description: zh
       ? '专为代理机构和SEO顾问设计的白标SEO审计工具。30项检测涵盖技术SEO、GEO、Core Web Vitals，中英双语PDF报告，$9.99/份，无月费。'
       : 'White label SEO audit tool for agencies and consultants. 30 checks covering technical SEO, GEO, Core Web Vitals. Bilingual EN+ZH PDF reports at $9.99/report, no monthly fee.',
     url: `${BASE_URL}/${params.locale}/white-label-seo-audit`,
     brand: { '@type': 'Brand', name: 'SEO Radar X' },
     offers: [
-      { '@type': 'Offer', name: 'Free Audit', price: '0', priceCurrency: 'USD', description: 'Free online audit — no signup' },
-      { '@type': 'Offer', name: 'Full PDF Report', price: '9.99', priceCurrency: 'USD', description: 'Full bilingual PDF report per audit' },
+      {
+        '@type': 'Offer',
+        name: 'Free Audit',
+        price: '0',
+        priceCurrency: 'USD',
+        availability: 'https://schema.org/OnlineOnly',
+        description: 'Free online audit — no signup',
+        seller: { '@type': 'Organization', name: 'SEO Radar X' },
+      },
+      {
+        '@type': 'Offer',
+        name: 'Full PDF Report',
+        price: '9.99',
+        priceCurrency: 'USD',
+        availability: 'https://schema.org/OnlineOnly',
+        priceValidUntil: '2027-12-31',
+        description: 'Full bilingual PDF report per audit',
+        seller: { '@type': 'Organization', name: 'SEO Radar X' },
+      },
     ],
     aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.8', reviewCount: '127', bestRating: '5' },
   }
